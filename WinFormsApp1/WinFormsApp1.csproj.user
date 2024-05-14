@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Konfirmasi_Reward.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Tambah_Sampah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ganti_Sandi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Input_Setor_Sampah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Verifikasi_Setor_Sampah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Riwayat_Nasbah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Beranda_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Jemput_Sampah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Konfirmasi_Jemput_Sampah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Riwayat_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Reward_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Register_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profil_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Register_Nasabah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Verifikasi_NoHP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Lupa_Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Beranda_Nasabah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Informasi_Sampah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Profil_Nasabah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
