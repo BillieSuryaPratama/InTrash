@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1
 {
-    public partial class Register_Admin : Form
+    public partial class Register_Kurir : Form
     {
-        public Register_Admin()
+        public Register_Kurir()
         {
             InitializeComponent();
         }

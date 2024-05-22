@@ -28,46 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            button2 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            tbTahun = new TextBox();
+            tbBulan = new TextBox();
+            btnTahun = new Button();
+            btnBulan = new Button();
+            btnKembali = new Button();
+            dgvRiwayatTransaksi = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dgvRiwayatTransaksi).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // tbTahun
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(229, 12);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(360, 327);
-            dataGridView1.TabIndex = 1;
+            tbTahun.Location = new Point(265, 308);
+            tbTahun.Name = "tbTahun";
+            tbTahun.Size = new Size(166, 27);
+            tbTahun.TabIndex = 35;
             // 
-            // button2
+            // tbBulan
             // 
-            button2.Location = new Point(12, 404);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 26;
-            button2.Text = "kembali";
-            button2.UseVisualStyleBackColor = true;
+            tbBulan.Location = new Point(265, 264);
+            tbBulan.Name = "tbBulan";
+            tbBulan.Size = new Size(166, 27);
+            tbBulan.TabIndex = 34;
+            // 
+            // btnTahun
+            // 
+            btnTahun.Location = new Point(446, 308);
+            btnTahun.Margin = new Padding(2);
+            btnTahun.Name = "btnTahun";
+            btnTahun.Size = new Size(148, 27);
+            btnTahun.TabIndex = 33;
+            btnTahun.Text = "Riwayat per tahun";
+            btnTahun.UseVisualStyleBackColor = true;
+            // 
+            // btnBulan
+            // 
+            btnBulan.Location = new Point(446, 264);
+            btnBulan.Margin = new Padding(2);
+            btnBulan.Name = "btnBulan";
+            btnBulan.Size = new Size(148, 27);
+            btnBulan.TabIndex = 32;
+            btnBulan.Text = "Riwayat per bulan";
+            btnBulan.UseVisualStyleBackColor = true;
+            // 
+            // btnKembali
+            // 
+            btnKembali.Location = new Point(28, 308);
+            btnKembali.Margin = new Padding(2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 31;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
+            // 
+            // dgvRiwayatTransaksi
+            // 
+            dgvRiwayatTransaksi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvRiwayatTransaksi.Location = new Point(28, 21);
+            dgvRiwayatTransaksi.Margin = new Padding(2);
+            dgvRiwayatTransaksi.Name = "dgvRiwayatTransaksi";
+            dgvRiwayatTransaksi.RowHeadersWidth = 62;
+            dgvRiwayatTransaksi.Size = new Size(583, 228);
+            dgvRiwayatTransaksi.TabIndex = 30;
             // 
             // Riwayat_Admin
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(638, 357);
+            Controls.Add(tbTahun);
+            Controls.Add(tbBulan);
+            Controls.Add(btnTahun);
+            Controls.Add(btnBulan);
+            Controls.Add(btnKembali);
+            Controls.Add(dgvRiwayatTransaksi);
             Name = "Riwayat_Admin";
-            Text = "Form18";
-            Load += this.Riwayat_Admin_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Text = "InTrash";
+            ((System.ComponentModel.ISupportInitialize)dgvRiwayatTransaksi).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
-        private Button button2;
+        private TextBox tbTahun;
+        private TextBox tbBulan;
+        private Button btnTahun;
+        private Button btnBulan;
+        private Button btnKembali;
+        private DataGridView dgvRiwayatTransaksi;
     }
 }

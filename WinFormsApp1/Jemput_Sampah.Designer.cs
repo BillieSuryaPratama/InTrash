@@ -28,69 +28,74 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            button1 = new Button();
-            textBox1 = new TextBox();
-            button2 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            btnKembali = new Button();
+            tbKonfirmasi = new TextBox();
+            btnKonfirmasi = new Button();
+            dgvListPenjemputan = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)dgvListPenjemputan).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // btnKembali
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(137, 12);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(535, 312);
-            dataGridView1.TabIndex = 25;
-            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            btnKembali.Location = new Point(8, 325);
+            btnKembali.Margin = new Padding(2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 39;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // tbKonfirmasi
             // 
-            button1.Location = new Point(560, 330);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 26;
-            button1.Text = "konfirmasi";
-            button1.UseVisualStyleBackColor = true;
+            tbKonfirmasi.Location = new Point(332, 267);
+            tbKonfirmasi.Margin = new Padding(2);
+            tbKonfirmasi.Name = "tbKonfirmasi";
+            tbKonfirmasi.Size = new Size(166, 27);
+            tbKonfirmasi.TabIndex = 38;
             // 
-            // textBox1
+            // btnKonfirmasi
             // 
-            textBox1.Location = new Point(137, 332);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 35;
+            btnKonfirmasi.Location = new Point(518, 267);
+            btnKonfirmasi.Margin = new Padding(2);
+            btnKonfirmasi.Name = "btnKonfirmasi";
+            btnKonfirmasi.Size = new Size(90, 27);
+            btnKonfirmasi.TabIndex = 37;
+            btnKonfirmasi.Text = "Konfirmasi";
+            btnKonfirmasi.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // dgvListPenjemputan
             // 
-            button2.Location = new Point(11, 404);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 36;
-            button2.Text = "kembali";
-            button2.UseVisualStyleBackColor = true;
+            dgvListPenjemputan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvListPenjemputan.Location = new Point(33, 20);
+            dgvListPenjemputan.Margin = new Padding(2);
+            dgvListPenjemputan.Name = "dgvListPenjemputan";
+            dgvListPenjemputan.RowHeadersWidth = 62;
+            dgvListPenjemputan.Size = new Size(575, 225);
+            dgvListPenjemputan.TabIndex = 36;
             // 
             // Jemput_Sampah
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(btnKembali);
+            Controls.Add(tbKonfirmasi);
+            Controls.Add(btnKonfirmasi);
+            Controls.Add(dgvListPenjemputan);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Jemput_Sampah";
-            Text = "Form16";
+            Text = "InTrash";
             Load += Form16_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvListPenjemputan).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private DataGridView dataGridView1;
-        private Button button1;
-        private TextBox textBox1;
-        private Button button2;
+
+        private Button btnKembali;
+        private TextBox tbKonfirmasi;
+        private Button btnKonfirmasi;
+        private DataGridView dgvListPenjemputan;
     }
 }

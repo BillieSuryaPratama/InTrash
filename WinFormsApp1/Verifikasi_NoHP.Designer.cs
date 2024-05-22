@@ -28,42 +28,82 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            textBox1 = new TextBox();
+            btnBerikutnya = new Button();
+            tbNomorHP = new TextBox();
+            lblInstruksi = new Label();
+            label2 = new Label();
+            btnKembali = new Button();
             SuspendLayout();
             // 
-            // button1
+            // btnBerikutnya
             // 
-            button1.Location = new Point(335, 161);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnBerikutnya.Location = new Point(524, 310);
+            btnBerikutnya.Margin = new Padding(2, 2, 2, 2);
+            btnBerikutnya.Name = "btnBerikutnya";
+            btnBerikutnya.Size = new Size(90, 27);
+            btnBerikutnya.TabIndex = 0;
+            btnBerikutnya.Text = "Berikutnya";
+            btnBerikutnya.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tbNomorHP
             // 
-            textBox1.Location = new Point(317, 101);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 1;
+            tbNomorHP.Location = new Point(296, 128);
+            tbNomorHP.Margin = new Padding(2, 2, 2, 2);
+            tbNomorHP.Name = "tbNomorHP";
+            tbNomorHP.Size = new Size(121, 27);
+            tbNomorHP.TabIndex = 1;
             // 
-            // Form4
+            // lblInstruksi
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            lblInstruksi.AutoSize = true;
+            lblInstruksi.Location = new Point(138, 84);
+            lblInstruksi.Name = "lblInstruksi";
+            lblInstruksi.Size = new Size(349, 20);
+            lblInstruksi.TabIndex = 2;
+            lblInstruksi.Text = "Masukkan nomor HP anda sebagai tahap verikfikasi";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(200, 131);
+            label2.Name = "label2";
+            label2.Size = new Size(79, 20);
+            label2.TabIndex = 3;
+            label2.Text = "Nomor HP";
+            // 
+            // btnKembali
+            // 
+            btnKembali.Location = new Point(24, 310);
+            btnKembali.Margin = new Padding(2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 4;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
+            // 
+            // Verifikasi_NoHP
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
-            Name = "Form4";
-            Text = "Form4";
+            ClientSize = new Size(640, 360);
+            Controls.Add(btnKembali);
+            Controls.Add(label2);
+            Controls.Add(lblInstruksi);
+            Controls.Add(tbNomorHP);
+            Controls.Add(btnBerikutnya);
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "Verifikasi_NoHP";
+            Text = "InTrash";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private TextBox textBox1;
+        private Button btnBerikutnya;
+        private TextBox tbNomorHP;
+        private Label lblInstruksi;
+        private Label label2;
+        private Button btnKembali;
     }
 }

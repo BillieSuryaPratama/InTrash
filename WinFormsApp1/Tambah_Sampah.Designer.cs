@@ -28,66 +28,117 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            btnSimpan = new Button();
+            btnKembali = new Button();
+            tbKuantitas = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            cbSatuan = new ComboBox();
+            cbJenisSampah = new ComboBox();
+            lblInstruksi = new Label();
             SuspendLayout();
             // 
-            // button1
+            // btnSimpan
             // 
-            button1.Location = new Point(676, 404);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 0;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnSimpan.Location = new Point(541, 323);
+            btnSimpan.Margin = new Padding(2, 2, 2, 2);
+            btnSimpan.Name = "btnSimpan";
+            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.TabIndex = 0;
+            btnSimpan.Text = "Simpan";
+            btnSimpan.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnKembali
             // 
-            button2.Location = new Point(12, 404);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 1;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnKembali.Location = new Point(10, 323);
+            btnKembali.Margin = new Padding(2, 2, 2, 2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 1;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // tbKuantitas
             // 
-            textBox1.Location = new Point(320, 145);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 2;
-            textBox1.TextChanged += this.textBox1_TextChanged;
+            tbKuantitas.Location = new Point(299, 193);
+            tbKuantitas.Margin = new Padding(2, 2, 2, 2);
+            tbKuantitas.Name = "tbKuantitas";
+            tbKuantitas.Size = new Size(121, 27);
+            tbKuantitas.TabIndex = 3;
+            tbKuantitas.TextChanged += textBox2_TextChanged;
             // 
-            // textBox2
+            // label1
             // 
-            textBox2.Location = new Point(320, 182);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 3;
-            textBox2.TextChanged += textBox2_TextChanged;
+            label1.AutoSize = true;
+            label1.Location = new Point(178, 155);
+            label1.Name = "label1";
+            label1.Size = new Size(98, 20);
+            label1.TabIndex = 4;
+            label1.Text = "Jenis Sampah";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(178, 196);
+            label2.Name = "label2";
+            label2.Size = new Size(70, 20);
+            label2.TabIndex = 5;
+            label2.Text = "Kuantitas";
+            // 
+            // cbSatuan
+            // 
+            cbSatuan.FormattingEnabled = true;
+            cbSatuan.Location = new Point(425, 193);
+            cbSatuan.Name = "cbSatuan";
+            cbSatuan.Size = new Size(81, 28);
+            cbSatuan.TabIndex = 6;
+            // 
+            // cbJenisSampah
+            // 
+            cbJenisSampah.FormattingEnabled = true;
+            cbJenisSampah.Location = new Point(299, 152);
+            cbJenisSampah.Name = "cbJenisSampah";
+            cbJenisSampah.Size = new Size(121, 28);
+            cbJenisSampah.TabIndex = 7;
+            // 
+            // lblInstruksi
+            // 
+            lblInstruksi.AutoSize = true;
+            lblInstruksi.Location = new Point(109, 87);
+            lblInstruksi.Name = "lblInstruksi";
+            lblInstruksi.Size = new Size(436, 20);
+            lblInstruksi.TabIndex = 8;
+            lblInstruksi.Text = "Masukkan jenis sampah yang ingin anda tambahkan kedalam list";
             // 
             // Tambah_Sampah
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(lblInstruksi);
+            Controls.Add(cbJenisSampah);
+            Controls.Add(cbSatuan);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(tbKuantitas);
+            Controls.Add(btnKembali);
+            Controls.Add(btnSimpan);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Tambah_Sampah";
-            Text = "Form1";
+            Text = "InTrash";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private Button btnSimpan;
+        private Button btnKembali;
+        private TextBox tbKuantitas;
+        private Label label1;
+        private Label label2;
+        private ComboBox cbSatuan;
+        private ComboBox cbJenisSampah;
+        private Label lblInstruksi;
     }
 }

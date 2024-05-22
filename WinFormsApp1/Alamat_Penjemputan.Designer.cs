@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Informasi_Sampah
+    partial class Alamat_Penjemputan
     {
         /// <summary>
         /// Required designer variable.
@@ -28,47 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dgvInformasiSampah = new DataGridView();
+            dgvListAlamat = new DataGridView();
             btnKembali = new Button();
-            ((System.ComponentModel.ISupportInitialize)dgvInformasiSampah).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvListAlamat).BeginInit();
             SuspendLayout();
             // 
-            // dgvInformasiSampah
+            // dgvListAlamat
             // 
-            dgvInformasiSampah.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvInformasiSampah.Location = new Point(23, 20);
-            dgvInformasiSampah.Margin = new Padding(2);
-            dgvInformasiSampah.Name = "dgvInformasiSampah";
-            dgvInformasiSampah.RowHeadersWidth = 62;
-            dgvInformasiSampah.Size = new Size(592, 260);
-            dgvInformasiSampah.TabIndex = 10;
+            dgvListAlamat.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvListAlamat.Location = new Point(26, 23);
+            dgvListAlamat.Name = "dgvListAlamat";
+            dgvListAlamat.RowHeadersWidth = 51;
+            dgvListAlamat.Size = new Size(583, 230);
+            dgvListAlamat.TabIndex = 0;
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(23, 313);
+            btnKembali.Location = new Point(11, 308);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(90, 27);
-            btnKembali.TabIndex = 26;
+            btnKembali.TabIndex = 11;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = true;
             // 
-            // Informasi_Sampah
+            // Alamat_Penjemputan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            ClientSize = new Size(639, 346);
             Controls.Add(btnKembali);
-            Controls.Add(dgvInformasiSampah);
-            Margin = new Padding(2);
-            Name = "Informasi_Sampah";
-            Text = "InTrash";
-            ((System.ComponentModel.ISupportInitialize)dgvInformasiSampah).EndInit();
+            Controls.Add(dgvListAlamat);
+            Name = "Alamat_Penjemputan";
+            Text = "Alamat_Penjemputan";
+            ((System.ComponentModel.ISupportInitialize)dgvListAlamat).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
-        private DataGridView dgvInformasiSampah;
+
+        private DataGridView dgvListAlamat;
         private Button btnKembali;
     }
 }

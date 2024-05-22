@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class Form2
+    partial class Register_Admin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,95 +28,174 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox5 = new TextBox();
-            textBox4 = new TextBox();
-            textBox3 = new TextBox();
-            button1 = new Button();
-            linkLabel2 = new LinkLabel();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            tbNama = new TextBox();
+            tbNomorHP = new TextBox();
+            tbAlamat = new TextBox();
+            btnSimpan = new Button();
+            tbEmail = new TextBox();
+            tbSandi = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            btnKembali = new Button();
+            lblInstruksi = new Label();
             SuspendLayout();
             // 
-            // textBox5
+            // tbNama
             // 
-            textBox5.Location = new Point(298, 68);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(150, 31);
-            textBox5.TabIndex = 19;
+            tbNama.Location = new Point(315, 89);
+            tbNama.Margin = new Padding(2, 2, 2, 2);
+            tbNama.Name = "tbNama";
+            tbNama.Size = new Size(121, 27);
+            tbNama.TabIndex = 19;
             // 
-            // textBox4
+            // tbNomorHP
             // 
-            textBox4.Location = new Point(298, 105);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(150, 31);
-            textBox4.TabIndex = 18;
+            tbNomorHP.Location = new Point(315, 119);
+            tbNomorHP.Margin = new Padding(2, 2, 2, 2);
+            tbNomorHP.Name = "tbNomorHP";
+            tbNomorHP.Size = new Size(121, 27);
+            tbNomorHP.TabIndex = 18;
             // 
-            // textBox3
+            // tbAlamat
             // 
-            textBox3.Location = new Point(298, 142);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(150, 31);
-            textBox3.TabIndex = 17;
+            tbAlamat.Location = new Point(315, 149);
+            tbAlamat.Margin = new Padding(2, 2, 2, 2);
+            tbAlamat.Name = "tbAlamat";
+            tbAlamat.Size = new Size(121, 27);
+            tbAlamat.TabIndex = 17;
             // 
-            // button1
+            // btnSimpan
             // 
-            button1.Location = new Point(316, 253);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 16;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnSimpan.Location = new Point(272, 260);
+            btnSimpan.Margin = new Padding(2, 2, 2, 2);
+            btnSimpan.Name = "btnSimpan";
+            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.TabIndex = 16;
+            btnSimpan.Text = "Simpan";
+            btnSimpan.UseVisualStyleBackColor = true;
             // 
-            // linkLabel2
+            // tbEmail
             // 
-            linkLabel2.AutoSize = true;
-            linkLabel2.Location = new Point(412, 357);
-            linkLabel2.Name = "linkLabel2";
-            linkLabel2.Size = new Size(90, 25);
-            linkLabel2.TabIndex = 15;
-            linkLabel2.TabStop = true;
-            linkLabel2.Text = "linkLabel2";
+            tbEmail.Location = new Point(315, 208);
+            tbEmail.Margin = new Padding(2, 2, 2, 2);
+            tbEmail.Name = "tbEmail";
+            tbEmail.Size = new Size(121, 27);
+            tbEmail.TabIndex = 14;
             // 
-            // textBox2
+            // tbSandi
             // 
-            textBox2.Location = new Point(298, 216);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
-            textBox2.TabIndex = 14;
+            tbSandi.Location = new Point(315, 178);
+            tbSandi.Margin = new Padding(2, 2, 2, 2);
+            tbSandi.Name = "tbSandi";
+            tbSandi.Size = new Size(121, 27);
+            tbSandi.TabIndex = 13;
             // 
-            // textBox1
+            // label1
             // 
-            textBox1.Location = new Point(298, 179);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 13;
+            label1.AutoSize = true;
+            label1.Location = new Point(207, 91);
+            label1.Name = "label1";
+            label1.Size = new Size(49, 20);
+            label1.TabIndex = 20;
+            label1.Text = "Nama";
             // 
-            // Form2
+            // label2
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            label2.AutoSize = true;
+            label2.Location = new Point(207, 122);
+            label2.Name = "label2";
+            label2.Size = new Size(79, 20);
+            label2.TabIndex = 21;
+            label2.Text = "Nomor HP";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(207, 152);
+            label3.Name = "label3";
+            label3.Size = new Size(57, 20);
+            label3.TabIndex = 22;
+            label3.Text = "Alamat";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(207, 181);
+            label4.Name = "label4";
+            label4.Size = new Size(46, 20);
+            label4.TabIndex = 23;
+            label4.Text = "Sandi";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(207, 211);
+            label5.Name = "label5";
+            label5.Size = new Size(46, 20);
+            label5.TabIndex = 24;
+            label5.Text = "Email";
+            // 
+            // btnKembali
+            // 
+            btnKembali.Location = new Point(11, 322);
+            btnKembali.Margin = new Padding(2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 25;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
+            // 
+            // lblInstruksi
+            // 
+            lblInstruksi.AutoSize = true;
+            lblInstruksi.Location = new Point(221, 45);
+            lblInstruksi.Name = "lblInstruksi";
+            lblInstruksi.Size = new Size(202, 20);
+            lblInstruksi.TabIndex = 26;
+            lblInstruksi.Text = "Daftarkan diri sebagai admin";
+            // 
+            // Register_Admin
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(button1);
-            Controls.Add(linkLabel2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Name = "Form2";
-            Text = "Form2";
+            ClientSize = new Size(640, 360);
+            Controls.Add(lblInstruksi);
+            Controls.Add(btnKembali);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(tbNama);
+            Controls.Add(tbNomorHP);
+            Controls.Add(tbAlamat);
+            Controls.Add(btnSimpan);
+            Controls.Add(tbEmail);
+            Controls.Add(tbSandi);
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "Register_Admin";
+            Text = "InTrash";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox5;
-        private TextBox textBox4;
-        private TextBox textBox3;
-        private Button button1;
-        private LinkLabel linkLabel2;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox tbNama;
+        private TextBox tbNomorHP;
+        private TextBox tbAlamat;
+        private Button btnSimpan;
+        private TextBox tbEmail;
+        private TextBox tbSandi;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Button btnKembali;
+        private Label lblInstruksi;
     }
 }

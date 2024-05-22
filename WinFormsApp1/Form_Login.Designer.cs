@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1
 {
-    partial class LOGIN
+    partial class Form_Login
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,145 +28,171 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button2 = new Button();
-            groupBox1 = new GroupBox();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
+            btnSignUp = new Button();
+            gbLoginSebagai = new GroupBox();
+            rbNasabah = new RadioButton();
+            rbAdmin = new RadioButton();
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            button1 = new Button();
-            button3 = new Button();
-            groupBox1.SuspendLayout();
+            tbUsername = new TextBox();
+            tbPassword = new TextBox();
+            btnLogIn = new Button();
+            btnLupaPassword = new Button();
+            rbKurir = new RadioButton();
+            gbLoginSebagai.SuspendLayout();
             SuspendLayout();
             // 
-            // button2
+            // btnSignUp
             // 
-            button2.Location = new Point(426, 365);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 6;
-            button2.Text = "SIGN UP";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnSignUp.Location = new Point(341, 292);
+            btnSignUp.Margin = new Padding(2, 2, 2, 2);
+            btnSignUp.Name = "btnSignUp";
+            btnSignUp.Size = new Size(90, 27);
+            btnSignUp.TabIndex = 6;
+            btnSignUp.Text = "Sign up";
+            btnSignUp.UseVisualStyleBackColor = true;
+            btnSignUp.Click += button2_Click;
             // 
-            // groupBox1
+            // gbLoginSebagai
             // 
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.Location = new Point(238, 63);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(300, 150);
-            groupBox1.TabIndex = 7;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Login As";
+            gbLoginSebagai.Controls.Add(rbKurir);
+            gbLoginSebagai.Controls.Add(rbNasabah);
+            gbLoginSebagai.Controls.Add(rbAdmin);
+            gbLoginSebagai.Location = new Point(190, 50);
+            gbLoginSebagai.Margin = new Padding(2, 2, 2, 2);
+            gbLoginSebagai.Name = "gbLoginSebagai";
+            gbLoginSebagai.Padding = new Padding(2, 2, 2, 2);
+            gbLoginSebagai.Size = new Size(240, 132);
+            gbLoginSebagai.TabIndex = 7;
+            gbLoginSebagai.TabStop = false;
+            gbLoginSebagai.Text = "Login Sebagai";
             // 
-            // radioButton2
+            // rbNasabah
             // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(35, 89);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(106, 29);
-            radioButton2.TabIndex = 9;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Nasabah";
-            radioButton2.UseVisualStyleBackColor = true;
+            rbNasabah.AutoSize = true;
+            rbNasabah.Location = new Point(28, 62);
+            rbNasabah.Margin = new Padding(2, 2, 2, 2);
+            rbNasabah.Name = "rbNasabah";
+            rbNasabah.Size = new Size(88, 24);
+            rbNasabah.TabIndex = 9;
+            rbNasabah.TabStop = true;
+            rbNasabah.Text = "Nasabah";
+            rbNasabah.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // rbAdmin
             // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(35, 54);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(90, 29);
-            radioButton1.TabIndex = 8;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Admin";
-            radioButton1.UseVisualStyleBackColor = true;
+            rbAdmin.AutoSize = true;
+            rbAdmin.Location = new Point(28, 33);
+            rbAdmin.Margin = new Padding(2, 2, 2, 2);
+            rbAdmin.Name = "rbAdmin";
+            rbAdmin.Size = new Size(74, 24);
+            rbAdmin.TabIndex = 8;
+            rbAdmin.TabStop = true;
+            rbAdmin.Text = "Admin";
+            rbAdmin.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(238, 235);
+            label1.Location = new Point(190, 188);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(100, 25);
+            label1.Size = new Size(75, 20);
             label1.TabIndex = 8;
-            label1.Text = "Username :";
+            label1.Text = "Username";
             label1.Click += label1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(238, 269);
+            label2.Location = new Point(190, 215);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(96, 25);
+            label2.Size = new Size(70, 20);
             label2.TabIndex = 9;
-            label2.Text = "Password :";
+            label2.Text = "Password";
             // 
-            // textBox1
+            // tbUsername
             // 
-            textBox1.Location = new Point(344, 232);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(194, 31);
-            textBox1.TabIndex = 10;
+            tbUsername.Location = new Point(275, 186);
+            tbUsername.Margin = new Padding(2, 2, 2, 2);
+            tbUsername.Name = "tbUsername";
+            tbUsername.Size = new Size(156, 27);
+            tbUsername.TabIndex = 10;
             // 
-            // textBox2
+            // tbPassword
             // 
-            textBox2.Location = new Point(344, 269);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(194, 31);
-            textBox2.TabIndex = 11;
+            tbPassword.Location = new Point(275, 215);
+            tbPassword.Margin = new Padding(2, 2, 2, 2);
+            tbPassword.Name = "tbPassword";
+            tbPassword.Size = new Size(156, 27);
+            tbPassword.TabIndex = 11;
             // 
-            // button1
+            // btnLogIn
             // 
-            button1.Location = new Point(238, 365);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 12;
-            button1.Text = "LOGIN";
-            button1.UseVisualStyleBackColor = true;
+            btnLogIn.Location = new Point(190, 292);
+            btnLogIn.Margin = new Padding(2, 2, 2, 2);
+            btnLogIn.Name = "btnLogIn";
+            btnLogIn.Size = new Size(90, 27);
+            btnLogIn.TabIndex = 12;
+            btnLogIn.Text = "Log in";
+            btnLogIn.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnLupaPassword
             // 
-            button3.Location = new Point(238, 306);
-            button3.Name = "button3";
-            button3.Size = new Size(300, 34);
-            button3.TabIndex = 13;
-            button3.Text = "Lupa Password";
-            button3.UseVisualStyleBackColor = true;
+            btnLupaPassword.Location = new Point(190, 246);
+            btnLupaPassword.Margin = new Padding(2, 2, 2, 2);
+            btnLupaPassword.Name = "btnLupaPassword";
+            btnLupaPassword.Size = new Size(240, 27);
+            btnLupaPassword.TabIndex = 13;
+            btnLupaPassword.Text = "Lupa Password";
+            btnLupaPassword.UseVisualStyleBackColor = true;
             // 
-            // LOGIN
+            // rbKurir
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            rbKurir.AutoSize = true;
+            rbKurir.Location = new Point(28, 91);
+            rbKurir.Name = "rbKurir";
+            rbKurir.Size = new Size(61, 24);
+            rbKurir.TabIndex = 10;
+            rbKurir.TabStop = true;
+            rbKurir.Text = "Kurir";
+            rbKurir.UseVisualStyleBackColor = true;
+            // 
+            // Form_Login
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button3);
-            Controls.Add(button1);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(btnLupaPassword);
+            Controls.Add(btnLogIn);
+            Controls.Add(tbPassword);
+            Controls.Add(tbUsername);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(groupBox1);
-            Controls.Add(button2);
-            Name = "LOGIN";
-            Text = "Login";
+            Controls.Add(gbLoginSebagai);
+            Controls.Add(btnSignUp);
+            Margin = new Padding(2, 2, 2, 2);
+            Name = "Form_Login";
+            Text = "InTrash";
             Load += Form1_Load;
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
+            gbLoginSebagai.ResumeLayout(false);
+            gbLoginSebagai.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Button button2;
-        private GroupBox groupBox1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton1;
+        private Button btnSignUp;
+        private GroupBox gbLoginSebagai;
+        private RadioButton rbNasabah;
+        private RadioButton rbAdmin;
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private Button button1;
-        private Button button3;
+        private TextBox tbUsername;
+        private TextBox tbPassword;
+        private Button btnLogIn;
+        private Button btnLupaPassword;
+        private RadioButton rbKurir;
     }
 }

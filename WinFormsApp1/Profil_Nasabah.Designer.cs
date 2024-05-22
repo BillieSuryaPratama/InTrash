@@ -28,116 +28,178 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            label1 = new Label();
-            linkLabel6 = new LinkLabel();
-            dateTimePicker1 = new DateTimePicker();
-            button1 = new Button();
-            button2 = new Button();
-            comboBox1 = new ComboBox();
+            btnUbahSandi = new Button();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label5 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            cbGender = new ComboBox();
+            btnKembali = new Button();
+            btnSimpan = new Button();
+            dtpTanggalLahir = new DateTimePicker();
+            tbAlamat = new TextBox();
+            tbEmail = new TextBox();
+            tbNomorHP = new TextBox();
+            tbNama = new TextBox();
             SuspendLayout();
             // 
-            // textBox1
+            // btnUbahSandi
             // 
-            textBox1.Location = new Point(309, 101);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 0;
-            textBox1.TextChanged += textBox1_TextChanged;
+            btnUbahSandi.Location = new Point(273, 296);
+            btnUbahSandi.Name = "btnUbahSandi";
+            btnUbahSandi.Size = new Size(94, 29);
+            btnUbahSandi.TabIndex = 64;
+            btnUbahSandi.Text = "Ubah Sandi";
+            btnUbahSandi.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // label8
             // 
-            textBox3.Location = new Point(310, 216);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(150, 31);
-            textBox3.TabIndex = 2;
+            label8.AutoSize = true;
+            label8.Location = new Point(126, 252);
+            label8.Name = "label8";
+            label8.Size = new Size(57, 20);
+            label8.TabIndex = 63;
+            label8.Text = "Alamat";
             // 
-            // textBox4
+            // label7
             // 
-            textBox4.Location = new Point(310, 253);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(150, 31);
-            textBox4.TabIndex = 3;
+            label7.AutoSize = true;
+            label7.Location = new Point(126, 209);
+            label7.Name = "label7";
+            label7.Size = new Size(46, 20);
+            label7.TabIndex = 62;
+            label7.Text = "Email";
             // 
-            // textBox5
+            // label6
             // 
-            textBox5.Location = new Point(310, 290);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(150, 31);
-            textBox5.TabIndex = 4;
+            label6.AutoSize = true;
+            label6.Location = new Point(123, 162);
+            label6.Name = "label6";
+            label6.Size = new Size(79, 20);
+            label6.TabIndex = 61;
+            label6.Text = "Nomor HP";
             // 
-            // label1
+            // label5
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(311, 324);
-            label1.Name = "label1";
-            label1.Size = new Size(89, 25);
-            label1.TabIndex = 15;
-            label1.Text = "password";
+            label5.AutoSize = true;
+            label5.Location = new Point(123, 121);
+            label5.Name = "label5";
+            label5.Size = new Size(97, 20);
+            label5.TabIndex = 60;
+            label5.Text = "Tanggal Lahir";
             // 
-            // linkLabel6
+            // label3
             // 
-            linkLabel6.AutoSize = true;
-            linkLabel6.Location = new Point(418, 324);
-            linkLabel6.Name = "linkLabel6";
-            linkLabel6.Size = new Size(42, 25);
-            linkLabel6.TabIndex = 16;
-            linkLabel6.TabStop = true;
-            linkLabel6.Text = "edit";
+            label3.AutoSize = true;
+            label3.Location = new Point(123, 78);
+            label3.Name = "label3";
+            label3.Size = new Size(57, 20);
+            label3.TabIndex = 59;
+            label3.Text = "Gender";
             // 
-            // dateTimePicker1
+            // label2
             // 
-            dateTimePicker1.Location = new Point(310, 179);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(150, 31);
-            dateTimePicker1.TabIndex = 17;
+            label2.AutoSize = true;
+            label2.Location = new Point(123, 37);
+            label2.Name = "label2";
+            label2.Size = new Size(49, 20);
+            label2.TabIndex = 58;
+            label2.Text = "Nama";
             // 
-            // button1
+            // cbGender
             // 
-            button1.Location = new Point(676, 404);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 23;
-            button1.Text = "simpan";
-            button1.UseVisualStyleBackColor = true;
+            cbGender.FormattingEnabled = true;
+            cbGender.Location = new Point(230, 75);
+            cbGender.Margin = new Padding(2);
+            cbGender.Name = "cbGender";
+            cbGender.Size = new Size(267, 28);
+            cbGender.TabIndex = 57;
             // 
-            // button2
+            // btnKembali
             // 
-            button2.Location = new Point(12, 404);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 24;
-            button2.Text = "kembali";
-            button2.UseVisualStyleBackColor = true;
+            btnKembali.Location = new Point(11, 322);
+            btnKembali.Margin = new Padding(2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 56;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // btnSimpan
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(310, 138);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(149, 33);
-            comboBox1.TabIndex = 25;
+            btnSimpan.Location = new Point(539, 322);
+            btnSimpan.Margin = new Padding(2);
+            btnSimpan.Name = "btnSimpan";
+            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.TabIndex = 55;
+            btnSimpan.Text = "Simpan";
+            btnSimpan.UseVisualStyleBackColor = true;
+            // 
+            // dtpTanggalLahir
+            // 
+            dtpTanggalLahir.Location = new Point(231, 116);
+            dtpTanggalLahir.Margin = new Padding(2);
+            dtpTanggalLahir.Name = "dtpTanggalLahir";
+            dtpTanggalLahir.Size = new Size(266, 27);
+            dtpTanggalLahir.TabIndex = 54;
+            // 
+            // tbAlamat
+            // 
+            tbAlamat.Location = new Point(230, 249);
+            tbAlamat.Margin = new Padding(2);
+            tbAlamat.Name = "tbAlamat";
+            tbAlamat.Size = new Size(266, 27);
+            tbAlamat.TabIndex = 53;
+            // 
+            // tbEmail
+            // 
+            tbEmail.Location = new Point(230, 206);
+            tbEmail.Margin = new Padding(2);
+            tbEmail.Name = "tbEmail";
+            tbEmail.Size = new Size(266, 27);
+            tbEmail.TabIndex = 52;
+            // 
+            // tbNomorHP
+            // 
+            tbNomorHP.Location = new Point(230, 159);
+            tbNomorHP.Margin = new Padding(2);
+            tbNomorHP.Name = "tbNomorHP";
+            tbNomorHP.Size = new Size(266, 27);
+            tbNomorHP.TabIndex = 51;
+            // 
+            // tbNama
+            // 
+            tbNama.Location = new Point(230, 34);
+            tbNama.Margin = new Padding(2);
+            tbNama.Name = "tbNama";
+            tbNama.Size = new Size(267, 27);
+            tbNama.TabIndex = 50;
             // 
             // Profil_Nasabah
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(comboBox1);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(linkLabel6);
-            Controls.Add(label1);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(btnUbahSandi);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(cbGender);
+            Controls.Add(btnKembali);
+            Controls.Add(btnSimpan);
+            Controls.Add(dtpTanggalLahir);
+            Controls.Add(tbAlamat);
+            Controls.Add(tbEmail);
+            Controls.Add(tbNomorHP);
+            Controls.Add(tbNama);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Profil_Nasabah";
-            Text = "Form9";
+            Text = "InTrash";
             Load += Form9_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -145,15 +207,20 @@
 
         #endregion
 
-        private TextBox textBox1;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private Label label1;
-        private LinkLabel linkLabel6;
-        private DateTimePicker dateTimePicker1;
-        private Button button1;
-        private Button button2;
-        private ComboBox comboBox1;
+        private Button btnUbahSandi;
+        private Label label8;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private Label label3;
+        private Label label2;
+        private ComboBox cbGender;
+        private Button btnKembali;
+        private Button btnSimpan;
+        private DateTimePicker dtpTanggalLahir;
+        private TextBox tbAlamat;
+        private TextBox tbEmail;
+        private TextBox tbNomorHP;
+        private TextBox tbNama;
     }
 }

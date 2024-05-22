@@ -28,90 +28,147 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            btnSimpan = new Button();
             textBox2 = new TextBox();
             textBox1 = new TextBox();
-            groupBox1 = new GroupBox();
-            button3 = new Button();
-            button2 = new Button();
-            groupBox1.SuspendLayout();
+            gbKonfirmasi = new GroupBox();
+            btnSetuju = new Button();
+            btnBatal = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            lblInstruksi = new Label();
+            label3 = new Label();
+            gbKonfirmasi.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // btnSimpan
             // 
-            button1.Location = new Point(343, 245);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 7;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnSimpan.Location = new Point(274, 196);
+            btnSimpan.Margin = new Padding(2, 2, 2, 2);
+            btnSimpan.Name = "btnSimpan";
+            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.TabIndex = 7;
+            btnSimpan.Text = "Simpan";
+            btnSimpan.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(325, 208);
+            textBox2.Location = new Point(320, 137);
+            textBox2.Margin = new Padding(2, 2, 2, 2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(150, 31);
+            textBox2.Size = new Size(121, 27);
             textBox2.TabIndex = 6;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(325, 171);
+            textBox1.Location = new Point(320, 91);
+            textBox1.Margin = new Padding(2, 2, 2, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
+            textBox1.Size = new Size(121, 27);
             textBox1.TabIndex = 5;
             // 
-            // groupBox1
+            // gbKonfirmasi
             // 
-            groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Location = new Point(246, 285);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(300, 150);
-            groupBox1.TabIndex = 8;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "groupBox1";
+            gbKonfirmasi.Controls.Add(label3);
+            gbKonfirmasi.Controls.Add(btnSetuju);
+            gbKonfirmasi.Controls.Add(btnBatal);
+            gbKonfirmasi.Location = new Point(11, 207);
+            gbKonfirmasi.Margin = new Padding(2, 2, 2, 2);
+            gbKonfirmasi.Name = "gbKonfirmasi";
+            gbKonfirmasi.Padding = new Padding(2, 2, 2, 2);
+            gbKonfirmasi.Size = new Size(240, 120);
+            gbKonfirmasi.TabIndex = 8;
+            gbKonfirmasi.TabStop = false;
+            gbKonfirmasi.Text = "Ubah Sandi";
             // 
-            // button3
+            // btnSetuju
             // 
-            button3.Location = new Point(152, 70);
-            button3.Name = "button3";
-            button3.Size = new Size(112, 34);
-            button3.TabIndex = 1;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btnSetuju.Location = new Point(136, 80);
+            btnSetuju.Margin = new Padding(2, 2, 2, 2);
+            btnSetuju.Name = "btnSetuju";
+            btnSetuju.Size = new Size(90, 27);
+            btnSetuju.TabIndex = 1;
+            btnSetuju.Text = "Setuju";
+            btnSetuju.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnBatal
             // 
-            button2.Location = new Point(34, 70);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 0;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnBatal.Location = new Point(11, 80);
+            btnBatal.Margin = new Padding(2, 2, 2, 2);
+            btnBatal.Name = "btnBatal";
+            btnBatal.Size = new Size(90, 27);
+            btnBatal.TabIndex = 0;
+            btnBatal.Text = "Batal";
+            btnBatal.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(194, 94);
+            label1.Name = "label1";
+            label1.Size = new Size(80, 20);
+            label1.TabIndex = 9;
+            label1.Text = "Sandi Baru";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(194, 140);
+            label2.Name = "label2";
+            label2.Size = new Size(121, 20);
+            label2.TabIndex = 10;
+            label2.Text = "Konfirmasi Sandi";
+            // 
+            // lblInstruksi
+            // 
+            lblInstruksi.AutoSize = true;
+            lblInstruksi.Location = new Point(173, 37);
+            lblInstruksi.Name = "lblInstruksi";
+            lblInstruksi.Size = new Size(297, 20);
+            lblInstruksi.TabIndex = 11;
+            lblInstruksi.Text = "Masukan kata sandi baru untuk melanjutkan";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(23, 34);
+            label3.Name = "label3";
+            label3.Size = new Size(194, 20);
+            label3.TabIndex = 2;
+            label3.Text = "Konfirmasi Perubahan Sandi";
             // 
             // Lupa_Password
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(groupBox1);
-            Controls.Add(button1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(lblInstruksi);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(gbKonfirmasi);
+            Controls.Add(btnSimpan);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Lupa_Password";
-            Text = "Form5";
-            groupBox1.ResumeLayout(false);
+            Text = "InTrash";
+            gbKonfirmasi.ResumeLayout(false);
+            gbKonfirmasi.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
+        private Button btnSimpan;
         private TextBox textBox2;
         private TextBox textBox1;
-        private GroupBox groupBox1;
-        private Button button3;
-        private Button button2;
+        private GroupBox gbKonfirmasi;
+        private Button btnSetuju;
+        private Button btnBatal;
+        private Label label1;
+        private Label label2;
+        private Label lblInstruksi;
+        private Label label3;
     }
 }

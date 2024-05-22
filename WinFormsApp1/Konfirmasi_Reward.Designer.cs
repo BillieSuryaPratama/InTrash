@@ -31,67 +31,109 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
-            button1 = new Button();
-            button2 = new Button();
+            btnKembali = new Button();
+            btnKonfirmasi = new Button();
+            lblMetodePencairan = new Label();
+            lblNominal = new Label();
+            lblNama = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(371, 188);
+            label1.Location = new Point(135, 108);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(59, 25);
+            label1.Size = new Size(49, 20);
             label1.TabIndex = 0;
-            label1.Text = "label1";
+            label1.Text = "Nama";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(371, 213);
+            label2.Location = new Point(135, 162);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(59, 25);
+            label2.Size = new Size(128, 20);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Metode Pencairan";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(371, 238);
+            label3.Location = new Point(135, 217);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(59, 25);
+            label3.Size = new Size(66, 20);
             label3.TabIndex = 2;
-            label3.Text = "label3";
+            label3.Text = "Nominal";
             // 
-            // button1
+            // btnKembali
             // 
-            button1.Location = new Point(12, 404);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 3;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnKembali.Location = new Point(10, 323);
+            btnKembali.Margin = new Padding(2, 2, 2, 2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 3;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnKonfirmasi
             // 
-            button2.Location = new Point(676, 404);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 4;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnKonfirmasi.Location = new Point(539, 322);
+            btnKonfirmasi.Margin = new Padding(2, 2, 2, 2);
+            btnKonfirmasi.Name = "btnKonfirmasi";
+            btnKonfirmasi.Size = new Size(90, 27);
+            btnKonfirmasi.TabIndex = 4;
+            btnKonfirmasi.Text = "Konfirmasi";
+            btnKonfirmasi.UseVisualStyleBackColor = true;
+            // 
+            // lblMetodePencairan
+            // 
+            lblMetodePencairan.AutoSize = true;
+            lblMetodePencairan.Location = new Point(324, 162);
+            lblMetodePencairan.Margin = new Padding(2, 0, 2, 0);
+            lblMetodePencairan.Name = "lblMetodePencairan";
+            lblMetodePencairan.Size = new Size(61, 20);
+            lblMetodePencairan.TabIndex = 5;
+            lblMetodePencairan.Text = "Dummy";
+            // 
+            // lblNominal
+            // 
+            lblNominal.AutoSize = true;
+            lblNominal.Location = new Point(324, 217);
+            lblNominal.Margin = new Padding(2, 0, 2, 0);
+            lblNominal.Name = "lblNominal";
+            lblNominal.Size = new Size(61, 20);
+            lblNominal.TabIndex = 6;
+            lblNominal.Text = "Dummy";
+            // 
+            // lblNama
+            // 
+            lblNama.AutoSize = true;
+            lblNama.Location = new Point(324, 108);
+            lblNama.Margin = new Padding(2, 0, 2, 0);
+            lblNama.Name = "lblNama";
+            lblNama.Size = new Size(61, 20);
+            lblNama.TabIndex = 7;
+            lblNama.Text = "Dummy";
             // 
             // Konfirmasi_Reward
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(lblNama);
+            Controls.Add(lblNominal);
+            Controls.Add(lblMetodePencairan);
+            Controls.Add(btnKonfirmasi);
+            Controls.Add(btnKembali);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Konfirmasi_Reward";
-            Text = "Form1";
+            Text = "InTrash";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -101,7 +143,10 @@
         private Label label1;
         private Label label2;
         private Label label3;
-        private Button button1;
-        private Button button2;
+        private Button btnKembali;
+        private Button btnKonfirmasi;
+        private Label lblMetodePencairan;
+        private Label lblNominal;
+        private Label lblNama;
     }
 }

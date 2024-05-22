@@ -28,71 +28,132 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button4 = new Button();
-            button3 = new Button();
-            button2 = new Button();
-            button1 = new Button();
+            btnJemputSampah = new Button();
+            btnProfil = new Button();
+            btnReward = new Button();
+            btnRiwayatTransaksi = new Button();
             label1 = new Label();
+            btnEditSampah = new Button();
+            btnDaftarkanKurir = new Button();
+            btnEditKurir = new Button();
+            btnLogOut = new Button();
+            btnHapusAkun = new Button();
             SuspendLayout();
             // 
-            // button4
+            // btnJemputSampah
             // 
-            button4.Location = new Point(546, 209);
-            button4.Name = "button4";
-            button4.Size = new Size(112, 34);
-            button4.TabIndex = 9;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            btnJemputSampah.Location = new Point(154, 229);
+            btnJemputSampah.Margin = new Padding(2);
+            btnJemputSampah.Name = "btnJemputSampah";
+            btnJemputSampah.Size = new Size(142, 27);
+            btnJemputSampah.TabIndex = 9;
+            btnJemputSampah.Text = "Jemput Sampah";
+            btnJemputSampah.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnProfil
             // 
-            button3.Location = new Point(140, 209);
-            button3.Name = "button3";
-            button3.Size = new Size(112, 34);
-            button3.TabIndex = 8;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btnProfil.Location = new Point(154, 145);
+            btnProfil.Margin = new Padding(2);
+            btnProfil.Name = "btnProfil";
+            btnProfil.Size = new Size(142, 27);
+            btnProfil.TabIndex = 8;
+            btnProfil.Text = "Profil";
+            btnProfil.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnReward
             // 
-            button2.Location = new Point(413, 209);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 7;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnReward.Location = new Point(154, 186);
+            btnReward.Margin = new Padding(2);
+            btnReward.Name = "btnReward";
+            btnReward.Size = new Size(142, 27);
+            btnReward.TabIndex = 7;
+            btnReward.Text = "Reward";
+            btnReward.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // btnRiwayatTransaksi
             // 
-            button1.Location = new Point(274, 209);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 6;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnRiwayatTransaksi.Location = new Point(154, 273);
+            btnRiwayatTransaksi.Margin = new Padding(2);
+            btnRiwayatTransaksi.Name = "btnRiwayatTransaksi";
+            btnRiwayatTransaksi.Size = new Size(142, 27);
+            btnRiwayatTransaksi.TabIndex = 6;
+            btnRiwayatTransaksi.Text = "Riwayat Transaksi";
+            btnRiwayatTransaksi.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(209, 66);
+            label1.Location = new Point(167, 23);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(360, 89);
+            label1.Size = new Size(300, 74);
             label1.TabIndex = 5;
             label1.Text = "Beranda";
             // 
+            // btnEditSampah
+            // 
+            btnEditSampah.Location = new Point(337, 228);
+            btnEditSampah.Name = "btnEditSampah";
+            btnEditSampah.Size = new Size(142, 29);
+            btnEditSampah.TabIndex = 10;
+            btnEditSampah.Text = "Edit Data Sampah";
+            btnEditSampah.UseVisualStyleBackColor = true;
+            // 
+            // btnDaftarkanKurir
+            // 
+            btnDaftarkanKurir.Location = new Point(337, 143);
+            btnDaftarkanKurir.Name = "btnDaftarkanKurir";
+            btnDaftarkanKurir.Size = new Size(142, 29);
+            btnDaftarkanKurir.TabIndex = 11;
+            btnDaftarkanKurir.Text = "Daftarkan Kurir";
+            btnDaftarkanKurir.UseVisualStyleBackColor = true;
+            // 
+            // btnEditKurir
+            // 
+            btnEditKurir.Location = new Point(337, 185);
+            btnEditKurir.Name = "btnEditKurir";
+            btnEditKurir.Size = new Size(142, 29);
+            btnEditKurir.TabIndex = 12;
+            btnEditKurir.Text = "Edit Data Kurir";
+            btnEditKurir.UseVisualStyleBackColor = true;
+            // 
+            // btnLogOut
+            // 
+            btnLogOut.Location = new Point(12, 319);
+            btnLogOut.Name = "btnLogOut";
+            btnLogOut.Size = new Size(94, 29);
+            btnLogOut.TabIndex = 13;
+            btnLogOut.Text = "Log out";
+            btnLogOut.UseVisualStyleBackColor = true;
+            // 
+            // btnHapusAkun
+            // 
+            btnHapusAkun.Location = new Point(337, 273);
+            btnHapusAkun.Name = "btnHapusAkun";
+            btnHapusAkun.Size = new Size(142, 29);
+            btnHapusAkun.TabIndex = 14;
+            btnHapusAkun.Text = "Hapus Akun";
+            btnHapusAkun.UseVisualStyleBackColor = true;
+            // 
             // Beranda_Admin
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(btnHapusAkun);
+            Controls.Add(btnLogOut);
+            Controls.Add(btnEditKurir);
+            Controls.Add(btnDaftarkanKurir);
+            Controls.Add(btnEditSampah);
+            Controls.Add(btnJemputSampah);
+            Controls.Add(btnProfil);
+            Controls.Add(btnReward);
+            Controls.Add(btnRiwayatTransaksi);
             Controls.Add(label1);
+            Margin = new Padding(2);
             Name = "Beranda_Admin";
-            Text = "Form15";
+            Text = "InTrash";
             Load += Form15_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -100,10 +161,15 @@
 
         #endregion
 
-        private Button button4;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private Button btnJemputSampah;
+        private Button btnProfil;
+        private Button btnReward;
+        private Button btnRiwayatTransaksi;
         private Label label1;
+        private Button btnEditSampah;
+        private Button btnDaftarkanKurir;
+        private Button btnEditKurir;
+        private Button btnLogOut;
+        private Button btnHapusAkun;
     }
 }

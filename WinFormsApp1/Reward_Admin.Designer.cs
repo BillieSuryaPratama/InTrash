@@ -28,68 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            dataGridView1 = new DataGridView();
-            textBox1 = new TextBox();
-            button2 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            btnKonfirmasi = new Button();
+            dgvListReward = new DataGridView();
+            tbKonfirmasi = new TextBox();
+            btnKembali = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvListReward).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // btnKonfirmasi
             // 
-            button1.Location = new Point(558, 340);
-            button1.Name = "button1";
-            button1.Size = new Size(112, 34);
-            button1.TabIndex = 33;
-            button1.Text = "konfirmasi";
-            button1.UseVisualStyleBackColor = true;
+            btnKonfirmasi.Location = new Point(520, 265);
+            btnKonfirmasi.Margin = new Padding(2);
+            btnKonfirmasi.Name = "btnKonfirmasi";
+            btnKonfirmasi.Size = new Size(90, 27);
+            btnKonfirmasi.TabIndex = 33;
+            btnKonfirmasi.Text = "Konfirmasi";
+            btnKonfirmasi.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvListReward
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(135, 22);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(535, 281);
-            dataGridView1.TabIndex = 32;
+            dgvListReward.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvListReward.Location = new Point(35, 18);
+            dgvListReward.Margin = new Padding(2);
+            dgvListReward.Name = "dgvListReward";
+            dgvListReward.RowHeadersWidth = 62;
+            dgvListReward.Size = new Size(575, 225);
+            dgvListReward.TabIndex = 32;
             // 
-            // textBox1
+            // tbKonfirmasi
             // 
-            textBox1.Location = new Point(135, 343);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(150, 31);
-            textBox1.TabIndex = 34;
+            tbKonfirmasi.Location = new Point(334, 265);
+            tbKonfirmasi.Margin = new Padding(2);
+            tbKonfirmasi.Name = "tbKonfirmasi";
+            tbKonfirmasi.Size = new Size(166, 27);
+            tbKonfirmasi.TabIndex = 34;
             // 
-            // button2
+            // btnKembali
             // 
-            button2.Location = new Point(12, 404);
-            button2.Name = "button2";
-            button2.Size = new Size(112, 34);
-            button2.TabIndex = 35;
-            button2.Text = "kembali";
-            button2.UseVisualStyleBackColor = true;
+            btnKembali.Location = new Point(10, 323);
+            btnKembali.Margin = new Padding(2);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(90, 27);
+            btnKembali.TabIndex = 35;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = true;
             // 
             // Reward_Admin
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(textBox1);
-            Controls.Add(button1);
-            Controls.Add(dataGridView1);
+            ClientSize = new Size(640, 360);
+            Controls.Add(btnKembali);
+            Controls.Add(tbKonfirmasi);
+            Controls.Add(btnKonfirmasi);
+            Controls.Add(dgvListReward);
+            Margin = new Padding(2);
             Name = "Reward_Admin";
-            Text = "Form19";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            Text = "InTrash";
+            ((System.ComponentModel.ISupportInitialize)dgvListReward).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private DataGridView dataGridView1;
-        private TextBox textBox1;
-        private Button button2;
+        private Button btnKonfirmasi;
+        private DataGridView dgvListReward;
+        private TextBox tbKonfirmasi;
+        private Button btnKembali;
     }
 }
