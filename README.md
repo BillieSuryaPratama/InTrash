@@ -2,6 +2,7 @@
 # InTrash - Aplikasi Penghubung antara tim pengelola bank sampah dan masyarakat setempat
 <br>
 
+Kelompok D3
 Anggota Kelompok
 |NAMA|NIM|
 | --- | --- |
