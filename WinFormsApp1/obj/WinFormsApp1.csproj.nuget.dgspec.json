@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PBO\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\ProjectPBO_InTrash-main\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "F:\\PBO\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\ProjectPBO_InTrash-main\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PBO\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\ProjectPBO_InTrash-main\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "F:\\PBO\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-        "packagesPath": "C:\\Users\\Eki julio\\.nuget\\packages\\",
-        "outputPath": "F:\\PBO\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "projectPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\ProjectPBO_InTrash-main\\WinFormsApp1\\WinFormsApp1.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\ProjectPBO_InTrash-main\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Eki julio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
