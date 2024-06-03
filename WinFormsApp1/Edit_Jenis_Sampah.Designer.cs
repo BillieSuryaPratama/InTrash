@@ -92,11 +92,11 @@
             // 
             lblInstruksi.AutoSize = true;
             lblInstruksi.BackColor = Color.Transparent;
-            lblInstruksi.Font = new Font("Segoe UI", 15F);
+            lblInstruksi.Font = new Font("Segoe UI", 16F);
             lblInstruksi.ForeColor = Color.White;
-            lblInstruksi.Location = new Point(147, 35);
+            lblInstruksi.Location = new Point(132, 34);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(261, 28);
+            lblInstruksi.Size = new Size(288, 30);
             lblInstruksi.TabIndex = 61;
             lblInstruksi.Text = "Masukkan data jenis sampah";
             // 
