@@ -41,10 +41,10 @@
             // 
             btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.White;
-            btnKembali.Location = new Point(8, 316);
+            btnKembali.Location = new Point(32, 248);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(90, 37);
             btnKembali.TabIndex = 43;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
@@ -60,6 +60,7 @@
             // 
             // btnEditAkun
             // 
+            btnEditAkun.BackColor = SystemColors.Control;
             btnEditAkun.Image = (Image)resources.GetObject("btnEditAkun.Image");
             btnEditAkun.Location = new Point(502, 258);
             btnEditAkun.Margin = new Padding(2);
@@ -67,7 +68,7 @@
             btnEditAkun.Size = new Size(106, 27);
             btnEditAkun.TabIndex = 41;
             btnEditAkun.Text = "Edit Akun";
-            btnEditAkun.UseVisualStyleBackColor = true;
+            btnEditAkun.UseVisualStyleBackColor = false;
             // 
             // dgvListKurir
             // 
