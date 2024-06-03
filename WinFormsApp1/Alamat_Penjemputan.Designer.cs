@@ -48,10 +48,10 @@
             // 
             btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.White;
-            btnKembali.Location = new Point(11, 308);
+            btnKembali.Location = new Point(26, 272);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(90, 36);
             btnKembali.TabIndex = 11;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
