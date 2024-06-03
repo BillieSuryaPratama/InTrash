@@ -35,34 +35,39 @@
             // 
             // dgvInformasiSampah
             // 
+            dgvInformasiSampah.BackgroundColor = Color.Gainsboro;
             dgvInformasiSampah.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvInformasiSampah.Location = new Point(23, 20);
+            dgvInformasiSampah.Location = new Point(20, 15);
             dgvInformasiSampah.Margin = new Padding(2);
             dgvInformasiSampah.Name = "dgvInformasiSampah";
             dgvInformasiSampah.RowHeadersWidth = 62;
-            dgvInformasiSampah.Size = new Size(592, 260);
+            dgvInformasiSampah.Size = new Size(518, 195);
             dgvInformasiSampah.TabIndex = 10;
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(23, 313);
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
+            btnKembali.Location = new Point(20, 235);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(79, 24);
             btnKembali.TabIndex = 26;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // Informasi_Sampah
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            BackgroundImage = Properties.Resources.Wireframe___55;
+            ClientSize = new Size(560, 270);
             Controls.Add(btnKembali);
             Controls.Add(dgvInformasiSampah);
             Margin = new Padding(2);
             Name = "Informasi_Sampah";
             Text = "InTrash";
+            Load += Informasi_Sampah_Load;
             ((System.ComponentModel.ISupportInitialize)dgvInformasiSampah).EndInit();
             ResumeLayout(false);
         }
