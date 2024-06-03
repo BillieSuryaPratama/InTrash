@@ -44,6 +44,7 @@
             // 
             // btnSignUp
             // 
+            btnSignUp.BackgroundImage = Properties.Resources.Wireframe___56;
             btnSignUp.Location = new Point(298, 219);
             btnSignUp.Margin = new Padding(2);
             btnSignUp.Name = "btnSignUp";
@@ -148,13 +149,15 @@
             // 
             // btnLogIn
             // 
+            btnLogIn.BackColor = Color.Red;
+            btnLogIn.ForeColor = Color.White;
             btnLogIn.Location = new Point(166, 219);
             btnLogIn.Margin = new Padding(2);
             btnLogIn.Name = "btnLogIn";
             btnLogIn.Size = new Size(79, 31);
             btnLogIn.TabIndex = 12;
             btnLogIn.Text = "Log in";
-            btnLogIn.UseVisualStyleBackColor = true;
+            btnLogIn.UseVisualStyleBackColor = false;
             // 
             // btnLupaPassword
             // 
