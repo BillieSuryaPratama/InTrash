@@ -49,7 +49,7 @@
             // 
             // btnSandi
             // 
-            btnSandi.Location = new Point(281, 127);
+            btnSandi.Location = new Point(280, 126);
             btnSandi.Margin = new Padding(3, 2, 3, 2);
             btnSandi.Name = "btnSandi";
             btnSandi.Size = new Size(110, 23);
