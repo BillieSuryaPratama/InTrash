@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reward_Admin));
             btnKonfirmasi = new Button();
             dgvListReward = new DataGridView();
             tbKonfirmasi = new TextBox();
@@ -37,47 +38,52 @@
             // 
             // btnKonfirmasi
             // 
-            btnKonfirmasi.Location = new Point(520, 265);
+            btnKonfirmasi.BackgroundImage = (Image)resources.GetObject("btnKonfirmasi.BackgroundImage");
+            btnKonfirmasi.ForeColor = Color.Transparent;
+            btnKonfirmasi.Location = new Point(650, 331);
             btnKonfirmasi.Margin = new Padding(2);
             btnKonfirmasi.Name = "btnKonfirmasi";
-            btnKonfirmasi.Size = new Size(90, 27);
+            btnKonfirmasi.Size = new Size(112, 34);
             btnKonfirmasi.TabIndex = 33;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = true;
             // 
             // dgvListReward
             // 
+            dgvListReward.BackgroundColor = Color.CadetBlue;
             dgvListReward.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListReward.Location = new Point(35, 18);
+            dgvListReward.Location = new Point(44, 22);
             dgvListReward.Margin = new Padding(2);
             dgvListReward.Name = "dgvListReward";
             dgvListReward.RowHeadersWidth = 62;
-            dgvListReward.Size = new Size(575, 225);
+            dgvListReward.Size = new Size(719, 281);
             dgvListReward.TabIndex = 32;
             // 
             // tbKonfirmasi
             // 
-            tbKonfirmasi.Location = new Point(334, 265);
+            tbKonfirmasi.Location = new Point(418, 331);
             tbKonfirmasi.Margin = new Padding(2);
             tbKonfirmasi.Name = "tbKonfirmasi";
-            tbKonfirmasi.Size = new Size(166, 27);
+            tbKonfirmasi.Size = new Size(206, 31);
             tbKonfirmasi.TabIndex = 34;
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(10, 323);
+            btnKembali.Location = new Point(12, 404);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(112, 34);
             btnKembali.TabIndex = 35;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = true;
             // 
             // Reward_Admin
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            BackColor = Color.CadetBlue;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(800, 450);
             Controls.Add(btnKembali);
             Controls.Add(tbKonfirmasi);
             Controls.Add(btnKonfirmasi);
