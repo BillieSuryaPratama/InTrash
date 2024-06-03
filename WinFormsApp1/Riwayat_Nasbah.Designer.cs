@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Riwayat_Nasbah));
             dgvRiwayatTransaksi = new DataGridView();
             btnKembali = new Button();
             btnBulan = new Button();
@@ -39,70 +40,76 @@
             // 
             // dgvRiwayatTransaksi
             // 
+            dgvRiwayatTransaksi.BackgroundColor = Color.DarkSlateGray;
             dgvRiwayatTransaksi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRiwayatTransaksi.Location = new Point(25, 23);
-            dgvRiwayatTransaksi.Margin = new Padding(2, 2, 2, 2);
+            dgvRiwayatTransaksi.Location = new Point(31, 29);
+            dgvRiwayatTransaksi.Margin = new Padding(2);
             dgvRiwayatTransaksi.Name = "dgvRiwayatTransaksi";
             dgvRiwayatTransaksi.RowHeadersWidth = 62;
-            dgvRiwayatTransaksi.Size = new Size(583, 228);
+            dgvRiwayatTransaksi.Size = new Size(729, 285);
             dgvRiwayatTransaksi.TabIndex = 0;
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(25, 310);
-            btnKembali.Margin = new Padding(2, 2, 2, 2);
+            btnKembali.BackColor = Color.DarkCyan;
+            btnKembali.ForeColor = Color.Transparent;
+            btnKembali.Location = new Point(31, 388);
+            btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(112, 34);
             btnKembali.TabIndex = 25;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // btnBulan
             // 
-            btnBulan.Location = new Point(443, 266);
+            btnBulan.Location = new Point(554, 332);
             btnBulan.Margin = new Padding(2);
             btnBulan.Name = "btnBulan";
-            btnBulan.Size = new Size(148, 27);
+            btnBulan.Size = new Size(185, 34);
             btnBulan.TabIndex = 26;
             btnBulan.Text = "Riwayat per bulan";
             btnBulan.UseVisualStyleBackColor = true;
             // 
             // btnTahun
             // 
-            btnTahun.Location = new Point(443, 310);
+            btnTahun.Location = new Point(554, 388);
             btnTahun.Margin = new Padding(2);
             btnTahun.Name = "btnTahun";
-            btnTahun.Size = new Size(148, 27);
+            btnTahun.Size = new Size(185, 34);
             btnTahun.TabIndex = 27;
             btnTahun.Text = "Riwayat per tahun";
             btnTahun.UseVisualStyleBackColor = true;
             // 
             // tbBulan
             // 
-            tbBulan.Location = new Point(262, 266);
+            tbBulan.Location = new Point(328, 332);
+            tbBulan.Margin = new Padding(4, 4, 4, 4);
             tbBulan.Name = "tbBulan";
-            tbBulan.Size = new Size(166, 27);
+            tbBulan.Size = new Size(206, 31);
             tbBulan.TabIndex = 28;
             // 
             // tbTahun
             // 
-            tbTahun.Location = new Point(262, 310);
+            tbTahun.Location = new Point(328, 388);
+            tbTahun.Margin = new Padding(4, 4, 4, 4);
             tbTahun.Name = "tbTahun";
-            tbTahun.Size = new Size(166, 27);
+            tbTahun.Size = new Size(206, 31);
             tbTahun.TabIndex = 29;
             // 
             // Riwayat_Nasbah
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(800, 450);
             Controls.Add(tbTahun);
             Controls.Add(tbBulan);
             Controls.Add(btnTahun);
             Controls.Add(btnBulan);
             Controls.Add(btnKembali);
             Controls.Add(dgvRiwayatTransaksi);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Riwayat_Nasbah";
             Text = "InTrash";
             ((System.ComponentModel.ISupportInitialize)dgvRiwayatTransaksi).EndInit();
