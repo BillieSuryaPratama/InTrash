@@ -44,28 +44,35 @@
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
-            lblInstruksi.Location = new Point(190, 67);
+            lblInstruksi.BackColor = Color.Transparent;
+            lblInstruksi.Font = new Font("Segoe UI", 15F);
+            lblInstruksi.ForeColor = Color.White;
+            lblInstruksi.Location = new Point(113, 15);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(264, 20);
+            lblInstruksi.Size = new Size(352, 28);
             lblInstruksi.TabIndex = 16;
             lblInstruksi.Text = "Masukkan data kurir yang ingin diubah";
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(11, 305);
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
+            btnKembali.Location = new Point(10, 221);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(79, 28);
             btnKembali.TabIndex = 10;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // btnSimpan
             // 
-            btnSimpan.Location = new Point(536, 305);
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.ForeColor = Color.Black;
+            btnSimpan.Location = new Point(469, 221);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
-            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.Size = new Size(79, 28);
             btnSimpan.TabIndex = 9;
             btnSimpan.Text = "Simpan";
             btnSimpan.UseVisualStyleBackColor = true;
@@ -73,76 +80,85 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(204, 208);
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(178, 156);
             label4.Name = "label4";
-            label4.Size = new Size(46, 20);
+            label4.Size = new Size(36, 15);
             label4.TabIndex = 60;
             label4.Text = "Sandi";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(204, 179);
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(178, 124);
             label3.Name = "label3";
-            label3.Size = new Size(75, 20);
+            label3.Size = new Size(60, 15);
             label3.TabIndex = 59;
             label3.Text = "Username";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(204, 149);
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(178, 93);
             label2.Name = "label2";
-            label2.Size = new Size(79, 20);
+            label2.Size = new Size(64, 15);
             label2.TabIndex = 58;
             label2.Text = "Nomor HP";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(204, 118);
+            label5.BackColor = Color.Transparent;
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(178, 59);
             label5.Name = "label5";
-            label5.Size = new Size(49, 20);
+            label5.Size = new Size(39, 15);
             label5.TabIndex = 57;
             label5.Text = "Nama";
             // 
             // tbNama
             // 
-            tbNama.Location = new Point(312, 116);
+            tbNama.Location = new Point(273, 58);
             tbNama.Margin = new Padding(2);
             tbNama.Name = "tbNama";
-            tbNama.Size = new Size(121, 27);
+            tbNama.Size = new Size(106, 23);
             tbNama.TabIndex = 56;
             // 
             // tbNomorHP
             // 
-            tbNomorHP.Location = new Point(312, 146);
+            tbNomorHP.Location = new Point(273, 91);
             tbNomorHP.Margin = new Padding(2);
             tbNomorHP.Name = "tbNomorHP";
-            tbNomorHP.Size = new Size(121, 27);
+            tbNomorHP.Size = new Size(106, 23);
             tbNomorHP.TabIndex = 55;
             // 
             // tbUsername
             // 
-            tbUsername.Location = new Point(312, 176);
+            tbUsername.Location = new Point(273, 122);
             tbUsername.Margin = new Padding(2);
             tbUsername.Name = "tbUsername";
-            tbUsername.Size = new Size(121, 27);
+            tbUsername.Size = new Size(106, 23);
             tbUsername.TabIndex = 54;
             // 
             // tbSandi
             // 
-            tbSandi.Location = new Point(312, 205);
+            tbSandi.Location = new Point(273, 154);
             tbSandi.Margin = new Padding(2);
             tbSandi.Name = "tbSandi";
-            tbSandi.Size = new Size(121, 27);
+            tbSandi.Size = new Size(106, 23);
             tbSandi.TabIndex = 53;
             // 
             // Edit_Kurir
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(637, 343);
+            BackgroundImage = Properties.Resources.Wireframe___55__1_;
+            ClientSize = new Size(557, 257);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -154,6 +170,7 @@
             Controls.Add(lblInstruksi);
             Controls.Add(btnKembali);
             Controls.Add(btnSimpan);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Edit_Kurir";
             Text = "InTrash";
             ResumeLayout(false);
