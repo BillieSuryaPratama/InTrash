@@ -43,40 +43,42 @@
             // 
             // btnSimpan
             // 
-            btnSimpan.Location = new Point(274, 196);
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.Location = new Point(240, 147);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
-            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.Size = new Size(79, 26);
             btnSimpan.TabIndex = 7;
             btnSimpan.Text = "Simpan";
             btnSimpan.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(320, 137);
+            textBox2.Location = new Point(280, 103);
             textBox2.Margin = new Padding(2);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(121, 27);
+            textBox2.Size = new Size(106, 23);
             textBox2.TabIndex = 6;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(320, 91);
+            textBox1.Location = new Point(280, 68);
             textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(121, 27);
+            textBox1.Size = new Size(106, 23);
             textBox1.TabIndex = 5;
             // 
             // gbKonfirmasi
             // 
+            gbKonfirmasi.BackColor = Color.LightGray;
             gbKonfirmasi.Controls.Add(label3);
             gbKonfirmasi.Controls.Add(btnSetuju);
             gbKonfirmasi.Controls.Add(btnBatal);
-            gbKonfirmasi.Location = new Point(11, 207);
+            gbKonfirmasi.Location = new Point(10, 155);
             gbKonfirmasi.Margin = new Padding(2);
             gbKonfirmasi.Name = "gbKonfirmasi";
             gbKonfirmasi.Padding = new Padding(2);
-            gbKonfirmasi.Size = new Size(240, 120);
+            gbKonfirmasi.Size = new Size(210, 90);
             gbKonfirmasi.TabIndex = 8;
             gbKonfirmasi.TabStop = false;
             gbKonfirmasi.Text = "Ubah Sandi";
@@ -85,9 +87,9 @@
             // 
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
-            label3.Location = new Point(23, 34);
+            label3.Location = new Point(20, 26);
             label3.Name = "label3";
-            label3.Size = new Size(194, 20);
+            label3.Size = new Size(156, 15);
             label3.TabIndex = 2;
             label3.Text = "Konfirmasi Perubahan Sandi";
             // 
@@ -95,10 +97,10 @@
             // 
             btnSetuju.BackColor = Color.LimeGreen;
             btnSetuju.ForeColor = Color.White;
-            btnSetuju.Location = new Point(136, 80);
+            btnSetuju.Location = new Point(119, 57);
             btnSetuju.Margin = new Padding(2);
             btnSetuju.Name = "btnSetuju";
-            btnSetuju.Size = new Size(90, 27);
+            btnSetuju.Size = new Size(79, 23);
             btnSetuju.TabIndex = 1;
             btnSetuju.Text = "Setuju";
             btnSetuju.UseVisualStyleBackColor = false;
@@ -107,10 +109,10 @@
             // 
             btnBatal.BackColor = Color.Red;
             btnBatal.ForeColor = Color.White;
-            btnBatal.Location = new Point(11, 80);
+            btnBatal.Location = new Point(10, 57);
             btnBatal.Margin = new Padding(2);
             btnBatal.Name = "btnBatal";
-            btnBatal.Size = new Size(90, 27);
+            btnBatal.Size = new Size(79, 23);
             btnBatal.TabIndex = 0;
             btnBatal.Text = "Batal";
             btnBatal.UseVisualStyleBackColor = false;
@@ -121,9 +123,9 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 10F);
             label1.ForeColor = Color.Transparent;
-            label1.Location = new Point(178, 95);
+            label1.Location = new Point(156, 71);
             label1.Name = "label1";
-            label1.Size = new Size(92, 23);
+            label1.Size = new Size(74, 19);
             label1.TabIndex = 9;
             label1.Text = "Sandi Baru";
             // 
@@ -133,9 +135,9 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 10F);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(178, 140);
+            label2.Location = new Point(156, 105);
             label2.Name = "label2";
-            label2.Size = new Size(137, 23);
+            label2.Size = new Size(110, 19);
             label2.TabIndex = 10;
             label2.Text = "Konfirmasi Sandi";
             // 
@@ -145,17 +147,18 @@
             lblInstruksi.BackColor = Color.Transparent;
             lblInstruksi.Font = new Font("Segoe UI", 12F);
             lblInstruksi.ForeColor = Color.White;
-            lblInstruksi.Location = new Point(129, 37);
+            lblInstruksi.Location = new Point(113, 28);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(395, 28);
+            lblInstruksi.Size = new Size(317, 21);
             lblInstruksi.TabIndex = 11;
             lblInstruksi.Text = "Masukan kata sandi baru untuk melanjutkan";
             // 
             // Lupa_Password
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            BackgroundImage = Properties.Resources.Wireframe___55;
+            ClientSize = new Size(560, 270);
             Controls.Add(lblInstruksi);
             Controls.Add(label2);
             Controls.Add(label1);
