@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Beranda_Nasabah));
             label1 = new Label();
             btnInformasiSampah = new Button();
             btnSetorSampah = new Button();
@@ -41,6 +42,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Image = (Image)resources.GetObject("label1.Image");
             label1.Location = new Point(169, 27);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
@@ -50,6 +53,7 @@
             // 
             // btnInformasiSampah
             // 
+            btnInformasiSampah.Image = (Image)resources.GetObject("btnInformasiSampah.Image");
             btnInformasiSampah.Location = new Point(337, 192);
             btnInformasiSampah.Margin = new Padding(2);
             btnInformasiSampah.Name = "btnInformasiSampah";
@@ -60,6 +64,7 @@
             // 
             // btnSetorSampah
             // 
+            btnSetorSampah.Image = (Image)resources.GetObject("btnSetorSampah.Image");
             btnSetorSampah.Location = new Point(337, 137);
             btnSetorSampah.Margin = new Padding(2);
             btnSetorSampah.Name = "btnSetorSampah";
@@ -70,6 +75,7 @@
             // 
             // btnHapusAkun
             // 
+            btnHapusAkun.Image = (Image)resources.GetObject("btnHapusAkun.Image");
             btnHapusAkun.Location = new Point(248, 251);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
@@ -80,6 +86,7 @@
             // 
             // btnRiwayatTransaksi
             // 
+            btnRiwayatTransaksi.Image = (Image)resources.GetObject("btnRiwayatTransaksi.Image");
             btnRiwayatTransaksi.Location = new Point(160, 192);
             btnRiwayatTransaksi.Margin = new Padding(2);
             btnRiwayatTransaksi.Name = "btnRiwayatTransaksi";
@@ -90,6 +97,7 @@
             // 
             // btnProfil
             // 
+            btnProfil.Image = (Image)resources.GetObject("btnProfil.Image");
             btnProfil.Location = new Point(160, 137);
             btnProfil.Margin = new Padding(2);
             btnProfil.Name = "btnProfil";
@@ -100,17 +108,20 @@
             // 
             // btnLogOut
             // 
+            btnLogOut.BackColor = Color.Red;
+            btnLogOut.ForeColor = Color.White;
             btnLogOut.Location = new Point(12, 312);
             btnLogOut.Name = "btnLogOut";
             btnLogOut.Size = new Size(94, 29);
             btnLogOut.TabIndex = 10;
             btnLogOut.Text = "Log out";
-            btnLogOut.UseVisualStyleBackColor = true;
+            btnLogOut.UseVisualStyleBackColor = false;
             // 
             // Beranda_Nasabah
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(640, 360);
             Controls.Add(btnLogOut);
             Controls.Add(btnProfil);
