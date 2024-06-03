@@ -43,48 +43,52 @@
             // 
             // btnJemputSampah
             // 
-            btnJemputSampah.Image = (Image)resources.GetObject("btnJemputSampah.Image");
-            btnJemputSampah.Location = new Point(154, 229);
+            btnJemputSampah.BackgroundImage = (Image)resources.GetObject("btnJemputSampah.BackgroundImage");
+            btnJemputSampah.Location = new Point(154, 222);
             btnJemputSampah.Margin = new Padding(2);
             btnJemputSampah.Name = "btnJemputSampah";
-            btnJemputSampah.Size = new Size(142, 27);
+            btnJemputSampah.Size = new Size(142, 40);
             btnJemputSampah.TabIndex = 9;
             btnJemputSampah.Text = "Jemput Sampah";
             btnJemputSampah.UseVisualStyleBackColor = true;
+            btnJemputSampah.Click += this.btnJemputSampah_Click;
             // 
             // btnProfil
             // 
+            btnProfil.BackgroundImage = (Image)resources.GetObject("btnProfil.BackgroundImage");
             btnProfil.ForeColor = Color.Black;
-            btnProfil.Image = (Image)resources.GetObject("btnProfil.Image");
-            btnProfil.Location = new Point(154, 145);
+            btnProfil.Location = new Point(154, 133);
             btnProfil.Margin = new Padding(2);
             btnProfil.Name = "btnProfil";
-            btnProfil.Size = new Size(142, 27);
+            btnProfil.Size = new Size(142, 37);
             btnProfil.TabIndex = 8;
             btnProfil.Text = "Profil";
             btnProfil.UseVisualStyleBackColor = true;
+            btnProfil.Click += this.btnProfil_Click;
             // 
             // btnReward
             // 
-            btnReward.Image = (Image)resources.GetObject("btnReward.Image");
-            btnReward.Location = new Point(154, 186);
+            btnReward.BackgroundImage = (Image)resources.GetObject("btnReward.BackgroundImage");
+            btnReward.Location = new Point(154, 177);
             btnReward.Margin = new Padding(2);
             btnReward.Name = "btnReward";
-            btnReward.Size = new Size(142, 27);
+            btnReward.Size = new Size(142, 39);
             btnReward.TabIndex = 7;
             btnReward.Text = "Reward";
             btnReward.UseVisualStyleBackColor = true;
+            btnReward.Click += this.btnReward_Click;
             // 
             // btnRiwayatTransaksi
             // 
             btnRiwayatTransaksi.Image = (Image)resources.GetObject("btnRiwayatTransaksi.Image");
-            btnRiwayatTransaksi.Location = new Point(154, 273);
+            btnRiwayatTransaksi.Location = new Point(154, 268);
             btnRiwayatTransaksi.Margin = new Padding(2);
             btnRiwayatTransaksi.Name = "btnRiwayatTransaksi";
-            btnRiwayatTransaksi.Size = new Size(142, 27);
+            btnRiwayatTransaksi.Size = new Size(142, 40);
             btnRiwayatTransaksi.TabIndex = 6;
             btnRiwayatTransaksi.Text = "Riwayat Transaksi";
             btnRiwayatTransaksi.UseVisualStyleBackColor = true;
+            btnRiwayatTransaksi.Click += btnRiwayatTransaksi_Click;
             // 
             // label1
             // 
@@ -101,39 +105,43 @@
             // 
             // btnEditSampah
             // 
-            btnEditSampah.Image = (Image)resources.GetObject("btnEditSampah.Image");
-            btnEditSampah.Location = new Point(337, 228);
+            btnEditSampah.BackgroundImage = (Image)resources.GetObject("btnEditSampah.BackgroundImage");
+            btnEditSampah.Location = new Point(337, 222);
             btnEditSampah.Name = "btnEditSampah";
-            btnEditSampah.Size = new Size(142, 29);
+            btnEditSampah.Size = new Size(142, 41);
             btnEditSampah.TabIndex = 10;
             btnEditSampah.Text = "Edit Data Sampah";
             btnEditSampah.UseVisualStyleBackColor = true;
+            btnEditSampah.Click += this.btnEditSampah_Click;
             // 
             // btnDaftarkanKurir
             // 
-            btnDaftarkanKurir.Image = (Image)resources.GetObject("btnDaftarkanKurir.Image");
-            btnDaftarkanKurir.Location = new Point(337, 143);
+            btnDaftarkanKurir.BackgroundImage = (Image)resources.GetObject("btnDaftarkanKurir.BackgroundImage");
+            btnDaftarkanKurir.Location = new Point(337, 131);
             btnDaftarkanKurir.Name = "btnDaftarkanKurir";
-            btnDaftarkanKurir.Size = new Size(142, 29);
+            btnDaftarkanKurir.Size = new Size(142, 39);
             btnDaftarkanKurir.TabIndex = 11;
             btnDaftarkanKurir.Text = "Daftarkan Kurir";
             btnDaftarkanKurir.UseVisualStyleBackColor = true;
+            btnDaftarkanKurir.Click += this.btnDaftarkanKurir_Click;
             // 
             // btnEditKurir
             // 
-            btnEditKurir.Image = (Image)resources.GetObject("btnEditKurir.Image");
-            btnEditKurir.Location = new Point(337, 185);
+            btnEditKurir.BackColor = SystemColors.ControlDarkDark;
+            btnEditKurir.BackgroundImage = (Image)resources.GetObject("btnEditKurir.BackgroundImage");
+            btnEditKurir.Location = new Point(337, 176);
             btnEditKurir.Name = "btnEditKurir";
-            btnEditKurir.Size = new Size(142, 29);
+            btnEditKurir.Size = new Size(142, 40);
             btnEditKurir.TabIndex = 12;
             btnEditKurir.Text = "Edit Data Kurir";
-            btnEditKurir.UseVisualStyleBackColor = true;
+            btnEditKurir.UseVisualStyleBackColor = false;
+            btnEditKurir.Click += this.btnEditKurir_Click;
             // 
             // btnLogOut
             // 
             btnLogOut.BackColor = Color.Red;
             btnLogOut.ForeColor = Color.White;
-            btnLogOut.Location = new Point(12, 319);
+            btnLogOut.Location = new Point(29, 319);
             btnLogOut.Name = "btnLogOut";
             btnLogOut.Size = new Size(94, 29);
             btnLogOut.TabIndex = 13;
@@ -142,13 +150,14 @@
             // 
             // btnHapusAkun
             // 
-            btnHapusAkun.Image = (Image)resources.GetObject("btnHapusAkun.Image");
-            btnHapusAkun.Location = new Point(337, 273);
+            btnHapusAkun.BackgroundImage = (Image)resources.GetObject("btnHapusAkun.BackgroundImage");
+            btnHapusAkun.Location = new Point(337, 268);
             btnHapusAkun.Name = "btnHapusAkun";
-            btnHapusAkun.Size = new Size(142, 29);
+            btnHapusAkun.Size = new Size(142, 40);
             btnHapusAkun.TabIndex = 14;
             btnHapusAkun.Text = "Hapus Akun";
             btnHapusAkun.UseVisualStyleBackColor = true;
+            btnHapusAkun.Click += this.btnHapusAkun_Click;
             // 
             // Beranda_Admin
             // 
