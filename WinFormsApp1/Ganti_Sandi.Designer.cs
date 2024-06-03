@@ -32,7 +32,6 @@
             textBox3 = new TextBox();
             textBox2 = new TextBox();
             btnKembali = new Button();
-            btnSimpan = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -41,6 +40,7 @@
             btnSetuju = new Button();
             btnBatal = new Button();
             lblInstruksi = new Label();
+            btnSimpan = new Button();
             gbKonfirmasi.SuspendLayout();
             SuspendLayout();
             // 
@@ -79,18 +79,6 @@
             btnKembali.TabIndex = 7;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
-            // 
-            // btnSimpan
-            // 
-            btnSimpan.BackColor = Color.Transparent;
-            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
-            btnSimpan.Location = new Point(229, 179);
-            btnSimpan.Margin = new Padding(2);
-            btnSimpan.Name = "btnSimpan";
-            btnSimpan.Size = new Size(79, 33);
-            btnSimpan.TabIndex = 8;
-            btnSimpan.Text = "Simpan";
-            btnSimpan.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -187,6 +175,18 @@
             lblInstruksi.TabIndex = 14;
             lblInstruksi.Text = "Masukan kata sandi baru untuk melanjutkan";
             // 
+            // btnSimpan
+            // 
+            btnSimpan.BackColor = Color.Transparent;
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.Location = new Point(229, 179);
+            btnSimpan.Margin = new Padding(2);
+            btnSimpan.Name = "btnSimpan";
+            btnSimpan.Size = new Size(79, 33);
+            btnSimpan.TabIndex = 8;
+            btnSimpan.Text = "Simpan";
+            btnSimpan.UseVisualStyleBackColor = false;
+            // 
             // Ganti_Sandi
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -218,7 +218,6 @@
         private TextBox textBox3;
         private TextBox textBox2;
         private Button btnKembali;
-        private Button btnSimpan;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -227,5 +226,6 @@
         private Button btnSetuju;
         private Button btnBatal;
         private Label lblInstruksi;
+        private Button btnSimpan;
     }
 }
