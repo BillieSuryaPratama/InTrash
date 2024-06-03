@@ -41,49 +41,61 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(135, 108);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 13F);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(118, 64);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(49, 20);
+            label1.Size = new Size(59, 25);
             label1.TabIndex = 0;
             label1.Text = "Nama";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(135, 162);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 13F);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(118, 113);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(128, 20);
+            label2.Size = new Size(153, 25);
             label2.TabIndex = 1;
             label2.Text = "Metode Pencairan";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(135, 217);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 13F);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(118, 163);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(66, 20);
+            label3.Size = new Size(79, 25);
             label3.TabIndex = 2;
             label3.Text = "Nominal";
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(10, 323);
-            btnKembali.Margin = new Padding(2, 2, 2, 2);
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
+            btnKembali.Location = new Point(14, 229);
+            btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(79, 29);
             btnKembali.TabIndex = 3;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // btnKonfirmasi
             // 
-            btnKonfirmasi.Location = new Point(539, 322);
-            btnKonfirmasi.Margin = new Padding(2, 2, 2, 2);
+            btnKonfirmasi.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnKonfirmasi.Location = new Point(464, 229);
+            btnKonfirmasi.Margin = new Padding(2);
             btnKonfirmasi.Name = "btnKonfirmasi";
-            btnKonfirmasi.Size = new Size(90, 27);
+            btnKonfirmasi.Size = new Size(79, 29);
             btnKonfirmasi.TabIndex = 4;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = true;
@@ -91,38 +103,42 @@
             // lblMetodePencairan
             // 
             lblMetodePencairan.AutoSize = true;
-            lblMetodePencairan.Location = new Point(324, 162);
+            lblMetodePencairan.Font = new Font("Segoe UI", 13F);
+            lblMetodePencairan.Location = new Point(307, 113);
             lblMetodePencairan.Margin = new Padding(2, 0, 2, 0);
             lblMetodePencairan.Name = "lblMetodePencairan";
-            lblMetodePencairan.Size = new Size(61, 20);
+            lblMetodePencairan.Size = new Size(76, 25);
             lblMetodePencairan.TabIndex = 5;
             lblMetodePencairan.Text = "Dummy";
             // 
             // lblNominal
             // 
             lblNominal.AutoSize = true;
-            lblNominal.Location = new Point(324, 217);
+            lblNominal.Font = new Font("Segoe UI", 13F);
+            lblNominal.Location = new Point(307, 163);
             lblNominal.Margin = new Padding(2, 0, 2, 0);
             lblNominal.Name = "lblNominal";
-            lblNominal.Size = new Size(61, 20);
+            lblNominal.Size = new Size(76, 25);
             lblNominal.TabIndex = 6;
             lblNominal.Text = "Dummy";
             // 
             // lblNama
             // 
             lblNama.AutoSize = true;
-            lblNama.Location = new Point(324, 108);
+            lblNama.Font = new Font("Segoe UI", 13F);
+            lblNama.Location = new Point(307, 64);
             lblNama.Margin = new Padding(2, 0, 2, 0);
             lblNama.Name = "lblNama";
-            lblNama.Size = new Size(61, 20);
+            lblNama.Size = new Size(76, 25);
             lblNama.TabIndex = 7;
             lblNama.Text = "Dummy";
             // 
             // Konfirmasi_Reward
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            BackgroundImage = Properties.Resources.Wireframe___55;
+            ClientSize = new Size(560, 270);
             Controls.Add(lblNama);
             Controls.Add(lblNominal);
             Controls.Add(lblMetodePencairan);
@@ -131,7 +147,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Konfirmasi_Reward";
             Text = "InTrash";
             ResumeLayout(false);
