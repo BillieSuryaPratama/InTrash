@@ -40,30 +40,30 @@
             // 
             btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.White;
-            btnKembali.Location = new Point(24, 220);
-            btnKembali.Margin = new Padding(2);
+            btnKembali.Location = new Point(27, 293);
+            btnKembali.Margin = new Padding(2, 3, 2, 3);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(79, 27);
+            btnKembali.Size = new Size(90, 36);
             btnKembali.TabIndex = 49;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
             // 
             // tbEdit
             // 
-            tbEdit.Location = new Point(275, 194);
-            tbEdit.Margin = new Padding(2);
+            tbEdit.Location = new Point(314, 259);
+            tbEdit.Margin = new Padding(2, 3, 2, 3);
             tbEdit.Name = "tbEdit";
-            tbEdit.Size = new Size(140, 23);
+            tbEdit.Size = new Size(159, 27);
             tbEdit.TabIndex = 48;
             // 
             // btnEditTambah
             // 
             btnEditTambah.BackColor = Color.Black;
             btnEditTambah.BackgroundImage = (Image)resources.GetObject("btnEditTambah.BackgroundImage");
-            btnEditTambah.Location = new Point(431, 194);
-            btnEditTambah.Margin = new Padding(2);
+            btnEditTambah.Location = new Point(493, 259);
+            btnEditTambah.Margin = new Padding(2, 3, 2, 3);
             btnEditTambah.Name = "btnEditTambah";
-            btnEditTambah.Size = new Size(107, 23);
+            btnEditTambah.Size = new Size(122, 31);
             btnEditTambah.TabIndex = 47;
             btnEditTambah.Text = "Edit / Tambah";
             btnEditTambah.UseVisualStyleBackColor = false;
@@ -72,24 +72,23 @@
             // 
             dgvListJenisSampah.BackgroundColor = Color.Gainsboro;
             dgvListJenisSampah.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListJenisSampah.Location = new Point(24, 8);
-            dgvListJenisSampah.Margin = new Padding(2);
+            dgvListJenisSampah.Location = new Point(27, 11);
+            dgvListJenisSampah.Margin = new Padding(2, 3, 2, 3);
             dgvListJenisSampah.Name = "dgvListJenisSampah";
             dgvListJenisSampah.RowHeadersWidth = 62;
-            dgvListJenisSampah.Size = new Size(514, 169);
+            dgvListJenisSampah.Size = new Size(587, 225);
             dgvListJenisSampah.TabIndex = 46;
             // 
             // Atur_Jenis_Sampah
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55__1_;
-            ClientSize = new Size(557, 261);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(637, 348);
             Controls.Add(btnKembali);
             Controls.Add(tbEdit);
             Controls.Add(btnEditTambah);
             Controls.Add(dgvListJenisSampah);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Atur_Jenis_Sampah";
             Text = "InTrash";
             ((System.ComponentModel.ISupportInitialize)dgvListJenisSampah).EndInit();
