@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Alamat_Penjemputan));
             dgvListAlamat = new DataGridView();
             btnKembali = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvListAlamat).BeginInit();
@@ -35,6 +36,7 @@
             // 
             // dgvListAlamat
             // 
+            dgvListAlamat.BackgroundColor = Color.Gainsboro;
             dgvListAlamat.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvListAlamat.Location = new Point(26, 23);
             dgvListAlamat.Name = "dgvListAlamat";
@@ -44,18 +46,21 @@
             // 
             // btnKembali
             // 
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
             btnKembali.Location = new Point(11, 308);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(90, 27);
             btnKembali.TabIndex = 11;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // Alamat_Penjemputan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(639, 346);
             Controls.Add(btnKembali);
             Controls.Add(dgvListAlamat);

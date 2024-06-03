@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Atur_Akun_Kurir));
             btnKembali = new Button();
             tbEdit = new TextBox();
             btnEditAkun = new Button();
@@ -38,16 +39,19 @@
             // 
             // btnKembali
             // 
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
             btnKembali.Location = new Point(8, 316);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(90, 27);
             btnKembali.TabIndex = 43;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // tbEdit
             // 
+            tbEdit.BackColor = Color.Gainsboro;
             tbEdit.Location = new Point(332, 258);
             tbEdit.Margin = new Padding(2);
             tbEdit.Name = "tbEdit";
@@ -56,6 +60,7 @@
             // 
             // btnEditAkun
             // 
+            btnEditAkun.BackgroundImage = (Image)resources.GetObject("btnEditAkun.BackgroundImage");
             btnEditAkun.Location = new Point(502, 258);
             btnEditAkun.Margin = new Padding(2);
             btnEditAkun.Name = "btnEditAkun";
@@ -66,6 +71,7 @@
             // 
             // dgvListKurir
             // 
+            dgvListKurir.BackgroundColor = Color.Gainsboro;
             dgvListKurir.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvListKurir.Location = new Point(33, 11);
             dgvListKurir.Margin = new Padding(2);
@@ -76,6 +82,7 @@
             // 
             // btnHapusAkun
             // 
+            btnHapusAkun.BackgroundImage = (Image)resources.GetObject("btnHapusAkun.BackgroundImage");
             btnHapusAkun.Location = new Point(502, 299);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
@@ -88,6 +95,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(637, 350);
             Controls.Add(btnHapusAkun);
             Controls.Add(btnKembali);
