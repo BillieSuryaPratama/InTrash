@@ -82,7 +82,7 @@
             label4.AutoSize = true;
             label4.BackColor = Color.Transparent;
             label4.ForeColor = Color.White;
-            label4.Location = new Point(178, 156);
+            label4.Location = new Point(178, 162);
             label4.Name = "label4";
             label4.Size = new Size(36, 15);
             label4.TabIndex = 60;
@@ -93,7 +93,7 @@
             label3.AutoSize = true;
             label3.BackColor = Color.Transparent;
             label3.ForeColor = Color.White;
-            label3.Location = new Point(178, 124);
+            label3.Location = new Point(178, 130);
             label3.Name = "label3";
             label3.Size = new Size(60, 15);
             label3.TabIndex = 59;
@@ -104,7 +104,7 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(178, 93);
+            label2.Location = new Point(178, 99);
             label2.Name = "label2";
             label2.Size = new Size(64, 15);
             label2.TabIndex = 58;
@@ -115,7 +115,7 @@
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.ForeColor = Color.White;
-            label5.Location = new Point(178, 59);
+            label5.Location = new Point(178, 65);
             label5.Name = "label5";
             label5.Size = new Size(39, 15);
             label5.TabIndex = 57;
@@ -123,7 +123,7 @@
             // 
             // tbNama
             // 
-            tbNama.Location = new Point(273, 58);
+            tbNama.Location = new Point(273, 64);
             tbNama.Margin = new Padding(2);
             tbNama.Name = "tbNama";
             tbNama.Size = new Size(106, 23);
@@ -131,7 +131,7 @@
             // 
             // tbNomorHP
             // 
-            tbNomorHP.Location = new Point(273, 91);
+            tbNomorHP.Location = new Point(273, 97);
             tbNomorHP.Margin = new Padding(2);
             tbNomorHP.Name = "tbNomorHP";
             tbNomorHP.Size = new Size(106, 23);
@@ -139,7 +139,7 @@
             // 
             // tbUsername
             // 
-            tbUsername.Location = new Point(273, 122);
+            tbUsername.Location = new Point(273, 128);
             tbUsername.Margin = new Padding(2);
             tbUsername.Name = "tbUsername";
             tbUsername.Size = new Size(106, 23);
@@ -147,7 +147,7 @@
             // 
             // tbSandi
             // 
-            tbSandi.Location = new Point(273, 154);
+            tbSandi.Location = new Point(273, 160);
             tbSandi.Margin = new Padding(2);
             tbSandi.Name = "tbSandi";
             tbSandi.Size = new Size(106, 23);
