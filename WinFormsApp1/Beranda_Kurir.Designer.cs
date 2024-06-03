@@ -38,9 +38,9 @@
             // 
             btnLogOut.BackColor = Color.Red;
             btnLogOut.ForeColor = Color.White;
-            btnLogOut.Location = new Point(21, 330);
+            btnLogOut.Location = new Point(37, 304);
             btnLogOut.Name = "btnLogOut";
-            btnLogOut.Size = new Size(94, 29);
+            btnLogOut.Size = new Size(94, 37);
             btnLogOut.TabIndex = 17;
             btnLogOut.Text = "Log out";
             btnLogOut.UseVisualStyleBackColor = false;
@@ -52,7 +52,7 @@
             btnDaftarPenjemputan.Location = new Point(244, 161);
             btnDaftarPenjemputan.Margin = new Padding(2);
             btnDaftarPenjemputan.Name = "btnDaftarPenjemputan";
-            btnDaftarPenjemputan.Size = new Size(159, 47);
+            btnDaftarPenjemputan.Size = new Size(159, 55);
             btnDaftarPenjemputan.TabIndex = 15;
             btnDaftarPenjemputan.Text = "Daftar Penjemputan";
             btnDaftarPenjemputan.UseVisualStyleBackColor = true;
