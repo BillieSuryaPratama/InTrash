@@ -37,61 +37,64 @@
             // 
             // btnBerikutnya
             // 
-            btnBerikutnya.Location = new Point(524, 310);
-            btnBerikutnya.Margin = new Padding(2, 2, 2, 2);
+            btnBerikutnya.Location = new Point(655, 388);
+            btnBerikutnya.Margin = new Padding(2);
             btnBerikutnya.Name = "btnBerikutnya";
-            btnBerikutnya.Size = new Size(90, 27);
+            btnBerikutnya.Size = new Size(112, 34);
             btnBerikutnya.TabIndex = 0;
             btnBerikutnya.Text = "Berikutnya";
             btnBerikutnya.UseVisualStyleBackColor = true;
             // 
             // tbNomorHP
             // 
-            tbNomorHP.Location = new Point(296, 128);
-            tbNomorHP.Margin = new Padding(2, 2, 2, 2);
+            tbNomorHP.Location = new Point(370, 160);
+            tbNomorHP.Margin = new Padding(2);
             tbNomorHP.Name = "tbNomorHP";
-            tbNomorHP.Size = new Size(121, 27);
+            tbNomorHP.Size = new Size(150, 31);
             tbNomorHP.TabIndex = 1;
             // 
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
-            lblInstruksi.Location = new Point(138, 84);
+            lblInstruksi.Location = new Point(172, 105);
+            lblInstruksi.Margin = new Padding(4, 0, 4, 0);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(349, 20);
+            lblInstruksi.Size = new Size(421, 25);
             lblInstruksi.TabIndex = 2;
             lblInstruksi.Text = "Masukkan nomor HP anda sebagai tahap verikfikasi";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(200, 131);
+            label2.Location = new Point(250, 164);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(79, 20);
+            label2.Size = new Size(97, 25);
             label2.TabIndex = 3;
             label2.Text = "Nomor HP";
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(24, 310);
+            btnKembali.Location = new Point(30, 388);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(112, 34);
             btnKembali.TabIndex = 4;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = true;
             // 
             // Verifikasi_NoHP
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            BackColor = Color.Green;
+            ClientSize = new Size(800, 450);
             Controls.Add(btnKembali);
             Controls.Add(label2);
             Controls.Add(lblInstruksi);
             Controls.Add(tbNomorHP);
             Controls.Add(btnBerikutnya);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Verifikasi_NoHP";
             Text = "InTrash";
             ResumeLayout(false);
