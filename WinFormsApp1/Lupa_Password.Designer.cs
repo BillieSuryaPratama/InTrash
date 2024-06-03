@@ -32,19 +32,19 @@
             textBox2 = new TextBox();
             textBox1 = new TextBox();
             gbKonfirmasi = new GroupBox();
+            label3 = new Label();
             btnSetuju = new Button();
             btnBatal = new Button();
             label1 = new Label();
             label2 = new Label();
             lblInstruksi = new Label();
-            label3 = new Label();
             gbKonfirmasi.SuspendLayout();
             SuspendLayout();
             // 
             // btnSimpan
             // 
             btnSimpan.Location = new Point(274, 196);
-            btnSimpan.Margin = new Padding(2, 2, 2, 2);
+            btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
             btnSimpan.Size = new Size(90, 27);
             btnSimpan.TabIndex = 7;
@@ -54,7 +54,7 @@
             // textBox2
             // 
             textBox2.Location = new Point(320, 137);
-            textBox2.Margin = new Padding(2, 2, 2, 2);
+            textBox2.Margin = new Padding(2);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(121, 27);
             textBox2.TabIndex = 6;
@@ -62,7 +62,7 @@
             // textBox1
             // 
             textBox1.Location = new Point(320, 91);
-            textBox1.Margin = new Padding(2, 2, 2, 2);
+            textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(121, 27);
             textBox1.TabIndex = 5;
@@ -73,18 +73,27 @@
             gbKonfirmasi.Controls.Add(btnSetuju);
             gbKonfirmasi.Controls.Add(btnBatal);
             gbKonfirmasi.Location = new Point(11, 207);
-            gbKonfirmasi.Margin = new Padding(2, 2, 2, 2);
+            gbKonfirmasi.Margin = new Padding(2);
             gbKonfirmasi.Name = "gbKonfirmasi";
-            gbKonfirmasi.Padding = new Padding(2, 2, 2, 2);
+            gbKonfirmasi.Padding = new Padding(2);
             gbKonfirmasi.Size = new Size(240, 120);
             gbKonfirmasi.TabIndex = 8;
             gbKonfirmasi.TabStop = false;
             gbKonfirmasi.Text = "Ubah Sandi";
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(23, 34);
+            label3.Name = "label3";
+            label3.Size = new Size(194, 20);
+            label3.TabIndex = 2;
+            label3.Text = "Konfirmasi Perubahan Sandi";
+            // 
             // btnSetuju
             // 
             btnSetuju.Location = new Point(136, 80);
-            btnSetuju.Margin = new Padding(2, 2, 2, 2);
+            btnSetuju.Margin = new Padding(2);
             btnSetuju.Name = "btnSetuju";
             btnSetuju.Size = new Size(90, 27);
             btnSetuju.TabIndex = 1;
@@ -94,7 +103,7 @@
             // btnBatal
             // 
             btnBatal.Location = new Point(11, 80);
-            btnBatal.Margin = new Padding(2, 2, 2, 2);
+            btnBatal.Margin = new Padding(2);
             btnBatal.Name = "btnBatal";
             btnBatal.Size = new Size(90, 27);
             btnBatal.TabIndex = 0;
@@ -122,25 +131,18 @@
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
+            lblInstruksi.BackColor = Color.Transparent;
             lblInstruksi.Location = new Point(173, 37);
             lblInstruksi.Name = "lblInstruksi";
             lblInstruksi.Size = new Size(297, 20);
             lblInstruksi.TabIndex = 11;
             lblInstruksi.Text = "Masukan kata sandi baru untuk melanjutkan";
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(23, 34);
-            label3.Name = "label3";
-            label3.Size = new Size(194, 20);
-            label3.TabIndex = 2;
-            label3.Text = "Konfirmasi Perubahan Sandi";
-            // 
             // Lupa_Password
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(640, 360);
             Controls.Add(lblInstruksi);
             Controls.Add(label2);
@@ -149,7 +151,7 @@
             Controls.Add(btnSimpan);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "Lupa_Password";
             Text = "InTrash";
             gbKonfirmasi.ResumeLayout(false);
