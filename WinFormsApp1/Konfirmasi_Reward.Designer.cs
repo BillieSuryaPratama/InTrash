@@ -150,6 +150,7 @@
             Margin = new Padding(2);
             Name = "Konfirmasi_Reward";
             Text = "InTrash";
+            Load += Konfirmasi_Reward_Load;
             ResumeLayout(false);
             PerformLayout();
         }
