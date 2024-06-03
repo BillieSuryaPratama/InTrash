@@ -40,7 +40,7 @@
             // 
             btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.White;
-            btnKembali.Location = new Point(27, 293);
+            btnKembali.Location = new Point(27, 256);
             btnKembali.Margin = new Padding(2, 3, 2, 3);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(90, 36);
@@ -50,7 +50,7 @@
             // 
             // tbEdit
             // 
-            tbEdit.Location = new Point(314, 259);
+            tbEdit.Location = new Point(314, 263);
             tbEdit.Margin = new Padding(2, 3, 2, 3);
             tbEdit.Name = "tbEdit";
             tbEdit.Size = new Size(159, 27);
@@ -60,7 +60,7 @@
             // 
             btnEditTambah.BackColor = Color.Black;
             btnEditTambah.BackgroundImage = (Image)resources.GetObject("btnEditTambah.BackgroundImage");
-            btnEditTambah.Location = new Point(493, 259);
+            btnEditTambah.Location = new Point(493, 261);
             btnEditTambah.Margin = new Padding(2, 3, 2, 3);
             btnEditTambah.Name = "btnEditTambah";
             btnEditTambah.Size = new Size(122, 31);
