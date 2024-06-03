@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Atur_Jenis_Sampah));
             btnKembali = new Button();
             tbEdit = new TextBox();
             btnEditTambah = new Button();
@@ -37,13 +38,15 @@
             // 
             // btnKembali
             // 
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
             btnKembali.Location = new Point(11, 310);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(90, 27);
             btnKembali.TabIndex = 49;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // tbEdit
             // 
@@ -55,6 +58,7 @@
             // 
             // btnEditTambah
             // 
+            btnEditTambah.BackgroundImage = (Image)resources.GetObject("btnEditTambah.BackgroundImage");
             btnEditTambah.Location = new Point(493, 258);
             btnEditTambah.Margin = new Padding(2);
             btnEditTambah.Name = "btnEditTambah";
@@ -77,6 +81,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(637, 348);
             Controls.Add(btnKembali);
             Controls.Add(tbEdit);
