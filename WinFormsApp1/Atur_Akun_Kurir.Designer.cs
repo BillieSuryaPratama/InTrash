@@ -60,7 +60,7 @@
             // 
             // btnEditAkun
             // 
-            btnEditAkun.BackgroundImage = (Image)resources.GetObject("btnEditAkun.BackgroundImage");
+            btnEditAkun.Image = (Image)resources.GetObject("btnEditAkun.Image");
             btnEditAkun.Location = new Point(502, 258);
             btnEditAkun.Margin = new Padding(2);
             btnEditAkun.Name = "btnEditAkun";
@@ -82,7 +82,7 @@
             // 
             // btnHapusAkun
             // 
-            btnHapusAkun.BackgroundImage = (Image)resources.GetObject("btnHapusAkun.BackgroundImage");
+            btnHapusAkun.Image = (Image)resources.GetObject("btnHapusAkun.Image");
             btnHapusAkun.Location = new Point(502, 299);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
