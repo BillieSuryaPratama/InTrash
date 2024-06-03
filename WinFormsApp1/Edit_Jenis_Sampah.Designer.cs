@@ -42,88 +42,102 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(201, 179);
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(176, 158);
             label3.Name = "label3";
-            label3.Size = new Size(69, 20);
+            label3.Size = new Size(54, 15);
             label3.TabIndex = 68;
             label3.Text = "Deskripsi";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(201, 149);
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(176, 125);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(39, 15);
             label2.TabIndex = 67;
             label2.Text = "Harga";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(201, 118);
+            label5.BackColor = Color.Transparent;
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(176, 88);
             label5.Name = "label5";
-            label5.Size = new Size(98, 20);
+            label5.Size = new Size(78, 15);
             label5.TabIndex = 66;
             label5.Text = "Jenis Sampah";
             // 
             // tbJenisSampah
             // 
-            tbJenisSampah.Location = new Point(309, 116);
+            tbJenisSampah.Location = new Point(270, 87);
             tbJenisSampah.Margin = new Padding(2);
             tbJenisSampah.Name = "tbJenisSampah";
-            tbJenisSampah.Size = new Size(121, 27);
+            tbJenisSampah.Size = new Size(106, 23);
             tbJenisSampah.TabIndex = 65;
             // 
             // tbDeskripsi
             // 
-            tbDeskripsi.Location = new Point(309, 176);
+            tbDeskripsi.Location = new Point(270, 156);
             tbDeskripsi.Margin = new Padding(2);
             tbDeskripsi.Name = "tbDeskripsi";
-            tbDeskripsi.Size = new Size(121, 27);
+            tbDeskripsi.Size = new Size(106, 23);
             tbDeskripsi.TabIndex = 63;
             // 
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
-            lblInstruksi.Location = new Point(223, 64);
+            lblInstruksi.BackColor = Color.Transparent;
+            lblInstruksi.Font = new Font("Segoe UI", 16F);
+            lblInstruksi.ForeColor = Color.White;
+            lblInstruksi.Location = new Point(132, 34);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(198, 20);
+            lblInstruksi.Size = new Size(288, 30);
             lblInstruksi.TabIndex = 61;
             lblInstruksi.Text = "Masukkan data jenis sampah";
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(11, 308);
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
+            btnKembali.Location = new Point(16, 219);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(79, 30);
             btnKembali.TabIndex = 70;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // btnSimpan
             // 
-            btnSimpan.Location = new Point(537, 308);
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.ForeColor = Color.Black;
+            btnSimpan.Location = new Point(464, 221);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
-            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.Size = new Size(79, 27);
             btnSimpan.TabIndex = 71;
             btnSimpan.Text = "Simpan";
             btnSimpan.UseVisualStyleBackColor = true;
             // 
             // tbHarga
             // 
-            tbHarga.Location = new Point(309, 146);
+            tbHarga.Location = new Point(270, 122);
             tbHarga.Margin = new Padding(2);
             tbHarga.Name = "tbHarga";
-            tbHarga.Size = new Size(121, 27);
+            tbHarga.Size = new Size(106, 23);
             tbHarga.TabIndex = 72;
             // 
             // Edit_Jenis_Sampah
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(638, 346);
+            BackgroundImage = Properties.Resources.Wireframe___55__1_;
+            ClientSize = new Size(558, 260);
             Controls.Add(tbHarga);
             Controls.Add(btnSimpan);
             Controls.Add(btnKembali);
@@ -133,6 +147,7 @@
             Controls.Add(tbJenisSampah);
             Controls.Add(tbDeskripsi);
             Controls.Add(lblInstruksi);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Edit_Jenis_Sampah";
             Text = "InTrash";
             ResumeLayout(false);
