@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Beranda_Kurir));
             btnLogOut = new Button();
             btnDaftarPenjemputan = new Button();
             label1 = new Label();
@@ -35,15 +36,19 @@
             // 
             // btnLogOut
             // 
+            btnLogOut.BackColor = Color.Red;
+            btnLogOut.ForeColor = Color.White;
             btnLogOut.Location = new Point(12, 330);
             btnLogOut.Name = "btnLogOut";
             btnLogOut.Size = new Size(94, 29);
             btnLogOut.TabIndex = 17;
             btnLogOut.Text = "Log out";
-            btnLogOut.UseVisualStyleBackColor = true;
+            btnLogOut.UseVisualStyleBackColor = false;
             // 
             // btnDaftarPenjemputan
             // 
+            btnDaftarPenjemputan.ForeColor = Color.Black;
+            btnDaftarPenjemputan.Image = (Image)resources.GetObject("btnDaftarPenjemputan.Image");
             btnDaftarPenjemputan.Location = new Point(244, 161);
             btnDaftarPenjemputan.Margin = new Padding(2);
             btnDaftarPenjemputan.Name = "btnDaftarPenjemputan";
@@ -56,6 +61,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Image = (Image)resources.GetObject("label1.Image");
             label1.Location = new Point(181, 29);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
@@ -67,6 +74,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(643, 371);
             Controls.Add(btnLogOut);
             Controls.Add(btnDaftarPenjemputan);
