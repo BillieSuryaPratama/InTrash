@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Beranda_Admin));
             btnJemputSampah = new Button();
             btnProfil = new Button();
             btnReward = new Button();
@@ -42,6 +43,7 @@
             // 
             // btnJemputSampah
             // 
+            btnJemputSampah.Image = (Image)resources.GetObject("btnJemputSampah.Image");
             btnJemputSampah.Location = new Point(154, 229);
             btnJemputSampah.Margin = new Padding(2);
             btnJemputSampah.Name = "btnJemputSampah";
@@ -52,6 +54,8 @@
             // 
             // btnProfil
             // 
+            btnProfil.ForeColor = Color.Black;
+            btnProfil.Image = (Image)resources.GetObject("btnProfil.Image");
             btnProfil.Location = new Point(154, 145);
             btnProfil.Margin = new Padding(2);
             btnProfil.Name = "btnProfil";
@@ -62,6 +66,7 @@
             // 
             // btnReward
             // 
+            btnReward.Image = (Image)resources.GetObject("btnReward.Image");
             btnReward.Location = new Point(154, 186);
             btnReward.Margin = new Padding(2);
             btnReward.Name = "btnReward";
@@ -72,6 +77,7 @@
             // 
             // btnRiwayatTransaksi
             // 
+            btnRiwayatTransaksi.Image = (Image)resources.GetObject("btnRiwayatTransaksi.Image");
             btnRiwayatTransaksi.Location = new Point(154, 273);
             btnRiwayatTransaksi.Margin = new Padding(2);
             btnRiwayatTransaksi.Name = "btnRiwayatTransaksi";
@@ -84,6 +90,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Image = (Image)resources.GetObject("label1.Image");
             label1.Location = new Point(167, 23);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
@@ -93,6 +101,7 @@
             // 
             // btnEditSampah
             // 
+            btnEditSampah.Image = (Image)resources.GetObject("btnEditSampah.Image");
             btnEditSampah.Location = new Point(337, 228);
             btnEditSampah.Name = "btnEditSampah";
             btnEditSampah.Size = new Size(142, 29);
@@ -102,6 +111,7 @@
             // 
             // btnDaftarkanKurir
             // 
+            btnDaftarkanKurir.Image = (Image)resources.GetObject("btnDaftarkanKurir.Image");
             btnDaftarkanKurir.Location = new Point(337, 143);
             btnDaftarkanKurir.Name = "btnDaftarkanKurir";
             btnDaftarkanKurir.Size = new Size(142, 29);
@@ -111,6 +121,7 @@
             // 
             // btnEditKurir
             // 
+            btnEditKurir.Image = (Image)resources.GetObject("btnEditKurir.Image");
             btnEditKurir.Location = new Point(337, 185);
             btnEditKurir.Name = "btnEditKurir";
             btnEditKurir.Size = new Size(142, 29);
@@ -120,15 +131,18 @@
             // 
             // btnLogOut
             // 
+            btnLogOut.BackColor = Color.Red;
+            btnLogOut.ForeColor = Color.White;
             btnLogOut.Location = new Point(12, 319);
             btnLogOut.Name = "btnLogOut";
             btnLogOut.Size = new Size(94, 29);
             btnLogOut.TabIndex = 13;
             btnLogOut.Text = "Log out";
-            btnLogOut.UseVisualStyleBackColor = true;
+            btnLogOut.UseVisualStyleBackColor = false;
             // 
             // btnHapusAkun
             // 
+            btnHapusAkun.Image = (Image)resources.GetObject("btnHapusAkun.Image");
             btnHapusAkun.Location = new Point(337, 273);
             btnHapusAkun.Name = "btnHapusAkun";
             btnHapusAkun.Size = new Size(142, 29);
@@ -140,6 +154,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(640, 360);
             Controls.Add(btnHapusAkun);
             Controls.Add(btnLogOut);
