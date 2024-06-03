@@ -57,7 +57,7 @@
             btnInformasiSampah.Location = new Point(337, 192);
             btnInformasiSampah.Margin = new Padding(2);
             btnInformasiSampah.Name = "btnInformasiSampah";
-            btnInformasiSampah.Size = new Size(142, 27);
+            btnInformasiSampah.Size = new Size(142, 40);
             btnInformasiSampah.TabIndex = 1;
             btnInformasiSampah.Text = "Informasi Sampah";
             btnInformasiSampah.UseVisualStyleBackColor = true;
@@ -68,7 +68,7 @@
             btnSetorSampah.Location = new Point(337, 137);
             btnSetorSampah.Margin = new Padding(2);
             btnSetorSampah.Name = "btnSetorSampah";
-            btnSetorSampah.Size = new Size(142, 27);
+            btnSetorSampah.Size = new Size(142, 40);
             btnSetorSampah.TabIndex = 2;
             btnSetorSampah.Text = "Setor Sampah";
             btnSetorSampah.UseVisualStyleBackColor = true;
@@ -79,7 +79,7 @@
             btnHapusAkun.Location = new Point(248, 251);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
-            btnHapusAkun.Size = new Size(142, 27);
+            btnHapusAkun.Size = new Size(142, 40);
             btnHapusAkun.TabIndex = 3;
             btnHapusAkun.Text = "Hapus Akun";
             btnHapusAkun.UseVisualStyleBackColor = true;
@@ -90,7 +90,7 @@
             btnRiwayatTransaksi.Location = new Point(160, 192);
             btnRiwayatTransaksi.Margin = new Padding(2);
             btnRiwayatTransaksi.Name = "btnRiwayatTransaksi";
-            btnRiwayatTransaksi.Size = new Size(142, 27);
+            btnRiwayatTransaksi.Size = new Size(142, 40);
             btnRiwayatTransaksi.TabIndex = 4;
             btnRiwayatTransaksi.Text = "Riwayat Transaksi";
             btnRiwayatTransaksi.UseVisualStyleBackColor = true;
@@ -101,7 +101,7 @@
             btnProfil.Location = new Point(160, 137);
             btnProfil.Margin = new Padding(2);
             btnProfil.Name = "btnProfil";
-            btnProfil.Size = new Size(142, 27);
+            btnProfil.Size = new Size(142, 40);
             btnProfil.TabIndex = 9;
             btnProfil.Text = "Profil";
             btnProfil.UseVisualStyleBackColor = true;
@@ -110,7 +110,7 @@
             // 
             btnLogOut.BackColor = Color.Red;
             btnLogOut.ForeColor = Color.White;
-            btnLogOut.Location = new Point(12, 312);
+            btnLogOut.Location = new Point(26, 312);
             btnLogOut.Name = "btnLogOut";
             btnLogOut.Size = new Size(94, 29);
             btnLogOut.TabIndex = 10;
