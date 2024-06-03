@@ -43,98 +43,122 @@
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(12, 325);
+            btnKembali.BackColor = Color.Red;
+            btnKembali.Font = new Font("Segoe UI", 9F);
+            btnKembali.ForeColor = Color.White;
+            btnKembali.Location = new Point(14, 322);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(90, 27);
             btnKembali.TabIndex = 51;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // btnSimpan
             // 
-            btnSimpan.Location = new Point(536, 325);
+            btnSimpan.BackColor = Color.LimeGreen;
+            btnSimpan.ForeColor = Color.White;
+            btnSimpan.Location = new Point(532, 320);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
             btnSimpan.Size = new Size(90, 27);
             btnSimpan.TabIndex = 42;
             btnSimpan.Text = "Simpan";
-            btnSimpan.UseVisualStyleBackColor = true;
+            btnSimpan.UseVisualStyleBackColor = false;
             // 
             // tbSandi
             // 
-            tbSandi.Location = new Point(316, 181);
+            tbSandi.Font = new Font("Segoe UI", 10F);
+            tbSandi.Location = new Point(313, 216);
             tbSandi.Margin = new Padding(2);
             tbSandi.Name = "tbSandi";
-            tbSandi.Size = new Size(121, 27);
+            tbSandi.Size = new Size(121, 30);
             tbSandi.TabIndex = 40;
             // 
             // tbUsername
             // 
-            tbUsername.Location = new Point(316, 152);
+            tbUsername.Font = new Font("Segoe UI", 10F);
+            tbUsername.Location = new Point(313, 187);
             tbUsername.Margin = new Padding(2);
             tbUsername.Name = "tbUsername";
-            tbUsername.Size = new Size(121, 27);
+            tbUsername.Size = new Size(121, 30);
             tbUsername.TabIndex = 43;
             // 
             // tbNomorHP
             // 
-            tbNomorHP.Location = new Point(316, 122);
+            tbNomorHP.Font = new Font("Segoe UI", 10F);
+            tbNomorHP.Location = new Point(313, 157);
             tbNomorHP.Margin = new Padding(2);
             tbNomorHP.Name = "tbNomorHP";
-            tbNomorHP.Size = new Size(121, 27);
+            tbNomorHP.Size = new Size(121, 30);
             tbNomorHP.TabIndex = 44;
             // 
             // tbNama
             // 
-            tbNama.Location = new Point(316, 92);
+            tbNama.Font = new Font("Segoe UI", 10F);
+            tbNama.Location = new Point(313, 127);
             tbNama.Margin = new Padding(2);
             tbNama.Name = "tbNama";
-            tbNama.Size = new Size(121, 27);
+            tbNama.Size = new Size(121, 30);
             tbNama.TabIndex = 45;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(208, 94);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 10F);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(189, 129);
             label1.Name = "label1";
-            label1.Size = new Size(49, 20);
+            label1.Size = new Size(56, 23);
             label1.TabIndex = 46;
             label1.Text = "Nama";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(208, 125);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI", 10F);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(189, 160);
             label2.Name = "label2";
-            label2.Size = new Size(79, 20);
+            label2.Size = new Size(91, 23);
             label2.TabIndex = 47;
             label2.Text = "Nomor HP";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(208, 155);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI", 10F);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(189, 190);
             label3.Name = "label3";
-            label3.Size = new Size(75, 20);
+            label3.Size = new Size(87, 23);
             label3.TabIndex = 48;
             label3.Text = "Username";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(208, 184);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI", 10F);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(189, 219);
             label4.Name = "label4";
-            label4.Size = new Size(46, 20);
+            label4.Size = new Size(52, 23);
             label4.TabIndex = 49;
             label4.Text = "Sandi";
             // 
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
-            lblInstruksi.Location = new Point(273, 48);
+            lblInstruksi.BackColor = Color.Transparent;
+            lblInstruksi.Font = new Font("Segoe UI", 13F);
+            lblInstruksi.ForeColor = Color.White;
+            lblInstruksi.Location = new Point(236, 54);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(102, 20);
+            lblInstruksi.Size = new Size(147, 30);
             lblInstruksi.TabIndex = 52;
             lblInstruksi.Text = "Edit data kurir";
             // 
@@ -142,6 +166,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(637, 363);
             Controls.Add(lblInstruksi);
             Controls.Add(btnKembali);
