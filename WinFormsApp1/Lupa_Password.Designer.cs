@@ -43,7 +43,6 @@
             // 
             // btnSimpan
             // 
-            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
             btnSimpan.Location = new Point(274, 196);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
@@ -70,7 +69,6 @@
             // 
             // gbKonfirmasi
             // 
-            gbKonfirmasi.BackgroundImage = Properties.Resources.Wireframe___55;
             gbKonfirmasi.Controls.Add(label3);
             gbKonfirmasi.Controls.Add(btnSetuju);
             gbKonfirmasi.Controls.Add(btnBatal);
@@ -82,7 +80,6 @@
             gbKonfirmasi.TabIndex = 8;
             gbKonfirmasi.TabStop = false;
             gbKonfirmasi.Text = "Ubah Sandi";
-            gbKonfirmasi.Enter += gbKonfirmasi_Enter;
             // 
             // label3
             // 
@@ -158,7 +155,6 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(640, 360);
             Controls.Add(lblInstruksi);
             Controls.Add(label2);
