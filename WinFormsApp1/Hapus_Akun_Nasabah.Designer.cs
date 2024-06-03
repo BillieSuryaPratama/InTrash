@@ -37,34 +37,41 @@
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(12, 319);
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = Color.White;
+            btnKembali.Location = new Point(12, 314);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(94, 29);
             btnKembali.TabIndex = 0;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // btnKonfirmasi
             // 
-            btnKonfirmasi.Location = new Point(533, 319);
+            btnKonfirmasi.BackColor = Color.LimeGreen;
+            btnKonfirmasi.ForeColor = Color.White;
+            btnKonfirmasi.Location = new Point(532, 310);
             btnKonfirmasi.Name = "btnKonfirmasi";
             btnKonfirmasi.Size = new Size(94, 29);
             btnKonfirmasi.TabIndex = 1;
             btnKonfirmasi.Text = "Konfirmasi";
-            btnKonfirmasi.UseVisualStyleBackColor = true;
+            btnKonfirmasi.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(210, 171);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 11F);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(210, 163);
             label1.Name = "label1";
-            label1.Size = new Size(46, 20);
+            label1.Size = new Size(59, 25);
             label1.TabIndex = 2;
             label1.Text = "Sandi";
             // 
             // btnSandi
             // 
-            btnSandi.Location = new Point(321, 168);
+            btnSandi.Location = new Point(286, 163);
             btnSandi.Name = "btnSandi";
             btnSandi.Size = new Size(125, 27);
             btnSandi.TabIndex = 3;
@@ -72,9 +79,12 @@
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
-            lblInstruksi.Location = new Point(111, 107);
+            lblInstruksi.BackColor = Color.Transparent;
+            lblInstruksi.Font = new Font("Segoe UI", 10F);
+            lblInstruksi.ForeColor = Color.White;
+            lblInstruksi.Location = new Point(74, 75);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(429, 20);
+            lblInstruksi.Size = new Size(501, 23);
             lblInstruksi.TabIndex = 4;
             lblInstruksi.Text = "Masukkan sandi anda untuk mengkonfirmasi penghapusan akun";
             // 
@@ -82,6 +92,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(639, 360);
             Controls.Add(lblInstruksi);
             Controls.Add(btnSandi);
