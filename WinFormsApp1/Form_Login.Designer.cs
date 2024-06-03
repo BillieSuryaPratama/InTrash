@@ -68,7 +68,6 @@
             gbLoginSebagai.TabIndex = 7;
             gbLoginSebagai.TabStop = false;
             gbLoginSebagai.Text = "Login Sebagai";
-            gbLoginSebagai.Enter += gbLoginSebagai_Enter;
             // 
             // rbKurir
             // 
