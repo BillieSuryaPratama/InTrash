@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tambah_Sampah));
             btnSimpan = new Button();
             btnKembali = new Button();
             tbKuantitas = new TextBox();
@@ -40,81 +41,100 @@
             // 
             // btnSimpan
             // 
-            btnSimpan.Location = new Point(541, 323);
-            btnSimpan.Margin = new Padding(2, 2, 2, 2);
+            btnSimpan.BackColor = Color.Transparent;
+            btnSimpan.Font = new Font("Palatino Linotype", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnSimpan.Location = new Point(677, 388);
+            btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
-            btnSimpan.Size = new Size(90, 27);
+            btnSimpan.Size = new Size(112, 34);
             btnSimpan.TabIndex = 0;
             btnSimpan.Text = "Simpan";
-            btnSimpan.UseVisualStyleBackColor = true;
+            btnSimpan.UseVisualStyleBackColor = false;
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(10, 323);
-            btnKembali.Margin = new Padding(2, 2, 2, 2);
+            btnKembali.BackColor = Color.DarkSlateGray;
+            btnKembali.Font = new Font("Palatino Linotype", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnKembali.ForeColor = Color.Transparent;
+            btnKembali.Location = new Point(37, 388);
+            btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(90, 27);
+            btnKembali.Size = new Size(112, 34);
             btnKembali.TabIndex = 1;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // tbKuantitas
             // 
-            tbKuantitas.Location = new Point(299, 193);
-            tbKuantitas.Margin = new Padding(2, 2, 2, 2);
+            tbKuantitas.Location = new Point(374, 241);
+            tbKuantitas.Margin = new Padding(2);
             tbKuantitas.Name = "tbKuantitas";
-            tbKuantitas.Size = new Size(121, 27);
+            tbKuantitas.Size = new Size(150, 40);
             tbKuantitas.TabIndex = 3;
             tbKuantitas.TextChanged += textBox2_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(178, 155);
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Palatino Linotype", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.Transparent;
+            label1.Location = new Point(230, 197);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(98, 20);
+            label1.Size = new Size(136, 27);
             label1.TabIndex = 4;
             label1.Text = "Jenis Sampah";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(178, 196);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Palatino Linotype", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Transparent;
+            label2.Location = new Point(239, 241);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(70, 20);
+            label2.Size = new Size(94, 24);
             label2.TabIndex = 5;
             label2.Text = "Kuantitas";
             // 
             // cbSatuan
             // 
             cbSatuan.FormattingEnabled = true;
-            cbSatuan.Location = new Point(425, 193);
+            cbSatuan.Location = new Point(531, 241);
+            cbSatuan.Margin = new Padding(4, 4, 4, 4);
             cbSatuan.Name = "cbSatuan";
-            cbSatuan.Size = new Size(81, 28);
+            cbSatuan.Size = new Size(100, 40);
             cbSatuan.TabIndex = 6;
             // 
             // cbJenisSampah
             // 
             cbJenisSampah.FormattingEnabled = true;
-            cbJenisSampah.Location = new Point(299, 152);
+            cbJenisSampah.Location = new Point(374, 190);
+            cbJenisSampah.Margin = new Padding(4, 4, 4, 4);
             cbJenisSampah.Name = "cbJenisSampah";
-            cbJenisSampah.Size = new Size(121, 28);
+            cbJenisSampah.Size = new Size(150, 40);
             cbJenisSampah.TabIndex = 7;
             // 
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
-            lblInstruksi.Location = new Point(109, 87);
+            lblInstruksi.BackColor = Color.Transparent;
+            lblInstruksi.Font = new Font("Palatino Linotype", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblInstruksi.ForeColor = Color.Transparent;
+            lblInstruksi.Location = new Point(100, 129);
+            lblInstruksi.Margin = new Padding(4, 0, 4, 0);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(436, 20);
+            lblInstruksi.Size = new Size(656, 29);
             lblInstruksi.TabIndex = 8;
             lblInstruksi.Text = "Masukkan jenis sampah yang ingin anda tambahkan kedalam list";
             // 
             // Tambah_Sampah
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 360);
+            AutoScaleMode = AutoScaleMode.None;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            ClientSize = new Size(800, 450);
             Controls.Add(lblInstruksi);
             Controls.Add(cbJenisSampah);
             Controls.Add(cbSatuan);
@@ -123,7 +143,8 @@
             Controls.Add(tbKuantitas);
             Controls.Add(btnKembali);
             Controls.Add(btnSimpan);
-            Margin = new Padding(2, 2, 2, 2);
+            Font = new Font("Palatino Linotype", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(2);
             Name = "Tambah_Sampah";
             Text = "InTrash";
             ResumeLayout(false);
