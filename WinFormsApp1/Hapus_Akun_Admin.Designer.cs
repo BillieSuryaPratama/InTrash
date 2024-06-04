@@ -69,7 +69,7 @@
             // btnKonfirmasi
             // 
             btnKonfirmasi.BackgroundImage = Properties.Resources.Wireframe___56;
-            btnKonfirmasi.Location = new Point(454, 217);
+            btnKonfirmasi.Location = new Point(451, 217);
             btnKonfirmasi.Margin = new Padding(3, 2, 3, 2);
             btnKonfirmasi.Name = "btnKonfirmasi";
             btnKonfirmasi.Size = new Size(82, 34);
