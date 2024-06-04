@@ -52,7 +52,7 @@
             btnSignUp.TabIndex = 6;
             btnSignUp.Text = "Sign up";
             btnSignUp.UseVisualStyleBackColor = true;
-            btnSignUp.Click += button2_Click;
+            btnSignUp.Click += Button2_Click;
             // 
             // gbLoginSebagai
             // 
@@ -117,7 +117,7 @@
             label1.Size = new Size(60, 15);
             label1.TabIndex = 8;
             label1.Text = "Username";
-            label1.Click += label1_Click;
+            label1.Click += Label1_Click;
             // 
             // label2
             // 
