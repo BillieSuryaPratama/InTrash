@@ -67,7 +67,7 @@
             // 
             // btnSimpan
             // 
-            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe_56;
             btnSimpan.ForeColor = Color.Black;
             btnSimpan.Location = new Point(469, 221);
             btnSimpan.Margin = new Padding(2);
