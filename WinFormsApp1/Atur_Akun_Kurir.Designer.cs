@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Atur_Akun_Kurir));
             btnKembali = new Button();
             tbEdit = new TextBox();
             btnEditAkun = new Button();
@@ -94,7 +93,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(637, 350);
             Controls.Add(btnHapusAkun);
             Controls.Add(btnKembali);
