@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Atur_Jenis_Sampah));
             btnKembali = new Button();
             tbEdit = new TextBox();
             btnEditTambah = new Button();
@@ -58,8 +57,7 @@
             // 
             // btnEditTambah
             // 
-            btnEditTambah.BackColor = Color.Black;
-            btnEditTambah.BackgroundImage = (Image)resources.GetObject("btnEditTambah.BackgroundImage");
+            btnEditTambah.BackColor = Color.MediumTurquoise;
             btnEditTambah.Location = new Point(493, 261);
             btnEditTambah.Margin = new Padding(2, 3, 2, 3);
             btnEditTambah.Name = "btnEditTambah";

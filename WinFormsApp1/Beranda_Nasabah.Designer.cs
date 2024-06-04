@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Beranda_Nasabah));
             label1 = new Label();
             btnInformasiSampah = new Button();
             btnSetorSampah = new Button();
@@ -43,7 +42,6 @@
             label1.AutoSize = true;
             label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Image = (Image)resources.GetObject("label1.Image");
             label1.Location = new Point(169, 27);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
@@ -53,58 +51,58 @@
             // 
             // btnInformasiSampah
             // 
-            btnInformasiSampah.Image = (Image)resources.GetObject("btnInformasiSampah.Image");
+            btnInformasiSampah.BackColor = Color.MediumTurquoise;
             btnInformasiSampah.Location = new Point(337, 192);
             btnInformasiSampah.Margin = new Padding(2);
             btnInformasiSampah.Name = "btnInformasiSampah";
             btnInformasiSampah.Size = new Size(142, 40);
             btnInformasiSampah.TabIndex = 1;
             btnInformasiSampah.Text = "Informasi Sampah";
-            btnInformasiSampah.UseVisualStyleBackColor = true;
+            btnInformasiSampah.UseVisualStyleBackColor = false;
             // 
             // btnSetorSampah
             // 
-            btnSetorSampah.Image = (Image)resources.GetObject("btnSetorSampah.Image");
+            btnSetorSampah.BackColor = Color.MediumTurquoise;
             btnSetorSampah.Location = new Point(337, 137);
             btnSetorSampah.Margin = new Padding(2);
             btnSetorSampah.Name = "btnSetorSampah";
             btnSetorSampah.Size = new Size(142, 40);
             btnSetorSampah.TabIndex = 2;
             btnSetorSampah.Text = "Setor Sampah";
-            btnSetorSampah.UseVisualStyleBackColor = true;
+            btnSetorSampah.UseVisualStyleBackColor = false;
             // 
             // btnHapusAkun
             // 
-            btnHapusAkun.Image = (Image)resources.GetObject("btnHapusAkun.Image");
+            btnHapusAkun.BackColor = Color.MediumTurquoise;
             btnHapusAkun.Location = new Point(248, 251);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
             btnHapusAkun.Size = new Size(142, 40);
             btnHapusAkun.TabIndex = 3;
             btnHapusAkun.Text = "Hapus Akun";
-            btnHapusAkun.UseVisualStyleBackColor = true;
+            btnHapusAkun.UseVisualStyleBackColor = false;
             // 
             // btnRiwayatTransaksi
             // 
-            btnRiwayatTransaksi.Image = (Image)resources.GetObject("btnRiwayatTransaksi.Image");
+            btnRiwayatTransaksi.BackColor = Color.MediumTurquoise;
             btnRiwayatTransaksi.Location = new Point(160, 192);
             btnRiwayatTransaksi.Margin = new Padding(2);
             btnRiwayatTransaksi.Name = "btnRiwayatTransaksi";
             btnRiwayatTransaksi.Size = new Size(142, 40);
             btnRiwayatTransaksi.TabIndex = 4;
             btnRiwayatTransaksi.Text = "Riwayat Transaksi";
-            btnRiwayatTransaksi.UseVisualStyleBackColor = true;
+            btnRiwayatTransaksi.UseVisualStyleBackColor = false;
             // 
             // btnProfil
             // 
-            btnProfil.Image = (Image)resources.GetObject("btnProfil.Image");
+            btnProfil.BackColor = Color.MediumTurquoise;
             btnProfil.Location = new Point(160, 137);
             btnProfil.Margin = new Padding(2);
             btnProfil.Name = "btnProfil";
             btnProfil.Size = new Size(142, 40);
             btnProfil.TabIndex = 9;
             btnProfil.Text = "Profil";
-            btnProfil.UseVisualStyleBackColor = true;
+            btnProfil.UseVisualStyleBackColor = false;
             // 
             // btnLogOut
             // 
@@ -121,7 +119,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.Teal;
             ClientSize = new Size(640, 360);
             Controls.Add(btnLogOut);
             Controls.Add(btnProfil);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Beranda_Admin));
             btnJemputSampah = new Button();
             btnProfil = new Button();
             btnReward = new Button();
@@ -43,86 +42,87 @@
             // 
             // btnJemputSampah
             // 
-            btnJemputSampah.Image = (Image)resources.GetObject("btnJemputSampah.Image");
+            btnJemputSampah.BackColor = Color.MediumTurquoise;
             btnJemputSampah.Location = new Point(154, 222);
             btnJemputSampah.Margin = new Padding(2);
             btnJemputSampah.Name = "btnJemputSampah";
             btnJemputSampah.Size = new Size(142, 40);
             btnJemputSampah.TabIndex = 9;
             btnJemputSampah.Text = "Jemput Sampah";
-            btnJemputSampah.UseVisualStyleBackColor = true;
+            btnJemputSampah.UseVisualStyleBackColor = false;
             // 
             // btnProfil
             // 
+            btnProfil.BackColor = Color.MediumTurquoise;
             btnProfil.ForeColor = Color.Black;
-            btnProfil.Image = (Image)resources.GetObject("btnProfil.Image");
             btnProfil.Location = new Point(154, 133);
             btnProfil.Margin = new Padding(2);
             btnProfil.Name = "btnProfil";
             btnProfil.Size = new Size(142, 37);
             btnProfil.TabIndex = 8;
             btnProfil.Text = "Profil";
-            btnProfil.UseVisualStyleBackColor = true;
+            btnProfil.UseVisualStyleBackColor = false;
             // 
             // btnReward
             // 
-            btnReward.Image = (Image)resources.GetObject("btnReward.Image");
+            btnReward.BackColor = Color.MediumTurquoise;
             btnReward.Location = new Point(154, 177);
             btnReward.Margin = new Padding(2);
             btnReward.Name = "btnReward";
             btnReward.Size = new Size(142, 39);
             btnReward.TabIndex = 7;
             btnReward.Text = "Reward";
-            btnReward.UseVisualStyleBackColor = true;
+            btnReward.UseVisualStyleBackColor = false;
+            btnReward.Click += btnReward_Click;
             // 
             // btnRiwayatTransaksi
             // 
-            btnRiwayatTransaksi.Image = (Image)resources.GetObject("btnRiwayatTransaksi.Image");
+            btnRiwayatTransaksi.BackColor = Color.MediumTurquoise;
             btnRiwayatTransaksi.Location = new Point(154, 268);
             btnRiwayatTransaksi.Margin = new Padding(2);
             btnRiwayatTransaksi.Name = "btnRiwayatTransaksi";
             btnRiwayatTransaksi.Size = new Size(142, 40);
             btnRiwayatTransaksi.TabIndex = 6;
             btnRiwayatTransaksi.Text = "Riwayat Transaksi";
-            btnRiwayatTransaksi.UseVisualStyleBackColor = true;
+            btnRiwayatTransaksi.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Teal;
             label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Image = (Image)resources.GetObject("label1.Image");
             label1.Location = new Point(167, 23);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(300, 74);
             label1.TabIndex = 5;
             label1.Text = "Beranda";
+            label1.Click += label1_Click;
             // 
             // btnEditSampah
             // 
-            btnEditSampah.Image = (Image)resources.GetObject("btnEditSampah.Image");
+            btnEditSampah.BackColor = Color.MediumTurquoise;
             btnEditSampah.Location = new Point(337, 222);
             btnEditSampah.Name = "btnEditSampah";
             btnEditSampah.Size = new Size(142, 41);
             btnEditSampah.TabIndex = 10;
             btnEditSampah.Text = "Edit Data Sampah";
-            btnEditSampah.UseVisualStyleBackColor = true;
+            btnEditSampah.UseVisualStyleBackColor = false;
             // 
             // btnDaftarkanKurir
             // 
-            btnDaftarkanKurir.Image = (Image)resources.GetObject("btnDaftarkanKurir.Image");
+            btnDaftarkanKurir.BackColor = Color.MediumTurquoise;
             btnDaftarkanKurir.Location = new Point(337, 131);
             btnDaftarkanKurir.Name = "btnDaftarkanKurir";
             btnDaftarkanKurir.Size = new Size(142, 39);
             btnDaftarkanKurir.TabIndex = 11;
             btnDaftarkanKurir.Text = "Daftarkan Kurir";
-            btnDaftarkanKurir.UseVisualStyleBackColor = true;
+            btnDaftarkanKurir.UseVisualStyleBackColor = false;
             // 
             // btnEditKurir
             // 
-            btnEditKurir.BackColor = SystemColors.ControlDarkDark;
-            btnEditKurir.Image = (Image)resources.GetObject("btnEditKurir.Image");
+            btnEditKurir.BackColor = Color.MediumTurquoise;
             btnEditKurir.Location = new Point(337, 176);
             btnEditKurir.Name = "btnEditKurir";
             btnEditKurir.Size = new Size(142, 40);
@@ -143,19 +143,19 @@
             // 
             // btnHapusAkun
             // 
-            btnHapusAkun.Image = (Image)resources.GetObject("btnHapusAkun.Image");
+            btnHapusAkun.BackColor = Color.MediumTurquoise;
             btnHapusAkun.Location = new Point(337, 268);
             btnHapusAkun.Name = "btnHapusAkun";
             btnHapusAkun.Size = new Size(142, 40);
             btnHapusAkun.TabIndex = 14;
             btnHapusAkun.Text = "Hapus Akun";
-            btnHapusAkun.UseVisualStyleBackColor = true;
+            btnHapusAkun.UseVisualStyleBackColor = false;
             // 
             // Beranda_Admin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.Teal;
             ClientSize = new Size(640, 360);
             Controls.Add(btnHapusAkun);
             Controls.Add(btnLogOut);
