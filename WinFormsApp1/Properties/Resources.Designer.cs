@@ -35,6 +35,7 @@ namespace WinFormsApp1.Properties {
 
         public static Image Wireframe_55_1_ { get; internal set; }
         public static Image Wireframe_56 { get; internal set; }
+        public static Image Wireframe___56 { get; internal set; }
 
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
