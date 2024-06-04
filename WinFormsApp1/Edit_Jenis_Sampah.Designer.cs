@@ -136,7 +136,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55__1_;
+            BackgroundImage = Properties.Resources.Wireframe_55_1_;
             ClientSize = new Size(558, 260);
             Controls.Add(tbHarga);
             Controls.Add(btnSimpan);
