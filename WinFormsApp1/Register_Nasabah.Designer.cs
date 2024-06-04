@@ -47,14 +47,13 @@
             // 
             lblInstruksi.AutoSize = true;
             lblInstruksi.BackColor = Color.Transparent;
-            lblInstruksi.Font = new Font("Segoe UI", 12F);
+            lblInstruksi.Font = new Font("Segoe UI", 13F);
             lblInstruksi.ForeColor = Color.White;
             lblInstruksi.Location = new Point(188, 58);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(280, 28);
+            lblInstruksi.Size = new Size(308, 30);
             lblInstruksi.TabIndex = 39;
             lblInstruksi.Text = "Daftarkan diri sebagai nasabah";
-            lblInstruksi.Click += lblInstruksi_Click;
             // 
             // btnKembali
             // 
