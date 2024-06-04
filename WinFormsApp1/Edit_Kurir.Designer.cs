@@ -67,7 +67,7 @@
             // 
             // btnSimpan
             // 
-            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe_56;
             btnSimpan.ForeColor = Color.Black;
             btnSimpan.Location = new Point(469, 221);
             btnSimpan.Margin = new Padding(2);
@@ -157,7 +157,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55__1_;
+            BackgroundImage = Properties.Resources.Wireframe_55_1_;
             ClientSize = new Size(557, 257);
             Controls.Add(label4);
             Controls.Add(label3);
