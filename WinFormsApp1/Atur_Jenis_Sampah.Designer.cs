@@ -83,7 +83,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(637, 348);
             Controls.Add(btnKembali);
             Controls.Add(tbEdit);
