@@ -129,7 +129,6 @@
             tbNama.Size = new Size(106, 23);
             tbNama.TabIndex = 56;
             // 
-
             // tbNomorHP
             // 
             tbNomorHP.Location = new Point(273, 97);
@@ -158,7 +157,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe_55_1_;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(557, 257);
             Controls.Add(label4);
             Controls.Add(label3);
