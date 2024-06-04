@@ -114,7 +114,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55__1_;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(557, 260);
             Controls.Add(tbSandi);
             Controls.Add(label2);
