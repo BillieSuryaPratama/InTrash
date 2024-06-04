@@ -154,11 +154,11 @@
             // 
             lblInstruksi.AutoSize = true;
             lblInstruksi.BackColor = Color.Transparent;
-            lblInstruksi.Font = new Font("Segoe UI", 13F);
+            lblInstruksi.Font = new Font("Segoe UI", 14F);
             lblInstruksi.ForeColor = Color.White;
             lblInstruksi.Location = new Point(236, 54);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(147, 30);
+            lblInstruksi.Size = new Size(162, 32);
             lblInstruksi.TabIndex = 52;
             lblInstruksi.Text = "Edit data kurir";
             // 
