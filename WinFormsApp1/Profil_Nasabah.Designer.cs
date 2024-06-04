@@ -47,7 +47,6 @@
             // 
             // btnUbahSandi
             // 
-            btnUbahSandi.BackgroundImage = Properties.Resources.Wireframe___56;
             btnUbahSandi.Font = new Font("Segoe UI", 10F);
             btnUbahSandi.Location = new Point(273, 296);
             btnUbahSandi.Name = "btnUbahSandi";
@@ -205,7 +204,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55;
+            BackColor = Color.Teal;
             ClientSize = new Size(640, 360);
             Controls.Add(btnUbahSandi);
             Controls.Add(label8);

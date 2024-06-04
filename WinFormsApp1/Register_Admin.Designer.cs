@@ -183,7 +183,7 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55;
+            BackColor = Color.Teal;
             ClientSize = new Size(720, 414);
             Controls.Add(lblInstruksi);
             Controls.Add(btnKembali);
