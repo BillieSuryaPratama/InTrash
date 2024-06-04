@@ -193,6 +193,7 @@
             // btnUbahSandi
             // 
             btnUbahSandi.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnUbahSandi.Font = new Font("Segoe UI", 10F);
             btnUbahSandi.Location = new Point(273, 294);
             btnUbahSandi.Name = "btnUbahSandi";
             btnUbahSandi.Size = new Size(94, 29);
