@@ -191,7 +191,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55__1_;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(560, 270);
             Controls.Add(lblInstruksi);
             Controls.Add(gbKonfirmasi);
