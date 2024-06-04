@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Alamat_Penjemputan));
             dgvListAlamat = new DataGridView();
             btnKembali = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvListAlamat).BeginInit();
@@ -60,7 +59,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(639, 346);
             Controls.Add(btnKembali);
             Controls.Add(dgvListAlamat);
