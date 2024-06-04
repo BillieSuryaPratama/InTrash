@@ -80,11 +80,11 @@
             // 
             lblInstruksi.AutoSize = true;
             lblInstruksi.BackColor = Color.Transparent;
-            lblInstruksi.Font = new Font("Segoe UI", 10F);
+            lblInstruksi.Font = new Font("Segoe UI", 11F);
             lblInstruksi.ForeColor = Color.White;
-            lblInstruksi.Location = new Point(74, 75);
+            lblInstruksi.Location = new Point(49, 75);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(501, 23);
+            lblInstruksi.Size = new Size(554, 25);
             lblInstruksi.TabIndex = 4;
             lblInstruksi.Text = "Masukkan sandi anda untuk mengkonfirmasi penghapusan akun";
             // 
