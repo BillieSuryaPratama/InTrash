@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tambah_Sampah));
             btnSimpan = new Button();
             btnKembali = new Button();
             tbKuantitas = new TextBox();
@@ -103,7 +102,7 @@
             // 
             cbSatuan.FormattingEnabled = true;
             cbSatuan.Location = new Point(531, 241);
-            cbSatuan.Margin = new Padding(4, 4, 4, 4);
+            cbSatuan.Margin = new Padding(4);
             cbSatuan.Name = "cbSatuan";
             cbSatuan.Size = new Size(100, 40);
             cbSatuan.TabIndex = 6;
@@ -112,7 +111,7 @@
             // 
             cbJenisSampah.FormattingEnabled = true;
             cbJenisSampah.Location = new Point(374, 190);
-            cbJenisSampah.Margin = new Padding(4, 4, 4, 4);
+            cbJenisSampah.Margin = new Padding(4);
             cbJenisSampah.Name = "cbJenisSampah";
             cbJenisSampah.Size = new Size(150, 40);
             cbJenisSampah.TabIndex = 7;
@@ -133,7 +132,7 @@
             // Tambah_Sampah
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackColor = Color.CadetBlue;
             ClientSize = new Size(800, 450);
             Controls.Add(lblInstruksi);
             Controls.Add(cbJenisSampah);
