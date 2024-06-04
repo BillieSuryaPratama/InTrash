@@ -129,6 +129,7 @@
             tbNama.Size = new Size(106, 23);
             tbNama.TabIndex = 56;
             // 
+
             // tbNomorHP
             // 
             tbNomorHP.Location = new Point(273, 97);
