@@ -61,7 +61,6 @@
             // btnEditAkun
             // 
             btnEditAkun.BackColor = SystemColors.Control;
-            btnEditAkun.Image = (Image)resources.GetObject("btnEditAkun.Image");
             btnEditAkun.Location = new Point(502, 258);
             btnEditAkun.Margin = new Padding(2);
             btnEditAkun.Name = "btnEditAkun";
@@ -83,7 +82,6 @@
             // 
             // btnHapusAkun
             // 
-            btnHapusAkun.Image = (Image)resources.GetObject("btnHapusAkun.Image");
             btnHapusAkun.Location = new Point(502, 299);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
