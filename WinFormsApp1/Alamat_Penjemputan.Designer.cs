@@ -60,6 +60,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(639, 346);
             Controls.Add(btnKembali);
             Controls.Add(dgvListAlamat);

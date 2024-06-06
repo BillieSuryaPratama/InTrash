@@ -47,6 +47,8 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.ForeColor = Color.White;
             label1.Location = new Point(58, 18);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
@@ -57,6 +59,8 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.ForeColor = Color.White;
             label4.Location = new Point(218, 47);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
@@ -66,6 +70,8 @@
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.ForeColor = Color.White;
             label6.Location = new Point(58, 47);
             label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
@@ -76,6 +82,8 @@
             // label8
             // 
             label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.ForeColor = Color.White;
             label8.Location = new Point(58, 111);
             label8.Margin = new Padding(2, 0, 2, 0);
             label8.Name = "label8";
@@ -96,6 +104,8 @@
             // label10
             // 
             label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
+            label10.ForeColor = Color.White;
             label10.Location = new Point(58, 78);
             label10.Margin = new Padding(2, 0, 2, 0);
             label10.Name = "label10";
@@ -105,27 +115,32 @@
             // 
             // btnKonfirmasi
             // 
+            btnKonfirmasi.BackColor = Color.MediumTurquoise;
+            btnKonfirmasi.BackgroundImage = Properties.Resources.Wireframe___56;
             btnKonfirmasi.Location = new Point(540, 322);
             btnKonfirmasi.Margin = new Padding(2);
             btnKonfirmasi.Name = "btnKonfirmasi";
             btnKonfirmasi.Size = new Size(89, 27);
             btnKonfirmasi.TabIndex = 46;
             btnKonfirmasi.Text = "Konfirmasi";
-            btnKonfirmasi.UseVisualStyleBackColor = true;
+            btnKonfirmasi.UseVisualStyleBackColor = false;
             // 
             // btnKembali
             // 
+            btnKembali.BackColor = Color.Red;
             btnKembali.Location = new Point(10, 323);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(90, 27);
             btnKembali.TabIndex = 25;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.ForeColor = Color.White;
             label2.Location = new Point(58, 150);
             label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
@@ -136,6 +151,8 @@
             // lblMetodePencairan
             // 
             lblMetodePencairan.AutoSize = true;
+            lblMetodePencairan.BackColor = Color.Transparent;
+            lblMetodePencairan.ForeColor = Color.White;
             lblMetodePencairan.Location = new Point(218, 111);
             lblMetodePencairan.Name = "lblMetodePencairan";
             lblMetodePencairan.Size = new Size(59, 20);
@@ -145,6 +162,8 @@
             // lblDeskripsi
             // 
             lblDeskripsi.AutoSize = true;
+            lblDeskripsi.BackColor = Color.Transparent;
+            lblDeskripsi.ForeColor = Color.White;
             lblDeskripsi.Location = new Point(218, 78);
             lblDeskripsi.Name = "lblDeskripsi";
             lblDeskripsi.Size = new Size(59, 20);
@@ -154,6 +173,8 @@
             // lblAlamat
             // 
             lblAlamat.AutoSize = true;
+            lblAlamat.BackColor = Color.Transparent;
+            lblAlamat.ForeColor = Color.White;
             lblAlamat.Location = new Point(218, 47);
             lblAlamat.Name = "lblAlamat";
             lblAlamat.Size = new Size(59, 20);
@@ -163,6 +184,8 @@
             // lblNama
             // 
             lblNama.AutoSize = true;
+            lblNama.BackColor = Color.Transparent;
+            lblNama.ForeColor = Color.White;
             lblNama.Location = new Point(218, 18);
             lblNama.Name = "lblNama";
             lblNama.Size = new Size(59, 20);
@@ -173,6 +196,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Honeydew;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(640, 360);
             Controls.Add(lblNama);
             Controls.Add(lblAlamat);

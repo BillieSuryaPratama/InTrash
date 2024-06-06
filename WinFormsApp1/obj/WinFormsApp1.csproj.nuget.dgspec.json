@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\ProjectPBO_InTrash\\WinFormsApp1\\obj\\",
+        "outputPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\Project_InTrash\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

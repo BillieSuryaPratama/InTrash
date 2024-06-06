@@ -59,7 +59,9 @@
             // 
             // btnEditAkun
             // 
-            btnEditAkun.BackColor = SystemColors.Control;
+            btnEditAkun.BackColor = Color.MediumTurquoise;
+            btnEditAkun.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnEditAkun.ForeColor = Color.Black;
             btnEditAkun.Location = new Point(502, 258);
             btnEditAkun.Margin = new Padding(2);
             btnEditAkun.Name = "btnEditAkun";
@@ -81,19 +83,22 @@
             // 
             // btnHapusAkun
             // 
+            btnHapusAkun.BackColor = Color.MediumTurquoise;
+            btnHapusAkun.BackgroundImage = Properties.Resources.Wireframe___56;
             btnHapusAkun.Location = new Point(502, 299);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
             btnHapusAkun.Size = new Size(106, 27);
             btnHapusAkun.TabIndex = 45;
             btnHapusAkun.Text = "Hapus Akun";
-            btnHapusAkun.UseVisualStyleBackColor = true;
+            btnHapusAkun.UseVisualStyleBackColor = false;
             // 
             // Atur_Akun_Kurir
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(637, 350);
             Controls.Add(btnHapusAkun);
             Controls.Add(btnKembali);

@@ -73,7 +73,6 @@
             btnReward.TabIndex = 7;
             btnReward.Text = "Reward";
             btnReward.UseVisualStyleBackColor = false;
-            btnReward.Click += btnReward_Click;
             // 
             // btnRiwayatTransaksi
             // 
@@ -98,7 +97,6 @@
             label1.Size = new Size(300, 74);
             label1.TabIndex = 5;
             label1.Text = "Beranda";
-            label1.Click += label1_Click;
             // 
             // btnEditSampah
             // 

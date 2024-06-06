@@ -47,6 +47,7 @@
             // 
             // btnUbahSandi
             // 
+            btnUbahSandi.BackgroundImage = Properties.Resources.Wireframe___56;
             btnUbahSandi.Font = new Font("Segoe UI", 10F);
             btnUbahSandi.Location = new Point(273, 296);
             btnUbahSandi.Name = "btnUbahSandi";
@@ -151,7 +152,8 @@
             // btnSimpan
             // 
             btnSimpan.BackColor = Color.LimeGreen;
-            btnSimpan.ForeColor = Color.White;
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.ForeColor = Color.Black;
             btnSimpan.Location = new Point(539, 322);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
@@ -205,6 +207,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(640, 360);
             Controls.Add(btnUbahSandi);
             Controls.Add(label8);

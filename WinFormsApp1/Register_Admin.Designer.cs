@@ -70,7 +70,8 @@
             // btnSimpan
             // 
             btnSimpan.BackColor = Color.LimeGreen;
-            btnSimpan.ForeColor = Color.White;
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnSimpan.ForeColor = Color.Black;
             btnSimpan.Location = new Point(592, 355);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
@@ -184,6 +185,7 @@
             AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(720, 414);
             Controls.Add(lblInstruksi);
             Controls.Add(btnKembali);

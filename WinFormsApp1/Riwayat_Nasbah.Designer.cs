@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Riwayat_Nasbah));
             dgvRiwayatTransaksi = new DataGridView();
             btnKembali = new Button();
             btnBulan = new Button();
@@ -40,69 +39,69 @@
             // 
             // dgvRiwayatTransaksi
             // 
-            dgvRiwayatTransaksi.BackgroundColor = Color.DarkSlateGray;
+            dgvRiwayatTransaksi.BackgroundColor = Color.Gainsboro;
             dgvRiwayatTransaksi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRiwayatTransaksi.Location = new Point(31, 29);
+            dgvRiwayatTransaksi.Location = new Point(25, 23);
             dgvRiwayatTransaksi.Margin = new Padding(2);
             dgvRiwayatTransaksi.Name = "dgvRiwayatTransaksi";
             dgvRiwayatTransaksi.RowHeadersWidth = 62;
-            dgvRiwayatTransaksi.Size = new Size(729, 285);
+            dgvRiwayatTransaksi.Size = new Size(583, 228);
             dgvRiwayatTransaksi.TabIndex = 0;
             // 
             // btnKembali
             // 
-            btnKembali.BackColor = Color.DarkCyan;
+            btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.Transparent;
-            btnKembali.Location = new Point(31, 388);
+            btnKembali.Location = new Point(25, 310);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(112, 34);
+            btnKembali.Size = new Size(90, 27);
             btnKembali.TabIndex = 25;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
             // 
             // btnBulan
             // 
-            btnBulan.Location = new Point(554, 332);
+            btnBulan.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnBulan.Location = new Point(443, 266);
             btnBulan.Margin = new Padding(2);
             btnBulan.Name = "btnBulan";
-            btnBulan.Size = new Size(185, 34);
+            btnBulan.Size = new Size(148, 27);
             btnBulan.TabIndex = 26;
             btnBulan.Text = "Riwayat per bulan";
             btnBulan.UseVisualStyleBackColor = true;
             // 
             // btnTahun
             // 
-            btnTahun.Location = new Point(554, 388);
+            btnTahun.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnTahun.Location = new Point(443, 310);
             btnTahun.Margin = new Padding(2);
             btnTahun.Name = "btnTahun";
-            btnTahun.Size = new Size(185, 34);
+            btnTahun.Size = new Size(148, 27);
             btnTahun.TabIndex = 27;
             btnTahun.Text = "Riwayat per tahun";
             btnTahun.UseVisualStyleBackColor = true;
             // 
             // tbBulan
             // 
-            tbBulan.Location = new Point(328, 332);
-            tbBulan.Margin = new Padding(4, 4, 4, 4);
+            tbBulan.Location = new Point(262, 266);
             tbBulan.Name = "tbBulan";
-            tbBulan.Size = new Size(206, 31);
+            tbBulan.Size = new Size(166, 27);
             tbBulan.TabIndex = 28;
             // 
             // tbTahun
             // 
-            tbTahun.Location = new Point(328, 388);
-            tbTahun.Margin = new Padding(4, 4, 4, 4);
+            tbTahun.Location = new Point(262, 310);
             tbTahun.Name = "tbTahun";
-            tbTahun.Size = new Size(206, 31);
+            tbTahun.Size = new Size(166, 27);
             tbTahun.TabIndex = 29;
             // 
             // Riwayat_Nasbah
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(800, 450);
+            BackColor = Color.Teal;
+            ClientSize = new Size(640, 360);
             Controls.Add(tbTahun);
             Controls.Add(tbBulan);
             Controls.Add(btnTahun);

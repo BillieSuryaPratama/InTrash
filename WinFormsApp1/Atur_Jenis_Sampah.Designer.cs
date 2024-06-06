@@ -58,6 +58,7 @@
             // btnEditTambah
             // 
             btnEditTambah.BackColor = Color.MediumTurquoise;
+            btnEditTambah.BackgroundImage = Properties.Resources.Wireframe___56;
             btnEditTambah.Location = new Point(493, 261);
             btnEditTambah.Margin = new Padding(2, 3, 2, 3);
             btnEditTambah.Name = "btnEditTambah";
@@ -82,6 +83,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(637, 348);
             Controls.Add(btnKembali);
             Controls.Add(tbEdit);

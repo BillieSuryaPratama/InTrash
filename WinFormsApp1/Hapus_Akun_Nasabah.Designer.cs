@@ -48,7 +48,8 @@
             // 
             // btnKonfirmasi
             // 
-            btnKonfirmasi.BackColor = Color.LimeGreen;
+            btnKonfirmasi.BackColor = Color.MediumTurquoise;
+            btnKonfirmasi.BackgroundImage = Properties.Resources.Wireframe___56;
             btnKonfirmasi.ForeColor = Color.White;
             btnKonfirmasi.Location = new Point(532, 310);
             btnKonfirmasi.Name = "btnKonfirmasi";
@@ -93,6 +94,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(639, 360);
             Controls.Add(lblInstruksi);
             Controls.Add(btnSandi);

@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Verifikasi_NoHP));
             btnBerikutnya = new Button();
             tbNomorHP = new TextBox();
             lblInstruksi = new Label();
@@ -38,20 +37,21 @@
             // 
             // btnBerikutnya
             // 
-            btnBerikutnya.Location = new Point(655, 366);
+            btnBerikutnya.BackgroundImage = Properties.Resources.Wireframe___56;
+            btnBerikutnya.Location = new Point(524, 293);
             btnBerikutnya.Margin = new Padding(2);
             btnBerikutnya.Name = "btnBerikutnya";
-            btnBerikutnya.Size = new Size(112, 34);
+            btnBerikutnya.Size = new Size(90, 27);
             btnBerikutnya.TabIndex = 0;
             btnBerikutnya.Text = "Berikutnya";
             btnBerikutnya.UseVisualStyleBackColor = true;
             // 
             // tbNomorHP
             // 
-            tbNomorHP.Location = new Point(286, 246);
+            tbNomorHP.Location = new Point(229, 197);
             tbNomorHP.Margin = new Padding(2);
             tbNomorHP.Name = "tbNomorHP";
-            tbNomorHP.Size = new Size(215, 31);
+            tbNomorHP.Size = new Size(173, 27);
             tbNomorHP.TabIndex = 1;
             // 
             // lblInstruksi
@@ -60,10 +60,9 @@
             lblInstruksi.BackColor = Color.Transparent;
             lblInstruksi.Font = new Font("Perpetua", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblInstruksi.ForeColor = SystemColors.ButtonHighlight;
-            lblInstruksi.Location = new Point(173, 142);
-            lblInstruksi.Margin = new Padding(4, 0, 4, 0);
+            lblInstruksi.Location = new Point(138, 114);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(447, 28);
+            lblInstruksi.Size = new Size(367, 23);
             lblInstruksi.TabIndex = 2;
             lblInstruksi.Text = "Masukkan nomor HP anda sebagai tahap verifikasi";
             // 
@@ -72,30 +71,30 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.ForeColor = Color.Transparent;
-            label2.Location = new Point(343, 201);
-            label2.Margin = new Padding(4, 0, 4, 0);
+            label2.Location = new Point(274, 161);
             label2.Name = "label2";
-            label2.Size = new Size(97, 25);
+            label2.Size = new Size(79, 20);
             label2.TabIndex = 3;
             label2.Text = "Nomor HP";
             // 
             // btnKembali
             // 
-            btnKembali.Location = new Point(28, 366);
+            btnKembali.BackColor = Color.Red;
+            btnKembali.Location = new Point(22, 293);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(112, 34);
+            btnKembali.Size = new Size(90, 27);
             btnKembali.TabIndex = 4;
             btnKembali.Text = "Kembali";
-            btnKembali.UseVisualStyleBackColor = true;
+            btnKembali.UseVisualStyleBackColor = false;
             // 
             // Verifikasi_NoHP
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Green;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(800, 450);
+            BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
+            ClientSize = new Size(640, 360);
             Controls.Add(btnKembali);
             Controls.Add(label2);
             Controls.Add(lblInstruksi);

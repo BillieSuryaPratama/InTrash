@@ -41,6 +41,7 @@
             // btnSimpan
             // 
             btnSimpan.BackColor = Color.Transparent;
+            btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
             btnSimpan.Font = new Font("Palatino Linotype", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnSimpan.Location = new Point(677, 388);
             btnSimpan.Margin = new Padding(2);
@@ -52,7 +53,7 @@
             // 
             // btnKembali
             // 
-            btnKembali.BackColor = Color.DarkSlateGray;
+            btnKembali.BackColor = Color.Red;
             btnKembali.Font = new Font("Palatino Linotype", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnKembali.ForeColor = Color.Transparent;
             btnKembali.Location = new Point(37, 388);
@@ -68,7 +69,7 @@
             tbKuantitas.Location = new Point(374, 241);
             tbKuantitas.Margin = new Padding(2);
             tbKuantitas.Name = "tbKuantitas";
-            tbKuantitas.Size = new Size(150, 40);
+            tbKuantitas.Size = new Size(150, 34);
             tbKuantitas.TabIndex = 3;
             tbKuantitas.TextChanged += textBox2_TextChanged;
             // 
@@ -81,7 +82,7 @@
             label1.Location = new Point(230, 197);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(136, 27);
+            label1.Size = new Size(114, 23);
             label1.TabIndex = 4;
             label1.Text = "Jenis Sampah";
             // 
@@ -94,7 +95,7 @@
             label2.Location = new Point(239, 241);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(94, 24);
+            label2.Size = new Size(80, 21);
             label2.TabIndex = 5;
             label2.Text = "Kuantitas";
             // 
@@ -104,7 +105,7 @@
             cbSatuan.Location = new Point(531, 241);
             cbSatuan.Margin = new Padding(4);
             cbSatuan.Name = "cbSatuan";
-            cbSatuan.Size = new Size(100, 40);
+            cbSatuan.Size = new Size(100, 35);
             cbSatuan.TabIndex = 6;
             // 
             // cbJenisSampah
@@ -113,7 +114,7 @@
             cbJenisSampah.Location = new Point(374, 190);
             cbJenisSampah.Margin = new Padding(4);
             cbJenisSampah.Name = "cbJenisSampah";
-            cbJenisSampah.Size = new Size(150, 40);
+            cbJenisSampah.Size = new Size(150, 35);
             cbJenisSampah.TabIndex = 7;
             // 
             // lblInstruksi
@@ -125,14 +126,15 @@
             lblInstruksi.Location = new Point(100, 129);
             lblInstruksi.Margin = new Padding(4, 0, 4, 0);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(656, 29);
+            lblInstruksi.Size = new Size(550, 26);
             lblInstruksi.TabIndex = 8;
             lblInstruksi.Text = "Masukkan jenis sampah yang ingin anda tambahkan kedalam list";
             // 
             // Tambah_Sampah
             // 
             AutoScaleMode = AutoScaleMode.None;
-            BackColor = Color.CadetBlue;
+            BackColor = Color.Teal;
+            BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(800, 450);
             Controls.Add(lblInstruksi);
             Controls.Add(cbJenisSampah);

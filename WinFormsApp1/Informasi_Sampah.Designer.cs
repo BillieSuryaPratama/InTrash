@@ -67,7 +67,6 @@
             Margin = new Padding(2);
             Name = "Informasi_Sampah";
             Text = "InTrash";
-            Load += Informasi_Sampah_Load;
             ((System.ComponentModel.ISupportInitialize)dgvInformasiSampah).EndInit();
             ResumeLayout(false);
         }
