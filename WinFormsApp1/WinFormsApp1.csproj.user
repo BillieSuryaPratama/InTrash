@@ -1,94 +1,94 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="Alamat_Penjemputan.cs">
+    <Compile Update="Views\Alamat_Penjemputan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Atur_Jenis_Sampah.cs">
+    <Compile Update="Views\Atur_Jenis_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Beranda_Kurir.cs">
+    <Compile Update="Views\Beranda_Kurir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Atur_Akun_Kurir.cs">
+    <Compile Update="Views\Atur_Akun_Kurir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Edit_Jenis_Sampah.cs">
+    <Compile Update="Views\Edit_Jenis_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Hapus_Akun_Admin.cs">
+    <Compile Update="Views\Hapus_Akun_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Hapus_Akun_Kurir.cs">
+    <Compile Update="Views\Hapus_Akun_Kurir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Hapus_Akun_Nasabah.cs">
+    <Compile Update="Views\Hapus_Akun_Nasabah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Konfirmasi_Reward.cs">
+    <Compile Update="Views\Konfirmasi_Reward.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Register_Kurir.cs">
+    <Compile Update="Views\Register_Kurir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Riwayat_Admin.cs">
+    <Compile Update="Views\Riwayat_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Edit_Kurir.cs">
+    <Compile Update="Views\Edit_Kurir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Tambah_Sampah.cs">
+    <Compile Update="Views\Tambah_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Form_Login.cs">
+    <Compile Update="Views\Form_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Ganti_Sandi.cs">
+    <Compile Update="Views\Ganti_Sandi.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Setor_Sampah.cs">
+    <Compile Update="Views\Setor_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Konfirmasi_Setor_Sampah.cs">
+    <Compile Update="Views\Konfirmasi_Setor_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Riwayat_Nasbah.cs">
+    <Compile Update="Views\Riwayat_Nasbah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Beranda_Admin.cs">
+    <Compile Update="Views\Beranda_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Jemput_Sampah.cs">
+    <Compile Update="Views\Jemput_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Konfirmasi_Jemput_Sampah.cs">
+    <Compile Update="Views\Konfirmasi_Jemput_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Reward_Admin.cs">
+    <Compile Update="Views\Reward_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Register_Admin.cs">
+    <Compile Update="Views\Register_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Profil_Admin.cs">
+    <Compile Update="Views\Profil_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Register_Nasabah.cs">
+    <Compile Update="Views\Register_Nasabah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Verifikasi_NoHP.cs">
+    <Compile Update="Views\Verifikasi_NoHP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Lupa_Password.cs">
+    <Compile Update="Views\Lupa_Password.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Beranda_Nasabah.cs">
+    <Compile Update="Views\Beranda_Nasabah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Informasi_Sampah.cs">
+    <Compile Update="Views\Informasi_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Profil_Nasabah.cs">
+    <Compile Update="Views\Profil_Nasabah.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
