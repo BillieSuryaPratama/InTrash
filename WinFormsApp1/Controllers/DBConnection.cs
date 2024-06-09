@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1.Controllers
 {
-    internal class Conn
+    internal class DBConnection
     {
     }
 }
