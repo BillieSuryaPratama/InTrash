@@ -1,3 +1,4 @@
+using WinFormsApp1.Views;
 namespace WinFormsApp1
 {
     internal static class Program

@@ -31,5 +31,35 @@ namespace WinFormsApp1.Views
         {
             int LoginSebagai = 3;
         }
+
+        private void rbAdmin_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogIn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSignUp_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLupaPassword_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tbUsername_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

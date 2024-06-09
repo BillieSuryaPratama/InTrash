@@ -11,13 +11,13 @@ namespace WinFormsApp1.Controllers
     {
         private static string Host = "localhost";
         private static string Username = "postgres";
-        private static string Password = "1";
+        private static string Password = "malang05";
         private static string Database = "InTrash";
         private static string Port = "5432";
         public static NpgsqlConnection connection;
         public static NpgsqlCommand command;
 
-        private static string ConnString = $"Host={Host};Username={Username};Password={Password};Database={Database};Port={Port}";
+        private static string ConnString = $"Host={Host};Username={Username};Password={Password};Database={Database};Port={Port};";
 
         public static void openConn()
         {
