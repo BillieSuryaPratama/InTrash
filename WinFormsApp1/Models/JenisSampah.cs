@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WinFormsApp1.Models
 {
-    internal class JenisSampah
+    public class JenisSampah
     {
         public int ID_JenisSampah { get; set; }
         public string Nama_JenisSampah { get; set; }
