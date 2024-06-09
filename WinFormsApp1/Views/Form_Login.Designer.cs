@@ -52,7 +52,6 @@
             btnSignUp.TabIndex = 6;
             btnSignUp.Text = "Sign up";
             btnSignUp.UseVisualStyleBackColor = true;
-            btnSignUp.Click += btnSignUp_Click;
             // 
             // gbLoginSebagai
             // 
@@ -144,7 +143,6 @@
             tbUsername.Name = "tbUsername";
             tbUsername.Size = new Size(156, 27);
             tbUsername.TabIndex = 10;
-            tbUsername.TextChanged += tbUsername_TextChanged;
             // 
             // tbPassword
             // 
@@ -153,7 +151,6 @@
             tbPassword.Name = "tbPassword";
             tbPassword.Size = new Size(156, 27);
             tbPassword.TabIndex = 11;
-            tbPassword.TextChanged += tbPassword_TextChanged;
             // 
             // btnLogIn
             // 
@@ -178,7 +175,6 @@
             btnLupaPassword.TabIndex = 13;
             btnLupaPassword.Text = "Lupa Password";
             btnLupaPassword.UseVisualStyleBackColor = false;
-            btnLupaPassword.Click += btnLupaPassword_Click;
             // 
             // Form_Login
             // 

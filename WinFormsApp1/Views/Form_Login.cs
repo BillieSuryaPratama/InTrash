@@ -19,47 +19,17 @@ namespace WinFormsApp1.Views
 
         private void rbAdmin_CheckedChanged(object sender, EventArgs e)
         {
-            int LoginSebagai = 1;
+            LoginSebagai = 1;
         }
 
         private void rbNasabah_CheckedChanged(object sender, EventArgs e)
         {
-            int LoginSebagai = 2;
+            LoginSebagai = 2;
         }
 
         private void rbKurir_CheckedChanged(object sender, EventArgs e)
         {
-            int LoginSebagai = 3;
-        }
-
-        private void rbAdmin_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLogIn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnSignUp_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnLupaPassword_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbPassword_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbUsername_TextChanged(object sender, EventArgs e)
-        {
-
+            LoginSebagai = 3;
         }
     }
 }
