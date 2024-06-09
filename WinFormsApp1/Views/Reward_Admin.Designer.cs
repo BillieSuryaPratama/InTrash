@@ -76,7 +76,6 @@
             btnKembali.TabIndex = 35;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
-            btnKembali.Click += btnKembali_Click;
             // 
             // Reward_Admin
             // 

@@ -16,13 +16,5 @@ namespace WinFormsApp1.Views
         {
             InitializeComponent();
         }
-
-        private void btnKembali_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Beranda_Admin nextpage = new Beranda_Admin();
-            nextpage.FormClosed += (s, args) => this.Close();
-            nextpage.ShowDialog();
-        }
     }
 }

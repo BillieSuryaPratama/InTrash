@@ -47,7 +47,6 @@
             btnKembali.TabIndex = 43;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
-            btnKembali.Click += btnKembali_Click;
             // 
             // tbEdit
             // 

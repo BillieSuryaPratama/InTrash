@@ -109,7 +109,6 @@
             btnKembali.TabIndex = 40;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
-            btnKembali.Click += btnKembali_Click;
             // 
             // cbGender
             // 

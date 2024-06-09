@@ -50,7 +50,6 @@
             btnJemputSampah.TabIndex = 9;
             btnJemputSampah.Text = "Jemput Sampah";
             btnJemputSampah.UseVisualStyleBackColor = false;
-            btnJemputSampah.Click += btnJemputSampah_Click;
             // 
             // btnProfil
             // 
@@ -63,7 +62,6 @@
             btnProfil.TabIndex = 8;
             btnProfil.Text = "Profil";
             btnProfil.UseVisualStyleBackColor = false;
-            btnProfil.Click += btnProfil_Click;
             // 
             // btnReward
             // 
@@ -75,7 +73,6 @@
             btnReward.TabIndex = 7;
             btnReward.Text = "Reward";
             btnReward.UseVisualStyleBackColor = false;
-            btnReward.Click += btnReward_Click;
             // 
             // btnRiwayatTransaksi
             // 
@@ -87,7 +84,6 @@
             btnRiwayatTransaksi.TabIndex = 6;
             btnRiwayatTransaksi.Text = "Riwayat Transaksi";
             btnRiwayatTransaksi.UseVisualStyleBackColor = false;
-            btnRiwayatTransaksi.Click += btnRiwayatTransaksi_Click;
             // 
             // label1
             // 
@@ -111,7 +107,6 @@
             btnEditSampah.TabIndex = 10;
             btnEditSampah.Text = "Edit Data Sampah";
             btnEditSampah.UseVisualStyleBackColor = false;
-            btnEditSampah.Click += btnEditSampah_Click;
             // 
             // btnDaftarkanKurir
             // 
@@ -122,7 +117,6 @@
             btnDaftarkanKurir.TabIndex = 11;
             btnDaftarkanKurir.Text = "Daftarkan Kurir";
             btnDaftarkanKurir.UseVisualStyleBackColor = false;
-            btnDaftarkanKurir.Click += btnDaftarkanKurir_Click;
             // 
             // btnEditKurir
             // 
@@ -133,7 +127,6 @@
             btnEditKurir.TabIndex = 12;
             btnEditKurir.Text = "Edit Data Kurir";
             btnEditKurir.UseVisualStyleBackColor = false;
-            btnEditKurir.Click += btnEditKurir_Click;
             // 
             // btnLogOut
             // 
@@ -145,7 +138,6 @@
             btnLogOut.TabIndex = 13;
             btnLogOut.Text = "Log out";
             btnLogOut.UseVisualStyleBackColor = false;
-            btnLogOut.Click += btnLogOut_Click;
             // 
             // btnHapusAkun
             // 
@@ -156,7 +148,6 @@
             btnHapusAkun.TabIndex = 14;
             btnHapusAkun.Text = "Hapus Akun";
             btnHapusAkun.UseVisualStyleBackColor = false;
-            btnHapusAkun.Click += btnHapusAkun_Click;
             // 
             // Beranda_Admin
             // 
@@ -177,6 +168,7 @@
             Margin = new Padding(2);
             Name = "Beranda_Admin";
             Text = "InTrash";
+            Load += Form15_Load;
             ResumeLayout(false);
             PerformLayout();
         }
