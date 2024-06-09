@@ -42,7 +42,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(169, 27);
+            label1.Location = new Point(199, 29);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(255, 69);
