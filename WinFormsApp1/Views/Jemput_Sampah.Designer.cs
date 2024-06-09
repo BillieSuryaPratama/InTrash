@@ -39,29 +39,30 @@
             // 
             btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.White;
-            btnKembali.Location = new Point(20, 235);
-            btnKembali.Margin = new Padding(2);
+            btnKembali.Location = new Point(23, 313);
+            btnKembali.Margin = new Padding(2, 3, 2, 3);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(79, 24);
+            btnKembali.Size = new Size(90, 32);
             btnKembali.TabIndex = 39;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // tbKonfirmasi
             // 
-            tbKonfirmasi.Location = new Point(290, 200);
-            tbKonfirmasi.Margin = new Padding(2);
+            tbKonfirmasi.Location = new Point(331, 267);
+            tbKonfirmasi.Margin = new Padding(2, 3, 2, 3);
             tbKonfirmasi.Name = "tbKonfirmasi";
-            tbKonfirmasi.Size = new Size(146, 23);
+            tbKonfirmasi.Size = new Size(166, 27);
             tbKonfirmasi.TabIndex = 38;
             // 
             // btnKonfirmasi
             // 
             btnKonfirmasi.BackgroundImage = Properties.Resources.Wireframe___56;
-            btnKonfirmasi.Location = new Point(453, 200);
-            btnKonfirmasi.Margin = new Padding(2);
+            btnKonfirmasi.Location = new Point(518, 267);
+            btnKonfirmasi.Margin = new Padding(2, 3, 2, 3);
             btnKonfirmasi.Name = "btnKonfirmasi";
-            btnKonfirmasi.Size = new Size(79, 23);
+            btnKonfirmasi.Size = new Size(90, 31);
             btnKonfirmasi.TabIndex = 37;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = true;
@@ -70,27 +71,26 @@
             // 
             dgvListPenjemputan.BackgroundColor = Color.Gainsboro;
             dgvListPenjemputan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListPenjemputan.Location = new Point(29, 15);
-            dgvListPenjemputan.Margin = new Padding(2);
+            dgvListPenjemputan.Location = new Point(33, 20);
+            dgvListPenjemputan.Margin = new Padding(2, 3, 2, 3);
             dgvListPenjemputan.Name = "dgvListPenjemputan";
             dgvListPenjemputan.RowHeadersWidth = 62;
-            dgvListPenjemputan.Size = new Size(503, 169);
+            dgvListPenjemputan.Size = new Size(575, 225);
             dgvListPenjemputan.TabIndex = 36;
             // 
             // Jemput_Sampah
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Wireframe___55;
-            ClientSize = new Size(560, 270);
+            ClientSize = new Size(640, 360);
             Controls.Add(btnKembali);
             Controls.Add(tbKonfirmasi);
             Controls.Add(btnKonfirmasi);
             Controls.Add(dgvListPenjemputan);
-            Margin = new Padding(2);
+            Margin = new Padding(2, 3, 2, 3);
             Name = "Jemput_Sampah";
             Text = "InTrash";
-            Load += Form16_Load;
             ((System.ComponentModel.ISupportInitialize)dgvListPenjemputan).EndInit();
             ResumeLayout(false);
             PerformLayout();
