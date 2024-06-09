@@ -43,7 +43,7 @@
     <Compile Update="Views\Form_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Ganti_Sandi.cs">
+    <Compile Update="Views\Ganti_Sandi_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Setor_Sampah.cs">
