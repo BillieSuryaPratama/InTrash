@@ -3,10 +3,35 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Npgsql;
 
 namespace WinFormsApp1.Controllers
 {
     internal class DBConnection
     {
+        private static string Host = "localhost";
+        private static string Username = "postgres";
+        private static string Password = "1";
+        private static string Database = "InTrash";
+        private static string Port = "5432";
+        private static NpgsqlConnection connection;
+        private static NpgsqlCommand command;
+
+        private static string ConnString = $"Host={Host};Username={Username};Password{Password};Database{Database};Port={Port};SSL Mode=Require;";
+
+        public static void openConn()
+        {
+            connection = new NpgsqlConnection($"{ConnString}");
+            connection.Open();
+
+            command = new NpgsqlCommand();
+            command.Connection = connection;
+        }
+
+        public static void closeConn()
+        {
+            connection.Close();
+            command.Parameters.Clear();
+        }
     }
 }
