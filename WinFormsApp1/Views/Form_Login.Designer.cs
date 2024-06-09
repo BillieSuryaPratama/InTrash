@@ -52,6 +52,7 @@
             btnSignUp.TabIndex = 6;
             btnSignUp.Text = "Sign up";
             btnSignUp.UseVisualStyleBackColor = true;
+            btnSignUp.Click += btnSignUp_Click;
             // 
             // gbLoginSebagai
             // 
@@ -103,6 +104,7 @@
             rbAdmin.TabStop = true;
             rbAdmin.Text = "Admin";
             rbAdmin.UseVisualStyleBackColor = true;
+            rbAdmin.CheckedChanged += rbAdmin_CheckedChanged;
             // 
             // label1
             // 
@@ -135,6 +137,7 @@
             tbUsername.Name = "tbUsername";
             tbUsername.Size = new Size(156, 27);
             tbUsername.TabIndex = 10;
+            tbUsername.TextChanged += tbUsername_TextChanged;
             // 
             // tbPassword
             // 
@@ -143,6 +146,7 @@
             tbPassword.Name = "tbPassword";
             tbPassword.Size = new Size(156, 27);
             tbPassword.TabIndex = 11;
+            tbPassword.TextChanged += tbPassword_TextChanged;
             // 
             // btnLogIn
             // 
@@ -155,6 +159,7 @@
             btnLogIn.TabIndex = 12;
             btnLogIn.Text = "Log in";
             btnLogIn.UseVisualStyleBackColor = false;
+            btnLogIn.Click += btnLogIn_Click;
             // 
             // btnLupaPassword
             // 
@@ -166,6 +171,7 @@
             btnLupaPassword.TabIndex = 13;
             btnLupaPassword.Text = "Lupa Password";
             btnLupaPassword.UseVisualStyleBackColor = false;
+            btnLupaPassword.Click += btnLupaPassword_Click;
             // 
             // Form_Login
             // 

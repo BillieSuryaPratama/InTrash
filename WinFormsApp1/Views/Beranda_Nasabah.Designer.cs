@@ -40,12 +40,12 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
             label1.Location = new Point(169, 27);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(300, 74);
+            label1.Size = new Size(255, 69);
             label1.TabIndex = 0;
             label1.Text = "Beranda";
             // 
@@ -59,6 +59,7 @@
             btnInformasiSampah.TabIndex = 1;
             btnInformasiSampah.Text = "Informasi Sampah";
             btnInformasiSampah.UseVisualStyleBackColor = false;
+            btnInformasiSampah.Click += btnInformasiSampah_Click;
             // 
             // btnSetorSampah
             // 
@@ -70,6 +71,7 @@
             btnSetorSampah.TabIndex = 2;
             btnSetorSampah.Text = "Setor Sampah";
             btnSetorSampah.UseVisualStyleBackColor = false;
+            btnSetorSampah.Click += btnSetorSampah_Click;
             // 
             // btnHapusAkun
             // 
@@ -81,6 +83,7 @@
             btnHapusAkun.TabIndex = 3;
             btnHapusAkun.Text = "Hapus Akun";
             btnHapusAkun.UseVisualStyleBackColor = false;
+            btnHapusAkun.Click += btnHapusAkun_Click;
             // 
             // btnRiwayatTransaksi
             // 
@@ -92,6 +95,7 @@
             btnRiwayatTransaksi.TabIndex = 4;
             btnRiwayatTransaksi.Text = "Riwayat Transaksi";
             btnRiwayatTransaksi.UseVisualStyleBackColor = false;
+            btnRiwayatTransaksi.Click += btnRiwayatTransaksi_Click;
             // 
             // btnProfil
             // 
@@ -103,6 +107,7 @@
             btnProfil.TabIndex = 9;
             btnProfil.Text = "Profil";
             btnProfil.UseVisualStyleBackColor = false;
+            btnProfil.Click += btnProfil_Click_1;
             // 
             // btnLogOut
             // 
@@ -114,6 +119,7 @@
             btnLogOut.TabIndex = 10;
             btnLogOut.Text = "Log out";
             btnLogOut.UseVisualStyleBackColor = false;
+            btnLogOut.Click += btnLogOut_Click;
             // 
             // Beranda_Nasabah
             // 
@@ -131,6 +137,7 @@
             Margin = new Padding(2);
             Name = "Beranda_Nasabah";
             Text = "InTrash";
+            Load += Beranda_Nasabah_Load;
             ResumeLayout(false);
             PerformLayout();
         }
