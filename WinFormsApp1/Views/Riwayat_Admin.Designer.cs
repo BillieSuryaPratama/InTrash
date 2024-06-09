@@ -83,6 +83,7 @@
             btnKembali.TabIndex = 31;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // dgvRiwayatTransaksi
             // 

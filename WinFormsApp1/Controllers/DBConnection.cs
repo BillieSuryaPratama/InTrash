@@ -14,10 +14,10 @@ namespace WinFormsApp1.Controllers
         private static string Password = "1";
         private static string Database = "InTrash";
         private static string Port = "5432";
-        private static NpgsqlConnection connection;
-        private static NpgsqlCommand command;
+        public static NpgsqlConnection connection;
+        public static NpgsqlCommand command;
 
-        private static string ConnString = $"Host={Host};Username={Username};Password{Password};Database{Database};Port={Port};SSL Mode=Require;";
+        private static string ConnString = $"Host={Host};Username={Username};Password={Password};Database={Database};Port={Port}";
 
         public static void openConn()
         {

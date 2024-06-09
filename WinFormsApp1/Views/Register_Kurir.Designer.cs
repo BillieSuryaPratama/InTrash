@@ -53,6 +53,7 @@
             btnKembali.TabIndex = 51;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // btnSimpan
             // 
@@ -159,9 +160,9 @@
             lblInstruksi.ForeColor = Color.White;
             lblInstruksi.Location = new Point(236, 54);
             lblInstruksi.Name = "lblInstruksi";
-            lblInstruksi.Size = new Size(162, 32);
+            lblInstruksi.Size = new Size(172, 32);
             lblInstruksi.TabIndex = 52;
-            lblInstruksi.Text = "Edit data kurir";
+            lblInstruksi.Text = "Daftarkan kurir";
             // 
             // Register_Kurir
             // 
