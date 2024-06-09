@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsApp1
+namespace WinFormsApp1.Views
 {
     public partial class Hapus_Akun_Admin : Form
     {

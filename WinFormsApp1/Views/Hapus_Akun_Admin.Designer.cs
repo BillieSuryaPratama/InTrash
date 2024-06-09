@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+﻿namespace WinFormsApp1.Views
 {
     partial class Hapus_Akun_Admin
     {

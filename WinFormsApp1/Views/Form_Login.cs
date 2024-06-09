@@ -1,4 +1,4 @@
-namespace WinFormsApp1
+namespace WinFormsApp1.Views
 {
     public partial class Form_Login : Form
     {
