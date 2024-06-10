@@ -167,7 +167,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "Lupa_Password_Kurir";
-            Text = "Lupa_Password_Kurir";
+            Text = "InTrash";
             gbKonfirmasi.ResumeLayout(false);
             gbKonfirmasi.PerformLayout();
             ResumeLayout(false);

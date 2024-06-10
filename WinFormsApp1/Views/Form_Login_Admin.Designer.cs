@@ -34,25 +34,29 @@
             label2 = new Label();
             label1 = new Label();
             btnLupaPassword = new Button();
+            btnKembali = new Button();
+            label3 = new Label();
             SuspendLayout();
             // 
             // btnLogIn
             // 
-            btnLogIn.BackColor = Color.Red;
+            btnLogIn.BackColor = Color.CadetBlue;
             btnLogIn.ForeColor = Color.White;
-            btnLogIn.Location = new Point(360, 293);
+            btnLogIn.Location = new Point(363, 225);
             btnLogIn.Margin = new Padding(2, 3, 2, 3);
             btnLogIn.Name = "btnLogIn";
             btnLogIn.Size = new Size(90, 41);
             btnLogIn.TabIndex = 12;
             btnLogIn.Text = "Log in";
             btnLogIn.UseVisualStyleBackColor = false;
+            btnLogIn.Click += btnLogIn_Click;
             // 
             // tbPassword
             // 
             tbPassword.Location = new Point(285, 161);
             tbPassword.Margin = new Padding(2, 3, 2, 3);
             tbPassword.Name = "tbPassword";
+            tbPassword.PasswordChar = '*';
             tbPassword.Size = new Size(156, 27);
             tbPassword.TabIndex = 11;
             // 
@@ -90,14 +94,39 @@
             // 
             // btnLupaPassword
             // 
-            btnLupaPassword.BackColor = Color.Transparent;
-            btnLupaPassword.Location = new Point(174, 293);
+            btnLupaPassword.BackColor = Color.CadetBlue;
+            btnLupaPassword.ForeColor = SystemColors.ButtonHighlight;
+            btnLupaPassword.Location = new Point(177, 225);
             btnLupaPassword.Margin = new Padding(2, 3, 2, 3);
             btnLupaPassword.Name = "btnLupaPassword";
             btnLupaPassword.Size = new Size(125, 43);
             btnLupaPassword.TabIndex = 13;
             btnLupaPassword.Text = "Lupa Password";
             btnLupaPassword.UseVisualStyleBackColor = false;
+            btnLupaPassword.Click += btnLupaPassword_Click;
+            // 
+            // btnKembali
+            // 
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = SystemColors.ButtonHighlight;
+            btnKembali.Location = new Point(12, 319);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(94, 29);
+            btnKembali.TabIndex = 14;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(246, 77);
+            label3.Name = "label3";
+            label3.Size = new Size(152, 20);
+            label3.TabIndex = 15;
+            label3.Text = "Login Sebagai Admin";
             // 
             // Form_Login_Admin
             // 
@@ -105,6 +134,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(640, 360);
+            Controls.Add(label3);
+            Controls.Add(btnKembali);
             Controls.Add(btnLogIn);
             Controls.Add(btnLupaPassword);
             Controls.Add(tbPassword);
@@ -125,5 +156,7 @@
         private TextBox tbPassword;
         private Button btnLogIn;
         private Button btnLupaPassword;
+        private Button btnKembali;
+        private Label label3;
     }
 }

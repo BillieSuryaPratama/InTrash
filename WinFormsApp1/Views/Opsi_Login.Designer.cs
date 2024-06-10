@@ -38,39 +38,46 @@
             // 
             // btnAdmin
             // 
+            btnAdmin.BackColor = Color.MediumTurquoise;
             btnAdmin.Location = new Point(109, 205);
             btnAdmin.Name = "btnAdmin";
             btnAdmin.Size = new Size(94, 29);
             btnAdmin.TabIndex = 0;
             btnAdmin.Text = "Admin";
-            btnAdmin.UseVisualStyleBackColor = true;
+            btnAdmin.UseVisualStyleBackColor = false;
+            btnAdmin.Click += btnAdmin_Click;
             // 
             // btnNasabah
             // 
+            btnNasabah.BackColor = Color.MediumTurquoise;
             btnNasabah.Location = new Point(263, 205);
             btnNasabah.Name = "btnNasabah";
             btnNasabah.Size = new Size(94, 29);
             btnNasabah.TabIndex = 1;
             btnNasabah.Text = "Nasabah";
-            btnNasabah.UseVisualStyleBackColor = true;
+            btnNasabah.UseVisualStyleBackColor = false;
+            btnNasabah.Click += btnNasabah_Click;
             // 
             // btnKurir
             // 
+            btnKurir.BackColor = Color.MediumTurquoise;
             btnKurir.Location = new Point(424, 205);
             btnKurir.Name = "btnKurir";
             btnKurir.Size = new Size(94, 29);
             btnKurir.TabIndex = 2;
             btnKurir.Text = "Kurir";
-            btnKurir.UseVisualStyleBackColor = true;
+            btnKurir.UseVisualStyleBackColor = false;
+            btnKurir.Click += btnKurir_Click;
             // 
             // btnRegAdmin
             // 
+            btnRegAdmin.BackColor = Color.MediumTurquoise;
             btnRegAdmin.Location = new Point(12, 292);
             btnRegAdmin.Name = "btnRegAdmin";
             btnRegAdmin.Size = new Size(141, 29);
             btnRegAdmin.TabIndex = 3;
             btnRegAdmin.Text = "Register Admin";
-            btnRegAdmin.UseVisualStyleBackColor = true;
+            btnRegAdmin.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -87,18 +94,19 @@
             // 
             // btnRegNasabah
             // 
+            btnRegNasabah.BackColor = Color.MediumTurquoise;
             btnRegNasabah.Location = new Point(12, 336);
             btnRegNasabah.Name = "btnRegNasabah";
             btnRegNasabah.Size = new Size(141, 29);
             btnRegNasabah.TabIndex = 13;
             btnRegNasabah.Text = "Register Nasabah";
-            btnRegNasabah.UseVisualStyleBackColor = true;
+            btnRegNasabah.UseVisualStyleBackColor = false;
             // 
             // Opsi_Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Wireframe___55;
+            BackColor = Color.Teal;
             ClientSize = new Size(634, 377);
             Controls.Add(btnRegNasabah);
             Controls.Add(label1);
@@ -107,7 +115,7 @@
             Controls.Add(btnNasabah);
             Controls.Add(btnAdmin);
             Name = "Opsi_Login";
-            Text = "Form1";
+            Text = "inTrash";
             ResumeLayout(false);
             PerformLayout();
         }

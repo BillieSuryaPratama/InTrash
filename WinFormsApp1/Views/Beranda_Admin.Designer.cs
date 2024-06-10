@@ -56,7 +56,7 @@
             // 
             btnProfil.BackColor = Color.MediumTurquoise;
             btnProfil.ForeColor = Color.Black;
-            btnProfil.Location = new Point(154, 133);
+            btnProfil.Location = new Point(154, 131);
             btnProfil.Margin = new Padding(2);
             btnProfil.Name = "btnProfil";
             btnProfil.Size = new Size(142, 37);

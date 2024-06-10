@@ -28,42 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnLogIn = new Button();
-            btnLupaPassword = new Button();
             tbPassword = new TextBox();
             tbUsername = new TextBox();
             label2 = new Label();
             label1 = new Label();
+            btnKembali = new Button();
+            btnLogIn = new Button();
+            btnLupaPassword = new Button();
+            label3 = new Label();
             SuspendLayout();
-            // 
-            // btnLogIn
-            // 
-            btnLogIn.BackColor = Color.Red;
-            btnLogIn.ForeColor = Color.White;
-            btnLogIn.Location = new Point(361, 279);
-            btnLogIn.Margin = new Padding(2, 3, 2, 3);
-            btnLogIn.Name = "btnLogIn";
-            btnLogIn.Size = new Size(90, 41);
-            btnLogIn.TabIndex = 18;
-            btnLogIn.Text = "Log in";
-            btnLogIn.UseVisualStyleBackColor = false;
-            // 
-            // btnLupaPassword
-            // 
-            btnLupaPassword.BackColor = Color.Transparent;
-            btnLupaPassword.Location = new Point(175, 279);
-            btnLupaPassword.Margin = new Padding(2, 3, 2, 3);
-            btnLupaPassword.Name = "btnLupaPassword";
-            btnLupaPassword.Size = new Size(125, 43);
-            btnLupaPassword.TabIndex = 19;
-            btnLupaPassword.Text = "Lupa Password";
-            btnLupaPassword.UseVisualStyleBackColor = false;
             // 
             // tbPassword
             // 
             tbPassword.Location = new Point(286, 147);
             tbPassword.Margin = new Padding(2, 3, 2, 3);
             tbPassword.Name = "tbPassword";
+            tbPassword.PasswordChar = '*';
             tbPassword.Size = new Size(156, 27);
             tbPassword.TabIndex = 17;
             // 
@@ -99,12 +79,63 @@
             label1.TabIndex = 14;
             label1.Text = "Username";
             // 
+            // btnKembali
+            // 
+            btnKembali.BackColor = Color.Red;
+            btnKembali.ForeColor = SystemColors.ButtonHighlight;
+            btnKembali.Location = new Point(23, 296);
+            btnKembali.Name = "btnKembali";
+            btnKembali.Size = new Size(94, 29);
+            btnKembali.TabIndex = 20;
+            btnKembali.Text = "Kembali";
+            btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
+            // 
+            // btnLogIn
+            // 
+            btnLogIn.BackColor = Color.CadetBlue;
+            btnLogIn.ForeColor = Color.White;
+            btnLogIn.Location = new Point(374, 202);
+            btnLogIn.Margin = new Padding(2, 3, 2, 3);
+            btnLogIn.Name = "btnLogIn";
+            btnLogIn.Size = new Size(90, 41);
+            btnLogIn.TabIndex = 18;
+            btnLogIn.Text = "Log in";
+            btnLogIn.UseVisualStyleBackColor = false;
+            btnLogIn.Click += btnLogIn_Click;
+            // 
+            // btnLupaPassword
+            // 
+            btnLupaPassword.BackColor = Color.CadetBlue;
+            btnLupaPassword.ForeColor = SystemColors.ButtonHighlight;
+            btnLupaPassword.Location = new Point(188, 202);
+            btnLupaPassword.Margin = new Padding(2, 3, 2, 3);
+            btnLupaPassword.Name = "btnLupaPassword";
+            btnLupaPassword.Size = new Size(125, 43);
+            btnLupaPassword.TabIndex = 19;
+            btnLupaPassword.Text = "Lupa Password";
+            btnLupaPassword.UseVisualStyleBackColor = false;
+            btnLupaPassword.Click += btnLupaPassword_Click;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(246, 60);
+            label3.Name = "label3";
+            label3.Size = new Size(166, 20);
+            label3.TabIndex = 21;
+            label3.Text = "Login Sebagai Nasabah";
+            // 
             // Form_Login_Nasabah
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Wireframe___55;
-            ClientSize = new Size(644, 352);
+            ClientSize = new Size(644, 339);
+            Controls.Add(label3);
+            Controls.Add(btnKembali);
             Controls.Add(btnLogIn);
             Controls.Add(btnLupaPassword);
             Controls.Add(tbPassword);
@@ -112,18 +143,19 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form_Login_Nasabah";
-            Text = "Form_Login_Nasabah";
+            Text = "InTrash";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Button btnLogIn;
-        private Button btnLupaPassword;
         private TextBox tbPassword;
         private TextBox tbUsername;
         private Label label2;
         private Label label1;
+        private Button btnKembali;
+        private Button btnLogIn;
+        private Button btnLupaPassword;
+        private Label label3;
     }
 }
