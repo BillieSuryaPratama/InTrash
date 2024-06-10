@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8A1FEC6-73C7-71B6-FCAA-7505F7655209" name="Tempat_Pengepul">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>892FE7F0-806D-F079-D4DC-4B40ABFBE508</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Tempat_Pengepul" id="41BC234F-8F9F-A3B1-C932-314F106CDB23">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>FD9DB7D0-ED16-2C00-F3A4-2BD07F4081F1</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Tempat" id="ED7D0E70-CA96-EF9B-3F08-A89BA26D5BE3">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>7CB8261F-DF45-BE0A-B959-55C78A581862</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="10F6DFAD-525F-BF65-DA7C-313D5F9B2380">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>227B99EE-D3F3-66CD-D065-BFEDF34FAE6A</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Deskripsi" id="5286CB83-E210-A3EC-3B0A-2D57B9A681C2">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>429AE07B-D67A-88CB-38B6-0B305FC0BEB1</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8845093C-877A-5FA5-16EE-FE0E646A6EB2" name="Tempat_Pengepul_PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>D8D0FB57-61DC-53BE-F3E7-AF740586CA9E</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41BC234F-8F9F-A3B1-C932-314F106CDB23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5698C425-E49C-9F14-6193-5B3306C1B4F9" containerWithKeyObject="F85E541B-5646-EC5A-90B3-805D32AA6A3C" localFKIndex="8E4FD096-A49A-1898-22EB-F043CA9728E3" name="Transaksi_MetodePencairan_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>ABEE4711-5CAC-3A98-6854-EA7EBBF9D49A</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<referredTableLongName>MetodePencairan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2155BBD2-009F-2D58-5C83-7901D52CF981</referredTableID>
+<keyObject>BBC5059B-5006-C1BB-F250-0E8A73CB6ABC</keyObject>
+<referredKeyID>BBC5059B-5006-C1BB-F250-0E8A73CB6ABC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Id_Metode</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

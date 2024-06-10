@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="747A58BB-5DF6-E332-8AA1-E6E313A57E8E" name="Customer">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>97C75831-5481-9A42-94DF-AF99BF07EB1B</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Customer" id="1C46F4CB-0379-9E68-1758-D51B16E21543">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>E4036ACA-06BF-A463-3A1B-944BD62D412C</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Customer" id="37F76D15-C530-FCAE-309F-E20F938AAD3A">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>ACCB03B6-FF09-147B-281C-C0DF5ED45171</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username_Customer" id="F6382569-F255-A365-2B3C-15238AE290D4">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>8CC3016B-94BC-2E2A-363A-5CEF81A4189D</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="FACC6B14-4FCC-C5DB-4015-80ECDF0F45EF">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>9BE7802C-1B7E-6AE1-FF68-C29C3D6E8EFA</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_HP" id="A239B0B1-4DD9-2915-BB3B-68ECE6103676">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>8C90256F-03EB-13A9-573A-5A2632E004EB</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="03A59E37-1907-B499-DA75-2ED1772364AF">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>C43ECEF4-FBFF-7E4A-7063-00CC72C724D7</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Saldo" id="13C652B1-535F-EC83-67DF-2D9CF03970DD">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>59301FAE-8909-F87A-6A22-D67761EC32A8</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3E42885-DAF6-A1BB-5E13-F97A77B7F4E7" name="Customer_PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>8B37E835-0AD7-4023-8B0A-1D137404FE43</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C46F4CB-0379-9E68-1758-D51B16E21543"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

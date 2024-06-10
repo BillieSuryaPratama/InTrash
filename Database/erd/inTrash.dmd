@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="inTrash" id="2B53DA5C-A0C0-FBDC-EAEB-DE26AD069E29" version="3.5">
-<createdBy>ASVS</createdBy>
-<createdTime>2024-06-04 11:54:49 UTC</createdTime>
-<ownerDesignName>inTrash</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>2B53DA5C-A0C0-FBDC-EAEB-DE26AD069E29</designId>
-</OSDM_Design>

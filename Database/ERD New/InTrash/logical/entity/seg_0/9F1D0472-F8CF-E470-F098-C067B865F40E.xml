@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F1D0472-F8CF-E470-F098-C067B865F40E" name="Transaksi">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:29:48 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Transaksi" id="884E93AC-B467-EE16-C250-1C4548745AFC">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:30:04 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal_Transaksi" id="A1C15F32-3AF7-42EA-0EAB-B439B33EF8AC">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:30:30 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Tempat_Pengepul" id="8875B860-D09E-926B-1019-4D52AFA849C6">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:31:44 UTC</createdTime>
+<generatorID>E331BC42-83EE-007C-F4A9-9A23514230AD</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<referedAttribute>FD9DB7D0-ED16-2C00-F3A4-2BD07F4081F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Admin" id="0FE84A01-FD75-5B66-EFFF-455ABF1E2406">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:31:53 UTC</createdTime>
+<generatorID>4C6F3A79-B657-2CA7-9A12-A52F617B03AB</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<referedAttribute>BA521B18-7D36-5716-44AC-D1E86C19D9FF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Customer" id="7554EF1C-84BD-3CC6-B7BC-FEE55AAE66B9">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:35:06 UTC</createdTime>
+<generatorID>3018D890-A66D-05EB-D6A6-8D5D989D83E8</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<referedAttribute>E4036ACA-06BF-A463-3A1B-944BD62D412C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Id_Metode" id="B91BE5C0-845E-EE76-39C6-060C528D2248">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:36:19 UTC</createdTime>
+<generatorID>ABEE4711-5CAC-3A98-6854-EA7EBBF9D49A</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<referedAttribute>78CDD423-FA58-2AC1-D8AE-823B8A52BBB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="631547CD-E9E6-C225-5D11-FC78F8766E04" name="Transaksi PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:30:22 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>884E93AC-B467-EE16-C250-1C4548745AFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

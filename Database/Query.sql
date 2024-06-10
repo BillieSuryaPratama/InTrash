@@ -38,12 +38,17 @@ CREATE TABLE Customer (
 	Alamat varchar not null,
 	Saldo int not null);
 	
+CREATE TABLE MetodePencairan (
+	Id_Metode serial PRIMARY KEY,
+	Nama_Metode varchar not null);
+	
 CREATE TABLE Transaksi (
 	Id_Transaksi serial PRIMARY KEY,
 	Tanggal_Transaksi date not null,
 	Id_tempatpengepul int,
 	Id_Admin int,
-	Id_Customer int);
+	Id_Customer int,
+	Id_Metode int);
 alter table transaksi
 add constraint fk_admin_tempat_pengepul
 foreign key (Id_Admin)
@@ -56,6 +61,10 @@ alter table transaksi
 add constraint fk_Customer
 foreign key (Id_Customer)
 references Customer(Id_Customer);
+alter table transaksi
+add constraint fk_MetodePencairan
+foreign key (Id_Metode)
+references MetodePencairan(Id_Metode);
 
 CREATE TABLE Jenis_Sampah (
 	Id_Jenis_Sampah serial PRIMARY KEY,
@@ -87,18 +96,23 @@ VALUES ('Adrianno','Adrianno12','Adrianno157','Jl. Kalimantan XVI, Sumbersari, J
 INSERT INTO kurir(Nama_Kurir,Username_Kurir,Password_Kurir,No_HP,Id_tempatpengepul)
 VALUES ('Jefri Nichol','JefriFriendly','Jefri123','085258909788',1);
 
-INSERT INTO transaksi (tanggal_transaksi, id_tempatpengepul,id_customer, id_admin)
-VALUES('2024-04-23', 1,1,1);
+INSERT INTO MetodePencairan (Nama_Metode)
+VALUES ('Cash'),
+	   ('Saldo');
+
+INSERT INTO transaksi (tanggal_transaksi, id_tempatpengepul,id_customer, id_admin, id_metode)
+VALUES('2024-04-23', 1,1,1,1),
+      ('2024-06-10', 1,1,1,2);
 
 INSERT INTO jenis_sampah (Nama_Jenis_Sampah, Harga, Deskripsi)
 VALUES('Kaca',1200,'Sampah berbasis kaca, contohnya : Botol Minuman'),
 	  ('Plastik',2000,'Sampah berbasis plastik, contohnya : Botol Plastik, Kantong Plastik, Kemasan produk');
 
 INSERT INTO Detail_Transaksi (id_transaksi, id_jenis_sampah, kuantitas)
-VALUES (1,1,3);
-
-INSERT INTO Detail_Transaksi (id_transaksi, id_jenis_sampah, kuantitas)
-VALUES (1,2,10);
+VALUES (1,1,3),
+       (1,2,10),
+	   (2,1,2),
+	   (2,2,1);
 
 
 

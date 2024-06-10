@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F85E541B-5646-EC5A-90B3-805D32AA6A3C" name="Transaksi">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>9F1D0472-F8CF-E470-F098-C067B865F40E</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Transaksi" id="FF7F8AFB-5420-F35D-E3C8-450ADED25A6F">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>884E93AC-B467-EE16-C250-1C4548745AFC</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_Transaksi" id="0E8D9CB1-58F3-371C-9F01-220917A98C2E">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>A1C15F32-3AF7-42EA-0EAB-B439B33EF8AC</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tempat_Pengepul_Id_Tempat_Pengepul" id="C6731491-D41C-798E-EF3B-3394136CCE81">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>8875B860-D09E-926B-1019-4D52AFA849C6</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57CCA2D2-8479-8006-75A2-E125046CCD62" referredColumn="41BC234F-8F9F-A3B1-C932-314F106CDB23"/>
+</associations>
+</Column>
+<Column name="Admin_Id_Admin" id="7861C559-8B2D-B954-CB1F-FAB2338F9F26">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>0FE84A01-FD75-5B66-EFFF-455ABF1E2406</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1F9AAA0E-71A5-298E-9672-B01CD36E979F" referredColumn="AED51565-83E4-50A1-0238-CBA1A9088C8D"/>
+</associations>
+</Column>
+<Column name="Customer_Id_Customer" id="109E2CBA-2DE1-3D60-4FC8-ADA24A2241A8">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>7554EF1C-84BD-3CC6-B7BC-FEE55AAE66B9</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30493266-98D7-AECC-E03A-7FF25204A05D" referredColumn="1C46F4CB-0379-9E68-1758-D51B16E21543"/>
+</associations>
+</Column>
+<Column name="MetodePencairan_Id_Metode" id="0D1C4C3E-D157-29E3-7082-6EB52E1CF5DE">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>B91BE5C0-845E-EE76-39C6-060C528D2248</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5698C425-E49C-9F14-6193-5B3306C1B4F9" referredColumn="426F8544-3A56-34A3-305F-4C2AAF3640B6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1F432BEC-66D1-AB5C-D1B2-C68E8346A239" name="Transaksi_PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>631547CD-E9E6-C225-5D11-FC78F8766E04</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF7F8AFB-5420-F35D-E3C8-450ADED25A6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="976F934A-D829-A0A2-FF98-2437EF63E521" name="Transaksi_Tempat_Pengepul_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>E331BC42-83EE-007C-F4A9-9A23514230AD</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6731491-D41C-798E-EF3B-3394136CCE81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="564E90B2-8777-12A5-BEEF-B66974B789A8" name="Transaksi_Admin_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>4C6F3A79-B657-2CA7-9A12-A52F617B03AB</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7861C559-8B2D-B954-CB1F-FAB2338F9F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F221958-7186-ED0B-38BC-759B31AE84A4" name="Transaksi_Customer_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>3018D890-A66D-05EB-D6A6-8D5D989D83E8</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109E2CBA-2DE1-3D60-4FC8-ADA24A2241A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E4FD096-A49A-1898-22EB-F043CA9728E3" name="Transaksi_MetodePencairan_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-10 07:46:08 UTC</createdTime>
+<generatorID>ABEE4711-5CAC-3A98-6854-EA7EBBF9D49A</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D1C4C3E-D157-29E3-7082-6EB52E1CF5DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
