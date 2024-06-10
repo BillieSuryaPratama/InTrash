@@ -57,6 +57,7 @@ namespace WinFormsApp1.Views
                 {
                     MessageBox.Show("Mohon isi Username dan Password anda dengan Benar!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+            DBConnection.closeConn();
             }
         }
 
