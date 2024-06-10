@@ -16,6 +16,21 @@
     <Compile Update="Views\Edit_Jenis_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\Form_Login_Kurir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Form_Login_Nasabah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Lupa_Password_Kurir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Lupa_Password_Nasabah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Opsi_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\Hapus_Akun_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -40,7 +55,7 @@
     <Compile Update="Views\Tambah_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Form_Login.cs">
+    <Compile Update="Views\Form_Login_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Ganti_Sandi_Admin.cs">
@@ -79,7 +94,7 @@
     <Compile Update="Views\Verifikasi_NoHP.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Lupa_Password.cs">
+    <Compile Update="Views\Lupa_Password_Admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Views\Beranda_Nasabah.cs">

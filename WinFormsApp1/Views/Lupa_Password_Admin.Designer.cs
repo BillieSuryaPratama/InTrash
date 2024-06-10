@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1.Views
 {
-    partial class Lupa_Password
+    partial class Lupa_Password_Admin
     {
         /// <summary>
         /// Required designer variable.

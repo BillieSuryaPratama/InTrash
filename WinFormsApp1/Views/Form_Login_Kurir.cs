@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1.Views
 {
-    public partial class Lupa_Password : Form
+    public partial class Form_Login_Kurir : Form
     {
-        public Lupa_Password()
+        public Form_Login_Kurir()
         {
             InitializeComponent();
         }

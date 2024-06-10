@@ -20,7 +20,7 @@ namespace WinFormsApp1.Views
         private void btnLogOut_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form_Login nextpage = new Form_Login();
+            Opsi_Login nextpage = new Opsi_Login();
             nextpage.FormClosed += (s, args) => this.Close();
             nextpage.ShowDialog();
         }

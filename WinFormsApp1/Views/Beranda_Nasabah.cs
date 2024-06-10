@@ -81,6 +81,8 @@ namespace WinFormsApp1.Views
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
+            Opsi_Login formLogin = new Opsi_Login();
+            formLogin.Show();
             this.Close();
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WinFormsApp1.Views
 {
-    public partial class Konfirmasi_Jemput_Sampah : Form
+    public partial class Opsi_Login : Form
     {
-        public Konfirmasi_Jemput_Sampah()
+        public Opsi_Login()
         {
             InitializeComponent();
         }

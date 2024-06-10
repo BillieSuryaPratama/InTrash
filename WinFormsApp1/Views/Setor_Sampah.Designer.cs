@@ -87,7 +87,6 @@
             btnBerikutnya.TabIndex = 40;
             btnBerikutnya.Text = "Berikutnya";
             btnBerikutnya.UseVisualStyleBackColor = true;
-            btnBerikutnya.Click += btnBerikutnya_Click;
             // 
             // button4
             // 
@@ -102,7 +101,6 @@
             button4.TabIndex = 42;
             button4.Text = "Tambah Sampah";
             button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
             // 
             // dataGridView1
             // 
@@ -126,7 +124,6 @@
             btnKembali.TabIndex = 44;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
-            btnKembali.Click += btnKembali_Click;
             // 
             // label2
             // 
