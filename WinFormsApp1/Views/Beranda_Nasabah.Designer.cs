@@ -39,6 +39,7 @@
             // 
             // label1
             // 
+            label1.Anchor = AnchorStyles.Top;
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
@@ -51,6 +52,8 @@
             // 
             // btnInformasiSampah
             // 
+            btnInformasiSampah.Anchor = AnchorStyles.None;
+            btnInformasiSampah.AutoSize = true;
             btnInformasiSampah.BackColor = Color.MediumTurquoise;
             btnInformasiSampah.Location = new Point(337, 192);
             btnInformasiSampah.Margin = new Padding(2);
@@ -63,6 +66,8 @@
             // 
             // btnSetorSampah
             // 
+            btnSetorSampah.Anchor = AnchorStyles.None;
+            btnSetorSampah.AutoSize = true;
             btnSetorSampah.BackColor = Color.MediumTurquoise;
             btnSetorSampah.Location = new Point(337, 137);
             btnSetorSampah.Margin = new Padding(2);
@@ -75,6 +80,8 @@
             // 
             // btnHapusAkun
             // 
+            btnHapusAkun.Anchor = AnchorStyles.None;
+            btnHapusAkun.AutoSize = true;
             btnHapusAkun.BackColor = Color.MediumTurquoise;
             btnHapusAkun.Location = new Point(248, 251);
             btnHapusAkun.Margin = new Padding(2);
@@ -87,6 +94,8 @@
             // 
             // btnRiwayatTransaksi
             // 
+            btnRiwayatTransaksi.Anchor = AnchorStyles.None;
+            btnRiwayatTransaksi.AutoSize = true;
             btnRiwayatTransaksi.BackColor = Color.MediumTurquoise;
             btnRiwayatTransaksi.Location = new Point(160, 192);
             btnRiwayatTransaksi.Margin = new Padding(2);
@@ -99,6 +108,8 @@
             // 
             // btnProfil
             // 
+            btnProfil.Anchor = AnchorStyles.None;
+            btnProfil.AutoSize = true;
             btnProfil.BackColor = Color.MediumTurquoise;
             btnProfil.Location = new Point(160, 137);
             btnProfil.Margin = new Padding(2);
@@ -111,11 +122,13 @@
             // 
             // btnLogOut
             // 
+            btnLogOut.Anchor = AnchorStyles.None;
+            btnLogOut.AutoSize = true;
             btnLogOut.BackColor = Color.Red;
             btnLogOut.ForeColor = Color.White;
-            btnLogOut.Location = new Point(26, 312);
+            btnLogOut.Location = new Point(26, 311);
             btnLogOut.Name = "btnLogOut";
-            btnLogOut.Size = new Size(94, 29);
+            btnLogOut.Size = new Size(70, 30);
             btnLogOut.TabIndex = 10;
             btnLogOut.Text = "Log out";
             btnLogOut.UseVisualStyleBackColor = false;
@@ -135,6 +148,7 @@
             Controls.Add(btnInformasiSampah);
             Controls.Add(label1);
             Margin = new Padding(2);
+            MinimumSize = new Size(658, 407);
             Name = "Beranda_Nasabah";
             Text = "InTrash";
             Load += Beranda_Nasabah_Load;

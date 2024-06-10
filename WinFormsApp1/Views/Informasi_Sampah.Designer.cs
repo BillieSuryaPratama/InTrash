@@ -38,6 +38,7 @@
             // 
             // dgvInformasiSampah
             // 
+            dgvInformasiSampah.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvInformasiSampah.BackgroundColor = Color.Gainsboro;
             dgvInformasiSampah.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvInformasiSampah.Columns.AddRange(new DataGridViewColumn[] { NamaSampah, HargaperKG, Deskripsi });
@@ -54,21 +55,18 @@
             NamaSampah.HeaderText = "Nama";
             NamaSampah.MinimumWidth = 6;
             NamaSampah.Name = "NamaSampah";
-            NamaSampah.Width = 125;
             // 
             // HargaperKG
             // 
             HargaperKG.HeaderText = "Harga per KG";
             HargaperKG.MinimumWidth = 6;
             HargaperKG.Name = "HargaperKG";
-            HargaperKG.Width = 125;
             // 
             // Deskripsi
             // 
             Deskripsi.HeaderText = "Deskripsi";
             Deskripsi.MinimumWidth = 6;
             Deskripsi.Name = "Deskripsi";
-            Deskripsi.Width = 275;
             // 
             // btnKembali
             // 
@@ -92,6 +90,7 @@
             Controls.Add(btnKembali);
             Controls.Add(dgvInformasiSampah);
             Margin = new Padding(2, 3, 2, 3);
+            MinimumSize = new Size(658, 407);
             Name = "Informasi_Sampah";
             Text = "InTrash";
             Load += Informasi_Sampah_Load;
