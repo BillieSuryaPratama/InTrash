@@ -78,6 +78,7 @@
             btnRegAdmin.TabIndex = 3;
             btnRegAdmin.Text = "Register Admin";
             btnRegAdmin.UseVisualStyleBackColor = false;
+            btnRegAdmin.Click += btnRegAdmin_Click;
             // 
             // label1
             // 
@@ -101,6 +102,7 @@
             btnRegNasabah.TabIndex = 13;
             btnRegNasabah.Text = "Register Nasabah";
             btnRegNasabah.UseVisualStyleBackColor = false;
+            btnRegNasabah.Click += btnRegNasabah_Click;
             // 
             // Opsi_Login
             // 

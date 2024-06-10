@@ -40,5 +40,21 @@ namespace WinFormsApp1.Views
             nextpage.FormClosed += (s, args) => this.Close();
             nextpage.ShowDialog();
         }
+
+        private void btnRegAdmin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Register_Admin nextpage = new Register_Admin();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
+
+        private void btnRegNasabah_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Register_Nasabah nextpage = new Register_Nasabah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
     }
 }
