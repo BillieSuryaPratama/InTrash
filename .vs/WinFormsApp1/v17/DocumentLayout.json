@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\source\\repos\\projectpbo_intrash\\winformsapp1\\views\\informasi_sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\informasi_sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\source\\repos\\projectpbo_intrash\\winformsapp1\\views\\informasi_sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\informasi_sampah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\source\\repos\\projectpbo_intrash\\winformsapp1\\views\\beranda_nasabah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\beranda_nasabah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\source\\repos\\projectpbo_intrash\\winformsapp1\\controllers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controllers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\source\\repos\\projectpbo_intrash\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,66 +34,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Beranda_Nasabah.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Beranda_Nasabah.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Beranda_Nasabah.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Beranda_Nasabah.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Views\\Beranda_Nasabah.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:57:07.569Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Informasi_Sampah.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Informasi_Sampah.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Informasi_Sampah.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Informasi_Sampah.cs",
-              "RelativeToolTip": "WinFormsApp1\\Views\\Informasi_Sampah.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:51:12.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Informasi_Sampah.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Informasi_Sampah.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Informasi_Sampah.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Informasi_Sampah.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Views\\Informasi_Sampah.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:51:09.972Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:38:52.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Controllers\\DBConnection.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Controllers\\DBConnection.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Controllers\\DBConnection.cs",
               "RelativeToolTip": "WinFormsApp1\\Controllers\\DBConnection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:38:30.575Z",
+              "WhenOpened": "2024-06-10T08:57:39.673Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

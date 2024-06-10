@@ -31,5 +31,23 @@ namespace WinFormsApp1.Views
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Tambah_Sampah formInfo = new Tambah_Sampah();
+            formInfo.ShowDialog();
+        }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnBerikutnya_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Konfirmasi_Jemput_Sampah formInfo = new Konfirmasi_Jemput_Sampah();
+            formInfo.ShowDialog();
+        }
     }
 }

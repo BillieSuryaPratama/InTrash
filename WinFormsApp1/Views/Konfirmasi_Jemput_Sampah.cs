@@ -16,5 +16,17 @@ namespace WinFormsApp1.Views
         {
             InitializeComponent();
         }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnKonfirmasi_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Riwayat_Nasbah formInfo = new Riwayat_Nasbah();
+            formInfo.ShowDialog();
+        }
     }
 }

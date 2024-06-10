@@ -92,7 +92,7 @@ namespace WinFormsApp1.Views
 
         private void btnKembali_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
         }
     }
 }

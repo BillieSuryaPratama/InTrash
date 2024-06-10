@@ -50,6 +50,7 @@
             btnSimpan.TabIndex = 0;
             btnSimpan.Text = "Simpan";
             btnSimpan.UseVisualStyleBackColor = false;
+            btnSimpan.Click += btnSimpan_Click;
             // 
             // btnKembali
             // 
@@ -63,6 +64,7 @@
             btnKembali.TabIndex = 1;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // tbKuantitas
             // 
