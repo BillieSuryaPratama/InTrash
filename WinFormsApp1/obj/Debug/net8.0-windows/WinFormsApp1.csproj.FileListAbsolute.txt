@@ -90,7 +90,6 @@ C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-wind
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Beranda_Nasabah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Edit_Jenis_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Edit_Kurir.resources
-C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Ganti_Sandi_Admin.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Ganti_Sandi.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Hapus_Akun_Admin.resources
@@ -101,7 +100,6 @@ C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-wind
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Jemput_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Reward.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Setor_Sampah.resources
-C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Admin.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Nasabah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Register_Admin.resources
@@ -133,3 +131,10 @@ C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-wind
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinForms.E4050A35.Up2Date
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Admin.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Kurir.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Nasabah.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Admin.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Kurir.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Nasabah.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Opsi_Login.resources

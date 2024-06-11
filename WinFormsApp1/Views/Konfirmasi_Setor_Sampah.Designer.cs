@@ -124,6 +124,7 @@
             btnKonfirmasi.TabIndex = 46;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = false;
+            btnKonfirmasi.Click += btnKonfirmasi_Click;
             // 
             // btnKembali
             // 
@@ -135,6 +136,7 @@
             btnKembali.TabIndex = 25;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // label2
             // 

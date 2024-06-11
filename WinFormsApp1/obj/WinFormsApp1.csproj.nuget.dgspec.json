@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Source\\Repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Source\\Repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\user\\Source\\Repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Source\\Repos\\ProjectPBO_InTrash\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

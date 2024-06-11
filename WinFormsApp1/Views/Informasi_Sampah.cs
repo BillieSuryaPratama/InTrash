@@ -93,6 +93,9 @@ namespace WinFormsApp1.Views
         private void btnKembali_Click(object sender, EventArgs e)
         {
             this.Hide();
+            Beranda_Nasabah nextpage = new Beranda_Nasabah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
     }
 }

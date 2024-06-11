@@ -70,6 +70,8 @@
             // 
             // btnKembali
             // 
+            btnKembali.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            btnKembali.AutoSize = true;
             btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.White;
             btnKembali.Location = new Point(23, 313);
@@ -96,6 +98,7 @@
             Load += Informasi_Sampah_Load;
             ((System.ComponentModel.ISupportInitialize)dgvInformasiSampah).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

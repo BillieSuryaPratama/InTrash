@@ -84,12 +84,12 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Showcard Gothic", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
             label1.Location = new Point(213, 42);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(206, 74);
+            label1.Size = new Size(176, 69);
             label1.TabIndex = 12;
             label1.Text = "Login";
             // 
@@ -118,6 +118,7 @@
             Controls.Add(btnAdmin);
             Name = "Opsi_Login";
             Text = "inTrash";
+            Load += Opsi_Login_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+76JPuheCjkRK63XaqPhRksIWzTfgrPYz1yfQv9tAfDTwnoEM429G63+0PVLz1e7KR18Sb0CUphRtXsOzZaOcg==",
+  "dgSpecHash": "nssC4ihRcM/Svxg2fIhBKQ3ZBfE8LqiTEJig+OUr8uG1ZLNfWfxOdfBmLS4lGgqoeXWZ1ySNE8rx+7Homf8jYg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Source\\Repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
