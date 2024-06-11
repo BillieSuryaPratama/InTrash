@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9F1D0472-F8CF-E470-F098-C067B865F40E" name="Transaksi">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="230D4BC7-9723-CA5A-C468-8E9E8EB2A1DC" name="Pencairan">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:29:48 UTC</createdTime>
+<createdTime>2024-06-11 12:15:48 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Id_Transaksi" id="884E93AC-B467-EE16-C250-1C4548745AFC">
+<Attribute name="ID_Pencairan" id="E2EDE86C-1DC8-B1C9-BF43-EBB377AA7D4C">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:30:04 UTC</createdTime>
+<createdTime>2024-06-11 12:16:01 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
@@ -27,50 +27,34 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tanggal_Transaksi" id="A1C15F32-3AF7-42EA-0EAB-B439B33EF8AC">
+<Attribute name="Rekening Tujuan" id="322E13C0-1FBD-7B7C-E6D2-DBE55DB9DF5B">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:30:30 UTC</createdTime>
+<createdTime>2024-06-11 12:19:39 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Id_Tempat_Pengepul" id="8875B860-D09E-926B-1019-4D52AFA849C6">
+<Attribute name="Nominal Pencairan" id="43DA0133-1978-E7F0-A6CE-5B6F93C58CDC">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:31:44 UTC</createdTime>
-<generatorID>E331BC42-83EE-007C-F4A9-9A23514230AD</generatorID>
+<createdTime>2024-06-11 12:20:26 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
 </engineerTo>
-<referedAttribute>FD9DB7D0-ED16-2C00-F3A4-2BD07F4081F1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Id_Admin" id="0FE84A01-FD75-5B66-EFFF-455ABF1E2406">
+<Attribute name="Id_Customer" id="8A19980E-649D-313F-301E-D3C598E006FF">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:31:53 UTC</createdTime>
-<generatorID>4C6F3A79-B657-2CA7-9A12-A52F617B03AB</generatorID>
-<ownerDesignName>InTrash</ownerDesignName>
-<engineerTo>
-<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
-</engineerTo>
-<referedAttribute>BA521B18-7D36-5716-44AC-D1E86C19D9FF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Id_Customer" id="7554EF1C-84BD-3CC6-B7BC-FEE55AAE66B9">
-<createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:35:06 UTC</createdTime>
-<generatorID>3018D890-A66D-05EB-D6A6-8D5D989D83E8</generatorID>
+<createdTime>2024-06-11 12:21:08 UTC</createdTime>
+<generatorID>CC72215A-43AA-BA59-3549-8432DB00FE39</generatorID>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
@@ -81,21 +65,9 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Jumlah_Imbalan" id="76043FFA-BBAB-C143-D26F-19D6CBB1D36C">
+<Attribute name="Status" id="1B775B22-BE90-8B26-C09E-13629D593A31">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-11 11:44:03 UTC</createdTime>
-<ownerDesignName>InTrash</ownerDesignName>
-<engineerTo>
-<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Status" id="6E6325D3-AD09-EE0D-77F0-9DD5510CA580">
-<createdBy>Billie</createdBy>
-<createdTime>2024-06-11 11:44:51 UTC</createdTime>
+<createdTime>2024-06-11 12:22:47 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
@@ -103,18 +75,31 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_StatusTransaksi" id="D223578D-8CB2-6189-1978-5BBE3CF1A7CF">
+<Attribute name="ID_Metode" id="C1722E8C-839C-64B3-04EE-D3E380378CBD">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-11 13:15:15 UTC</createdTime>
-<generatorID>167024EF-D3BA-4034-5FAC-42EC741C08D1</generatorID>
+<createdTime>2024-06-11 12:23:36 UTC</createdTime>
+<generatorID>2D7BD715-D7EA-D321-EE54-467610D89FB6</generatorID>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
 </engineerTo>
-<referedAttribute>E2749906-EEB0-A0E4-0EB3-F9E20DB431AC</referedAttribute>
+<referedAttribute>94AC6FA3-B028-9DED-D81B-772073BC8FA8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_StatusPencairan" id="AA696FB2-E375-DAD7-83EF-BD544828F79E">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:17:33 UTC</createdTime>
+<generatorID>44309298-0E44-617E-C6C8-810011C5C738</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<referedAttribute>AF864C42-150B-1B72-934C-D209354592F0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -122,9 +107,9 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="631547CD-E9E6-C225-5D11-FC78F8766E04" name="Transaksi PK">
+<identifier id="401CBCEE-00E6-3B93-ED7D-E3D31C800DEB" name="Pencairan PK">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:30:22 UTC</createdTime>
+<createdTime>2024-06-11 12:17:04 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <shouldEngineer>false</shouldEngineer>
 <engineerTo>
@@ -132,7 +117,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>884E93AC-B467-EE16-C250-1C4548745AFC</attributeRef>
+<attributeRef>E2EDE86C-1DC8-B1C9-BF43-EBB377AA7D4C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

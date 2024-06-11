@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9928B066-FE2D-C465-481D-27297DD8DE3B" name="Detail_Transaksi">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>650F84A6-C30E-999F-934F-C480A3CF57C2</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Kuantitas" id="FB9234C9-CE15-E8DF-DBA6-822328DC1FA8">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>1105DFA5-5CAD-669C-D292-AE23422F863D</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaksi_Id_Transaksi" id="73276DDD-09D4-6DD7-96B7-830E3F8AFFEC">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>1A8C1310-477F-AB31-51D5-ECBC68480FAA</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0F7F324-C7CF-95A2-CC72-AEF366F6E855" referredColumn="B070FB84-8BCF-1944-AA44-50A5253E9597"/>
+</associations>
+</Column>
+<Column name="Jenis_Sampah_Id_Jenis_Sampah" id="21E2ABCD-D573-7C71-2C7F-AB7DBC62F73F">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>00091EE4-C84F-4CA2-15F9-6749758EBB95</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AD9E620-C5FB-23EC-7624-76AEC1F5EDDD" referredColumn="73E38DA0-A046-11CC-EEB1-FD8D007A8F7E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4857203B-51B5-B62D-4263-2ACB4AA38B68" name="Detail_Transaksi_PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>173919DF-608B-7F34-95ED-AD9B2B625C67</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73276DDD-09D4-6DD7-96B7-830E3F8AFFEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E00F4FC1-599C-96D2-3812-249421BFFE75" name="Detail_Transaksi_Jenis_Sampah_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>04753762-824E-F5B7-0377-3A85F35E3497</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21E2ABCD-D573-7C71-2C7F-AB7DBC62F73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21E3344A-B104-D57E-D3C3-078E856C0012" name="Detail_Transaksi_Transaksi_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>47D816FB-F723-8B99-0122-E3B8DF31EBEA</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73276DDD-09D4-6DD7-96B7-830E3F8AFFEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

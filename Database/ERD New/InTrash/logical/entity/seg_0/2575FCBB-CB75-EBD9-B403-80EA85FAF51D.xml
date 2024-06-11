@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="650F84A6-C30E-999F-934F-C480A3CF57C2" name="Detail_Transaksi">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2575FCBB-CB75-EBD9-B403-80EA85FAF51D" name="Status_Pencairan">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:30:57 UTC</createdTime>
+<createdTime>2024-06-11 13:16:09 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
@@ -15,59 +15,54 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Kuantitas" id="1105DFA5-5CAD-669C-D292-AE23422F863D">
+<Attribute name="ID_StatusPencairan" id="AF864C42-150B-1B72-934C-D209354592F0">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:31:12 UTC</createdTime>
+<createdTime>2024-06-11 13:16:23 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Id_Transaksi" id="1A8C1310-477F-AB31-51D5-ECBC68480FAA">
-<createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:36:48 UTC</createdTime>
-<generatorID>47D816FB-F723-8B99-0122-E3B8DF31EBEA</generatorID>
-<ownerDesignName>InTrash</ownerDesignName>
-<engineerTo>
-<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
-</engineerTo>
-<referedAttribute>884E93AC-B467-EE16-C250-1C4548745AFC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Id_Jenis_Sampah" id="00091EE4-C84F-4CA2-15F9-6749758EBB95">
+<Attribute name="Status" id="2578F33B-C9A8-5DA4-900B-149B0CCB5CA1">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:39:16 UTC</createdTime>
-<generatorID>04753762-824E-F5B7-0377-3A85F35E3497</generatorID>
+<createdTime>2024-06-11 13:16:48 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
 </engineerTo>
-<referedAttribute>61D957DB-C7C7-3A1F-AE0C-56690AF6283D</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Keterangan" id="887CC7C7-2765-A349-45BF-A7D188003518">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:17:05 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="173919DF-608B-7F34-95ED-AD9B2B625C67" name="Detail_Transaksi PK">
+<identifier id="1D684701-54BA-D54A-2D39-28A7FB238CBC" name="Status_Pencairan PK">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:36:48 UTC</createdTime>
+<createdTime>2024-06-11 13:16:46 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="false"/>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1A8C1310-477F-AB31-51D5-ECBC68480FAA</attributeRef>
+<attributeRef>AF864C42-150B-1B72-934C-D209354592F0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
