@@ -32,9 +32,34 @@ namespace WinFormsApp1.Views
 
         private void btnSimpan_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(tbNama.Text) ||
+                string.IsNullOrWhiteSpace(tbUsername.Text) ||
+                string.IsNullOrWhiteSpace(tbSandi.Text) ||
+                string.IsNullOrWhiteSpace(tbNomorHP.Text) ||
+                cbTempatPengepul.SelectedValue == null)
+            {
+                MessageBox.Show("Terdapat data kosong!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             try
             {
                 DBConnection.openConn();
+
+                string queryCek = @"SELECT COUNT(*) 
+                                    FROM kurir 
+                                    WHERE username_kurir = @username";
+                using (var cmd = new NpgsqlCommand(queryCek, DBConnection.connection))
+                {
+                    cmd.Parameters.AddWithValue("username", tbUsername.Text);
+                    long usernameCount = (long)cmd.ExecuteScalar();
+
+                    if (usernameCount > 0)
+                    {
+                        MessageBox.Show("Username sudah ada, silakan gunakan username lain!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+                }
 
                 string query = @"INSERT INTO Kurir (Nama_Kurir, Username_Kurir, Password_Kurir, No_HP, Id_TempatPengepul)
                                  VALUES (@nama, @username, @password, @nohp, @id_tempatpengepul)";
