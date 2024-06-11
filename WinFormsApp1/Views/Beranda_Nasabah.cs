@@ -51,39 +51,50 @@ namespace WinFormsApp1.Views
 
         private void btnProfil_Click_1(object sender, EventArgs e)
         {
-            Profil_Nasabah formProfil = new Profil_Nasabah();
-            formProfil.ShowDialog();
+            this.Hide();
+            Profil_Nasabah nextpage = new Profil_Nasabah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
 
         private void btnSetorSampah_Click(object sender, EventArgs e)
         {
-            Setor_Sampah formSetor = new Setor_Sampah();
-            formSetor.ShowDialog();
+            this.Hide();
+            Setor_Sampah nextpage = new Setor_Sampah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
 
         private void btnRiwayatTransaksi_Click(object sender, EventArgs e)
         {
-            Riwayat_Nasbah formRiwayat = new Riwayat_Nasbah();
-            formRiwayat.ShowDialog();
+            this.Hide();
+            Riwayat_Nasbah nextpage = new Riwayat_Nasbah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
 
         private void btnInformasiSampah_Click(object sender, EventArgs e)
         {
-            Informasi_Sampah formInfo = new Informasi_Sampah();
-            formInfo.ShowDialog();
+            this.Hide();
+            Informasi_Sampah nextpage = new Informasi_Sampah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
 
         private void btnHapusAkun_Click(object sender, EventArgs e)
         {
-            Hapus_Akun_Nasabah formHapusAkun = new Hapus_Akun_Nasabah();
-            formHapusAkun.ShowDialog();
+            this.Hide();
+            Hapus_Akun_Nasabah nextpage = new Hapus_Akun_Nasabah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
 
         private void btnLogOut_Click(object sender, EventArgs e)
         {
-            Opsi_Login formLogin = new Opsi_Login();
-            formLogin.Show();
-            this.Close();
+            this.Hide();
+            Opsi_Login nextpage = new Opsi_Login();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
 
         private void Beranda_Nasabah_Load(object sender, EventArgs e)
