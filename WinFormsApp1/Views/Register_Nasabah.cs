@@ -21,5 +21,13 @@ namespace WinFormsApp1.Views
         {
 
         }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Opsi_Login nextpage = new Opsi_Login();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
     }
 }
