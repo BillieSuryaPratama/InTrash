@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp1.Views
 {
-    partial class Hapus_Akun_Kurir
+    partial class InTrash
     {
         /// <summary>
         /// Required designer variable.
@@ -31,11 +31,17 @@
             btnKonfirmasi = new Button();
             btnKembali = new Button();
             tbID = new TextBox();
-            dgvListKurir = new DataGridView();
             label1 = new Label();
             label2 = new Label();
             tbSandi = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dgvListKurir).BeginInit();
+            dgvHapusKurir = new DataGridView();
+            id_kurir = new DataGridViewTextBoxColumn();
+            nama_kurir = new DataGridViewTextBoxColumn();
+            username_kurir = new DataGridViewTextBoxColumn();
+            password = new DataGridViewTextBoxColumn();
+            noHP = new DataGridViewTextBoxColumn();
+            tempatpengepul = new DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)dgvHapusKurir).BeginInit();
             SuspendLayout();
             // 
             // btnKonfirmasi
@@ -48,6 +54,7 @@
             btnKonfirmasi.TabIndex = 50;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = true;
+            btnKonfirmasi.Click += btnKonfirmasi_Click;
             // 
             // btnKembali
             // 
@@ -69,17 +76,6 @@
             tbID.Name = "tbID";
             tbID.Size = new Size(166, 27);
             tbID.TabIndex = 48;
-            // 
-            // dgvListKurir
-            // 
-            dgvListKurir.BackgroundColor = Color.Gainsboro;
-            dgvListKurir.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListKurir.Location = new Point(35, 8);
-            dgvListKurir.Margin = new Padding(2, 3, 2, 3);
-            dgvListKurir.Name = "dgvListKurir";
-            dgvListKurir.RowHeadersWidth = 62;
-            dgvListKurir.Size = new Size(575, 225);
-            dgvListKurir.TabIndex = 46;
             // 
             // label1
             // 
@@ -111,22 +107,77 @@
             tbSandi.Size = new Size(166, 27);
             tbSandi.TabIndex = 53;
             // 
-            // Hapus_Akun_Kurir
+            // dgvHapusKurir
+            // 
+            dgvHapusKurir.BackgroundColor = Color.Gainsboro;
+            dgvHapusKurir.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvHapusKurir.Columns.AddRange(new DataGridViewColumn[] { id_kurir, nama_kurir, username_kurir, password, noHP, tempatpengepul });
+            dgvHapusKurir.Location = new Point(36, 11);
+            dgvHapusKurir.Margin = new Padding(2);
+            dgvHapusKurir.Name = "dgvHapusKurir";
+            dgvHapusKurir.RowHeadersWidth = 62;
+            dgvHapusKurir.Size = new Size(575, 225);
+            dgvHapusKurir.TabIndex = 54;
+            // 
+            // id_kurir
+            // 
+            id_kurir.HeaderText = "ID";
+            id_kurir.MinimumWidth = 6;
+            id_kurir.Name = "id_kurir";
+            id_kurir.Width = 40;
+            // 
+            // nama_kurir
+            // 
+            nama_kurir.HeaderText = "Nama";
+            nama_kurir.MinimumWidth = 6;
+            nama_kurir.Name = "nama_kurir";
+            nama_kurir.Width = 125;
+            // 
+            // username_kurir
+            // 
+            username_kurir.HeaderText = "Username";
+            username_kurir.MinimumWidth = 6;
+            username_kurir.Name = "username_kurir";
+            username_kurir.Width = 125;
+            // 
+            // password
+            // 
+            password.HeaderText = "Password";
+            password.MinimumWidth = 6;
+            password.Name = "password";
+            password.Width = 125;
+            // 
+            // noHP
+            // 
+            noHP.HeaderText = "Nomor HP";
+            noHP.MinimumWidth = 6;
+            noHP.Name = "noHP";
+            noHP.Width = 125;
+            // 
+            // tempatpengepul
+            // 
+            tempatpengepul.HeaderText = "Tempat Pengepul";
+            tempatpengepul.MinimumWidth = 6;
+            tempatpengepul.Name = "tempatpengepul";
+            tempatpengepul.Width = 150;
+            // 
+            // InTrash
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(637, 347);
+            Controls.Add(dgvHapusKurir);
             Controls.Add(tbSandi);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(btnKonfirmasi);
             Controls.Add(btnKembali);
             Controls.Add(tbID);
-            Controls.Add(dgvListKurir);
-            Name = "Hapus_Akun_Kurir";
-            Text = "Hapus_Akun_Kurir";
-            ((System.ComponentModel.ISupportInitialize)dgvListKurir).EndInit();
+            Name = "InTrash";
+            Text = "InTrash";
+            Load += InTrash_Load;
+            ((System.ComponentModel.ISupportInitialize)dgvHapusKurir).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -136,9 +187,15 @@
         private Button btnKonfirmasi;
         private Button btnKembali;
         private TextBox tbID;
-        private DataGridView dgvListKurir;
         private Label label1;
         private Label label2;
         private TextBox tbSandi;
+        private DataGridView dgvHapusKurir;
+        private DataGridViewTextBoxColumn id_kurir;
+        private DataGridViewTextBoxColumn nama_kurir;
+        private DataGridViewTextBoxColumn username_kurir;
+        private DataGridViewTextBoxColumn password;
+        private DataGridViewTextBoxColumn noHP;
+        private DataGridViewTextBoxColumn tempatpengepul;
     }
 }

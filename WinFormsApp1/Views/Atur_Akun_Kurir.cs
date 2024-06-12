@@ -160,9 +160,9 @@ namespace WinFormsApp1.Views
 
         private void btnHapusAkun_Click(object sender, EventArgs e)
         {
-            ID_Kurir = Convert.ToInt32(cbEdit.SelectedItem);
+            ID_Kurir = Convert.ToInt32(cbHapus.SelectedItem);
             this.Hide();
-            Hapus_Akun_Kurir nextpage = new Hapus_Akun_Kurir();
+            InTrash nextpage = new InTrash();
             nextpage.FormClosed += (s, args) => this.Close();
             nextpage.ShowDialog();
         }
