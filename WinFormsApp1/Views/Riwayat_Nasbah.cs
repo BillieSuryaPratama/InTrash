@@ -224,7 +224,7 @@ namespace WinFormsApp1.Views
             dataTable.Columns.Add("ID Transaksi", typeof(int));
             dataTable.Columns.Add("Tanggal Transaksi", typeof(DateTime));
             dataTable.Columns.Add("Jumlah Imbalan", typeof(int));
-            dataTable.Columns.Add("Tempat Pengepul", typeof(string));
+            dataTable.Columns.Add("Tempat Pengepul", typeof(string)); // Menyesuaikan dengan nama kolom yang digunakan dalam query SQL
             dataTable.Columns.Add("Status Transaksi", typeof(string));
 
             try
@@ -233,16 +233,16 @@ namespace WinFormsApp1.Views
 
                 int Tahun = (int)cbPerTahun.SelectedItem;
                 string query = @"SELECT 
-                        t.id_transaksi, 
-                        t.tanggal_transaksi, 
-                        t.jumlah_imbalan, 
-                        tp.nama_tempat AS tempat_pengepul, 
-                        st.status AS status_transaksi
-                     FROM transaksi t
-                     JOIN tempatpengepul tp ON t.id_tempatpengepul = tp.id_tempatpengepul
-                     JOIN status_transaksi st ON t.id_statustransaksi = st.id_statustransaksi
-                     WHERE t.id_customer = @idCustomer
-                     AND EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun";
+                t.id_transaksi, 
+                t.tanggal_transaksi, 
+                t.jumlah_imbalan, 
+                tp.nama_tempat AS tempat_pengepul, 
+                st.status AS status_transaksi
+             FROM transaksi t
+             JOIN tempatpengepul tp ON t.id_tempatpengepul = tp.id_tempatpengepul
+             JOIN status_transaksi st ON t.id_statustransaksi = st.id_statustransaksi
+             WHERE t.id_customer = @idCustomer
+             AND EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun";
 
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
                 {
@@ -258,7 +258,6 @@ namespace WinFormsApp1.Views
                     }
                 }
             }
-
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}\n\nDetail: {ex.StackTrace}", "Error Database", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -273,7 +272,7 @@ namespace WinFormsApp1.Views
             dgvRiwayatTransaksi.Columns[0].DataPropertyName = "ID Transaksi";
             dgvRiwayatTransaksi.Columns[1].DataPropertyName = "Tanggal Transaksi";
             dgvRiwayatTransaksi.Columns[2].DataPropertyName = "Jumlah Imbalan";
-            dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Nama Tempat Pengepul";
+            dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Tempat Pengepul"; 
             dgvRiwayatTransaksi.Columns[4].DataPropertyName = "Status Transaksi";
         }
 
