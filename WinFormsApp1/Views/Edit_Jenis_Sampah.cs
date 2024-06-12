@@ -129,7 +129,7 @@ namespace WinFormsApp1.Views
 
                         if (result > 0)
                         {
-                            MessageBox.Show("Data berhasil ditambahkan!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("Data berhasil diupdate!", "Informasi", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
                         else
                         {
