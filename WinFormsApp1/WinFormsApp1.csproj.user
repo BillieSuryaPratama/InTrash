@@ -64,9 +64,6 @@
     <Compile Update="Views\Setor_Sampah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Konfirmasi_Setor_Sampah.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Views\Riwayat_Nasbah.cs">
       <SubType>Form</SubType>
     </Compile>
