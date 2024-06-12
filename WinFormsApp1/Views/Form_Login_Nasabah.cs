@@ -57,7 +57,7 @@ namespace WinFormsApp1.Views
                 {
                     MessageBox.Show("Mohon isi Username dan Password anda dengan Benar!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            DBConnection.closeConn();
+                DBConnection.closeConn();
             }
         }
 
@@ -67,6 +67,11 @@ namespace WinFormsApp1.Views
             Lupa_Password_Nasabah nextpage = new Lupa_Password_Nasabah();
             nextpage.FormClosed += (s, args) => this.Close();
             nextpage.ShowDialog();
+        }
+
+        private void Form_Login_Nasabah_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
