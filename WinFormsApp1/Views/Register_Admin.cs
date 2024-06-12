@@ -56,6 +56,21 @@ namespace WinFormsApp1.Views
                         MessageBox.Show("Username sudah ada, silakan gunakan username lain!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return;
                     }
+
+
+                }
+
+                string checkIdTempatPengepulQuery = @"SELECT COUNT(*) FROM admin_tempat_pengepul WHERE id_tempatpengepul = @id_tempatpengepul";
+                using (var cmdCheck = new NpgsqlCommand(checkIdTempatPengepulQuery, DBConnection.connection))
+                {
+                    cmdCheck.Parameters.AddWithValue("id_tempatpengepul", (int)cbTempatPengepul.SelectedValue);
+                    long idTempatPengepulCount = (long)cmdCheck.ExecuteScalar(); // Correctly handle the 64-bit integer
+
+                    if (idTempatPengepulCount > 0)
+                    {
+                        MessageBox.Show("Tempat Pengepul ini sudah memiliki admin, silakan pilih tempat lain!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
                 }
 
                 string query = @"INSERT INTO admin_tempat_pengepul (nama_admin, username_admin, password_admin, alamat, no_hp, id_tempatpengepul)
