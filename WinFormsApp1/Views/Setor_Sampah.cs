@@ -122,19 +122,19 @@ namespace WinFormsApp1.Views
 
         private void btnKonfirmasi_Click(object sender, EventArgs e)
         {
-            if (comboBoxLokasiBank.SelectedIndex <= 0)
+            if (comboBoxLokasiBank.SelectedIndex == 0)
             {
                 MessageBox.Show("Harap pilih lokasi bank sampah.");
                 return; // Keluar dari fungsi jika lokasi belum dipilih
             }
 
-            if (dataGridViewSetorSampah.Rows.Count <= 1) // Memeriksa apakah ada data sampah
+            if (dataGridViewSetorSampah.Rows.Count == 1) // Memeriksa apakah ada data sampah
             {
                 MessageBox.Show("Harap tambahkan jenis sampah yang akan disetorkan.");
                 return; // Keluar dari fungsi jika tidak ada data sampah
             }
 
-            DialogResult dialogResult = MessageBox.Show("Apakah Anda yakin ingin menyetorkan sampah ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Apakah anda yakin ingin menyetorkan sampah ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             
             if (dialogResult == DialogResult.Yes)
             {
@@ -363,8 +363,8 @@ namespace WinFormsApp1.Views
             string query = "SELECT id_jenis_sampah FROM jenis_sampah WHERE nama_jenis_sampah = @jenisSampah";
             using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
             {
-                cmd.Parameters.AddWithValue("jenisSampah", jenisSampah); // Tambahkan parameter
-                var result = cmd.ExecuteScalar(); // Simpan hasil query ke variabel result
+                cmd.Parameters.AddWithValue("jenisSampah", jenisSampah);
+                var result = cmd.ExecuteScalar();
                 return result != null ? Convert.ToInt32(result) : 0;
             }
         }
