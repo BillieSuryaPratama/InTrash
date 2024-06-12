@@ -15,6 +15,18 @@ namespace WinFormsApp1.Views
 {
     public partial class Edit_Jenis_Sampah : Form
     {
+        private bool IsNumeric(string text)
+        {
+            foreach (char c in text)
+            {
+                if (!char.IsDigit(c))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
         public Edit_Jenis_Sampah()
         {
             InitializeComponent();
@@ -73,6 +85,12 @@ namespace WinFormsApp1.Views
                     string.IsNullOrWhiteSpace(tbHarga.Text))
                 {
                     MessageBox.Show("Terdapat data kosong!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (!IsNumeric(tbHarga.Text))
+                {
+                    MessageBox.Show("Nomor telepon hanya boleh mengandung angka!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 
@@ -139,6 +157,12 @@ namespace WinFormsApp1.Views
                     string.IsNullOrWhiteSpace(tbHarga.Text))
                 {
                     MessageBox.Show("Terdapat data kosong!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
+                if (!IsNumeric(tbHarga.Text))
+                {
+                    MessageBox.Show("Nomor telepon hanya boleh mengandung angka!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 

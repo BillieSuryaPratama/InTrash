@@ -48,6 +48,18 @@ namespace WinFormsApp1.Views
             return idAdmin;
         }
 
+        private bool IsNumeric(string text)
+        {
+            foreach (char c in text)
+            {
+                if (!char.IsDigit(c))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
         public Profil_Admin()
         {
             InitializeComponent();
@@ -121,6 +133,12 @@ namespace WinFormsApp1.Views
                 string.IsNullOrWhiteSpace(tbnoHP.Text))
             {
                 MessageBox.Show("Terdapat data kosong!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!IsNumeric(tbnoHP.Text))
+            {
+                MessageBox.Show("Nomor telepon hanya boleh mengandung angka!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
