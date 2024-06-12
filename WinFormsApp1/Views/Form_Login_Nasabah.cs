@@ -49,7 +49,7 @@ namespace WinFormsApp1.Views
                     PasswordLogin = tbPassword.Text;
 
                     this.Hide();
-                    Beranda_Admin nextpage = new Beranda_Admin();
+                    Beranda_Nasabah nextpage = new Beranda_Nasabah();
                     nextpage.FormClosed += (s, args) => this.Close();
                     nextpage.ShowDialog();
                 }
