@@ -24,7 +24,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Id_Transaksi" id="1A8C1310-477F-AB31-51D5-ECBC68480FAA">
@@ -61,8 +61,9 @@
 <createdBy>Billie</createdBy>
 <createdTime>2024-06-10 07:36:48 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

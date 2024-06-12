@@ -32,11 +32,10 @@ namespace WinFormsApp1.Views
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
             DBConnection.openConn();
             string query = @"SELECT COUNT (*)
-                                FROM Customer
-                                WHERE Username_Customer = @Username and Password_Customer = @Password";
+                             FROM Customer
+                             WHERE Username_Customer = @Username and Password_Customer = @Password";
             using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
             {
                 cmd.Parameters.AddWithValue("username", tbUsername.Text);
@@ -45,6 +44,7 @@ namespace WinFormsApp1.Views
 
                 if (userCount == 1)
                 {
+
                     UsernameLogin = tbUsername.Text;
                     PasswordLogin = tbPassword.Text;
 
@@ -57,7 +57,7 @@ namespace WinFormsApp1.Views
                 {
                     MessageBox.Show("Mohon isi Username dan Password anda dengan Benar!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            DBConnection.closeConn();
+                DBConnection.closeConn();
             }
         }
 
@@ -67,6 +67,11 @@ namespace WinFormsApp1.Views
             Lupa_Password_Nasabah nextpage = new Lupa_Password_Nasabah();
             nextpage.FormClosed += (s, args) => this.Close();
             nextpage.ShowDialog();
+        }
+
+        private void Form_Login_Nasabah_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

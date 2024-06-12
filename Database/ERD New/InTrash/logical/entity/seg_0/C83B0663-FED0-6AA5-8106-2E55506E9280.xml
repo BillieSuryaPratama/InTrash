@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C83B0663-FED0-6AA5-8106-2E55506E9280" name="Metode Pencairan">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 11:51:55 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Metode" id="94AC6FA3-B028-9DED-D81B-772073BC8FA8">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 11:52:17 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama_Metode" id="10E95648-F793-44D8-EA1A-3578508047AA">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 11:52:38 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C14A4782-6714-3C35-C372-9BB470AD1BF1" name="Metode Pencairan PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 11:52:34 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94AC6FA3-B028-9DED-D81B-772073BC8FA8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

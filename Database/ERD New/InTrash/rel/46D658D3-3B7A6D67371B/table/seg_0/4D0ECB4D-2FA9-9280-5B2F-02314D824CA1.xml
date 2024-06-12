@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D0ECB4D-2FA9-9280-5B2F-02314D824CA1" name="Admin">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>CE908283-ED26-57AC-4188-5C8519958207</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id_Admin" id="118153F4-A910-75FE-CC49-568C66FF7B8C">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>BA521B18-7D36-5716-44AC-D1E86C19D9FF</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Admin" id="2175A5C3-9061-B050-AE86-2F5F20DF8275">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>F2FC071D-191F-1F90-997D-8D5A9DF2C7A8</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username_Admin" id="8D4147CD-7295-37F5-F0B5-387C1A54EB58">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>7A9A8C24-AD61-28F6-5488-DD90BCEDA761</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="737A7EB9-DC7B-CC8A-ACB2-2C72B8411151">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>76E9DD5B-EE98-6706-44BB-250650A718CB</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Alamat" id="EF91B071-459C-5128-E576-8D9210CD319F">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>EF620FD0-3E11-74C9-0D6B-7666E6A7B605</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_HP" id="D81D5833-ACC0-F4B4-E805-283F373DE5E1">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>1795DB73-2E3F-938B-D9C4-EEA6D307BE90</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tempat_Pengepul_Id_Tempat_Pengepul" id="6EAA16EB-6A91-21EF-0593-749BF736B464">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>876F2201-3C67-9C11-197D-309568E85680</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFC1D2D4-6BEB-C592-E712-D9DEE2AFE13F" referredColumn="3F1CF22D-191E-AE57-056B-DCF4ED619A58"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B77FA5D-42A4-41CB-20B3-3DCAE247FE26" name="Admin_PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>280C62B4-4809-F226-C16B-0F7D14D2F113</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="118153F4-A910-75FE-CC49-568C66FF7B8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="40FBCF03-2304-A8F6-DA7E-11E070ED940C" name="Admin_Tempat_Pengepul_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>8A45EA8D-BAAA-50EE-DDA9-0BADAD679C67</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EAA16EB-6A91-21EF-0593-749BF736B464"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

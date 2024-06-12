@@ -90,7 +90,6 @@ C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-wind
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Beranda_Nasabah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Edit_Jenis_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Edit_Kurir.resources
-C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Ganti_Sandi_Admin.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Ganti_Sandi.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Hapus_Akun_Admin.resources
@@ -100,8 +99,6 @@ C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-wind
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Jemput_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Jemput_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Reward.resources
-C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Setor_Sampah.resources
-C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Admin.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Nasabah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Register_Admin.resources
@@ -133,3 +130,68 @@ C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-wind
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinForms.E4050A35.Up2Date
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Admin.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Kurir.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Nasabah.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Admin.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Kurir.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Nasabah.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Opsi_Login.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.exe
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.deps.json
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.runtimeconfig.json
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.dll
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\bin\Debug\net8.0-windows\Npgsql.dll
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Properties.Resources.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Alamat_Penjemputan.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Atur_Akun_Kurir.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Atur_Jenis_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Beranda_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Beranda_Kurir.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Beranda_Nasabah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Edit_Jenis_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Edit_Kurir.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Kurir.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form_Login_Nasabah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Ganti_Sandi_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Ganti_Sandi.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Hapus_Akun_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Hapus_Akun_Kurir.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Hapus_Akun_Nasabah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Informasi_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Jemput_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Jemput_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Reward.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Setor_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Kurir.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Nasabah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Opsi_Login.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Nasabah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Register_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Register_Kurir.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Register_Nasabah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Reward_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Riwayat_Admin.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Riwayat_Nasbah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Setor_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Tambah_Sampah.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Verifikasi_NoHP.resources
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.AssemblyInfo.cs
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.sourcelink.json
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinForms.E4050A35.Up2Date
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.dll
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\refint\WinFormsApp1.dll
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
+D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll

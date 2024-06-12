@@ -167,9 +167,9 @@
             label6.Location = new Point(59, 43);
             label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(57, 20);
+            label6.Size = new Size(151, 20);
             label6.TabIndex = 55;
-            label6.Text = "Alamat";
+            label6.Text = "Alamat Bank Sampah";
             // 
             // label4
             // 

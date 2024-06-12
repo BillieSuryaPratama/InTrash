@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1F1715B-EB0C-2523-338D-A7C5AD9CE4AD" name="Kurir">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>7E6BB020-9D12-4CF5-727B-430187EA78C6</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kurir" id="724AEB25-0560-FE9D-F291-A86E6FF25DD6">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>11CA67D6-1AD0-8299-DFF0-7D6A2ECF999B</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Kurir" id="F593B148-7D43-734C-AD0A-793131806BCC">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>480E50BB-6DE7-D8D1-14BA-9F7C6CCE073F</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username_Kurir" id="C26B5420-E09C-3339-F168-9BA520A975FD">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>90FECF7C-5F65-F34D-7104-894DDBBAD6D5</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="6A4EE1BE-2D06-243F-F033-62B3CD5224FC">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>0046E938-534E-514E-6CF6-01C71C9AD29C</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="No_HP" id="363B3216-46B8-0918-84F8-5A61E8293403">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>DC4F9CCA-C23F-4D91-B975-5CB4C043F485</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tempat_Pengepul_Id_Tempat_Pengepul" id="2352B1DD-A936-E09D-2FA0-75219E2E44E3">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>9541DE3A-9849-F920-6BCE-EB3767DBAA03</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="974244B2-A692-284B-2F3A-1C750811E4D4" referredColumn="3F1CF22D-191E-AE57-056B-DCF4ED619A58"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="974EFCE4-C5F2-F4A3-DE97-D851F64B2C2F" name="Kurir_PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>764D3D02-C68E-8811-2DF2-650A6810AC50</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="724AEB25-0560-FE9D-F291-A86E6FF25DD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BA76B32-E35A-D1E4-83BF-4DD7C63E701F" name="Kurir_Tempat_Pengepul_FK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>502C9E58-EFC9-420F-8C9A-35FCE698B9BD</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2352B1DD-A936-E09D-2FA0-75219E2E44E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

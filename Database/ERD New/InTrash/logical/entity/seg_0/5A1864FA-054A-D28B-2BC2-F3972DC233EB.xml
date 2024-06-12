@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5A1864FA-054A-D28B-2BC2-F3972DC233EB" name="Status_Transaksi">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:13:33 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_StatusTransaksi" id="E2749906-EEB0-A0E4-0EB3-F9E20DB431AC">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:13:47 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="5F0247F6-B57C-52C4-D89E-202F6F2F2771">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:14:10 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Keterangan" id="5741798D-E2D1-8494-6814-EB204D30A55D">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:14:29 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30122372-D5BB-807E-3430-B101A2F420BB" name="Status_Transaksi PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:14:08 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E2749906-EEB0-A0E4-0EB3-F9E20DB431AC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -41,10 +41,10 @@
             // btnKonfirmasi
             // 
             btnKonfirmasi.BackgroundImage = Properties.Resources.Wireframe___56;
-            btnKonfirmasi.Location = new Point(452, 222);
-            btnKonfirmasi.Margin = new Padding(2);
+            btnKonfirmasi.Location = new Point(517, 296);
+            btnKonfirmasi.Margin = new Padding(2, 3, 2, 3);
             btnKonfirmasi.Name = "btnKonfirmasi";
-            btnKonfirmasi.Size = new Size(82, 29);
+            btnKonfirmasi.Size = new Size(94, 39);
             btnKonfirmasi.TabIndex = 50;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = true;
@@ -53,31 +53,32 @@
             // 
             btnKembali.BackColor = Color.Red;
             btnKembali.ForeColor = Color.White;
-            btnKembali.Location = new Point(33, 223);
-            btnKembali.Margin = new Padding(2);
+            btnKembali.Location = new Point(38, 297);
+            btnKembali.Margin = new Padding(2, 3, 2, 3);
             btnKembali.Name = "btnKembali";
-            btnKembali.Size = new Size(79, 32);
+            btnKembali.Size = new Size(90, 43);
             btnKembali.TabIndex = 49;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // tbID
             // 
-            tbID.Location = new Point(258, 188);
-            tbID.Margin = new Padding(2);
+            tbID.Location = new Point(295, 251);
+            tbID.Margin = new Padding(2, 3, 2, 3);
             tbID.Name = "tbID";
-            tbID.Size = new Size(146, 23);
+            tbID.Size = new Size(166, 27);
             tbID.TabIndex = 48;
             // 
             // dgvListKurir
             // 
             dgvListKurir.BackgroundColor = Color.Gainsboro;
             dgvListKurir.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListKurir.Location = new Point(31, 6);
-            dgvListKurir.Margin = new Padding(2);
+            dgvListKurir.Location = new Point(35, 8);
+            dgvListKurir.Margin = new Padding(2, 3, 2, 3);
             dgvListKurir.Name = "dgvListKurir";
             dgvListKurir.RowHeadersWidth = 62;
-            dgvListKurir.Size = new Size(503, 169);
+            dgvListKurir.Size = new Size(575, 225);
             dgvListKurir.TabIndex = 46;
             // 
             // label1
@@ -85,9 +86,9 @@
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
             label1.ForeColor = Color.White;
-            label1.Location = new Point(187, 190);
+            label1.Location = new Point(214, 253);
             label1.Name = "label1";
-            label1.Size = new Size(46, 15);
+            label1.Size = new Size(59, 20);
             label1.TabIndex = 51;
             label1.Text = "ID Kurir";
             // 
@@ -96,26 +97,26 @@
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
             label2.ForeColor = Color.White;
-            label2.Location = new Point(187, 213);
+            label2.Location = new Point(214, 284);
             label2.Name = "label2";
-            label2.Size = new Size(64, 15);
+            label2.Size = new Size(81, 20);
             label2.TabIndex = 52;
             label2.Text = "Sandi Kurir";
             // 
             // tbSandi
             // 
-            tbSandi.Location = new Point(258, 211);
-            tbSandi.Margin = new Padding(2);
+            tbSandi.Location = new Point(295, 281);
+            tbSandi.Margin = new Padding(2, 3, 2, 3);
             tbSandi.Name = "tbSandi";
-            tbSandi.Size = new Size(146, 23);
+            tbSandi.Size = new Size(166, 27);
             tbSandi.TabIndex = 53;
             // 
             // Hapus_Akun_Kurir
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Wireframe___55;
-            ClientSize = new Size(557, 260);
+            ClientSize = new Size(637, 347);
             Controls.Add(tbSandi);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -123,7 +124,6 @@
             Controls.Add(btnKembali);
             Controls.Add(tbID);
             Controls.Add(dgvListKurir);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "Hapus_Akun_Kurir";
             Text = "Hapus_Akun_Kurir";
             ((System.ComponentModel.ISupportInitialize)dgvListKurir).EndInit();

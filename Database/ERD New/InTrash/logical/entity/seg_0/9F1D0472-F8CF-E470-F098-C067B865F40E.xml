@@ -81,15 +81,40 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Id_Metode" id="B91BE5C0-845E-EE76-39C6-060C528D2248">
+<Attribute name="Jumlah_Imbalan" id="76043FFA-BBAB-C143-D26F-19D6CBB1D36C">
 <createdBy>Billie</createdBy>
-<createdTime>2024-06-10 07:36:19 UTC</createdTime>
-<generatorID>ABEE4711-5CAC-3A98-6854-EA7EBBF9D49A</generatorID>
+<createdTime>2024-06-11 11:44:03 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
 <engineerTo>
 <item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
 </engineerTo>
-<referedAttribute>78CDD423-FA58-2AC1-D8AE-823B8A52BBB2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Status" id="6E6325D3-AD09-EE0D-77F0-9DD5510CA580">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 11:44:51 UTC</createdTime>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_StatusTransaksi" id="D223578D-8CB2-6189-1978-5BBE3CF1A7CF">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:15:15 UTC</createdTime>
+<generatorID>167024EF-D3BA-4034-5FAC-42EC741C08D1</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<engineerTo>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+</engineerTo>
+<referedAttribute>E2749906-EEB0-A0E4-0EB3-F9E20DB431AC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -101,8 +126,9 @@
 <createdBy>Billie</createdBy>
 <createdTime>2024-06-10 07:30:22 UTC</createdTime>
 <ownerDesignName>InTrash</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="true"/>
+<item key="46D658D3-9C90-7A78-04C6-3B7A6D67371B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

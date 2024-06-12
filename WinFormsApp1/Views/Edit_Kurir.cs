@@ -16,5 +16,13 @@ namespace WinFormsApp1.Views
         {
             InitializeComponent();
         }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Atur_Akun_Kurir nextpage = new Atur_Akun_Kurir();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
     }
 }

@@ -29,10 +29,17 @@
         private void InitializeComponent()
         {
             btnKembali = new Button();
-            tbEdit = new TextBox();
             btnEditAkun = new Button();
             dgvListKurir = new DataGridView();
+            id_kurir = new DataGridViewTextBoxColumn();
+            nama_kurir = new DataGridViewTextBoxColumn();
+            username_kurir = new DataGridViewTextBoxColumn();
+            password = new DataGridViewTextBoxColumn();
+            noHP = new DataGridViewTextBoxColumn();
+            tempatpengepul = new DataGridViewTextBoxColumn();
             btnHapusAkun = new Button();
+            cbEdit = new ComboBox();
+            cbHapus = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvListKurir).BeginInit();
             SuspendLayout();
             // 
@@ -49,15 +56,6 @@
             btnKembali.UseVisualStyleBackColor = false;
             btnKembali.Click += btnKembali_Click;
             // 
-            // tbEdit
-            // 
-            tbEdit.BackColor = Color.Gainsboro;
-            tbEdit.Location = new Point(332, 258);
-            tbEdit.Margin = new Padding(2);
-            tbEdit.Name = "tbEdit";
-            tbEdit.Size = new Size(166, 27);
-            tbEdit.TabIndex = 42;
-            // 
             // btnEditAkun
             // 
             btnEditAkun.BackColor = Color.MediumTurquoise;
@@ -70,17 +68,61 @@
             btnEditAkun.TabIndex = 41;
             btnEditAkun.Text = "Edit Akun";
             btnEditAkun.UseVisualStyleBackColor = false;
+            btnEditAkun.Click += btnEditAkun_Click;
             // 
             // dgvListKurir
             // 
             dgvListKurir.BackgroundColor = Color.Gainsboro;
             dgvListKurir.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvListKurir.Columns.AddRange(new DataGridViewColumn[] { id_kurir, nama_kurir, username_kurir, password, noHP, tempatpengepul });
             dgvListKurir.Location = new Point(33, 11);
             dgvListKurir.Margin = new Padding(2);
             dgvListKurir.Name = "dgvListKurir";
             dgvListKurir.RowHeadersWidth = 62;
             dgvListKurir.Size = new Size(575, 225);
             dgvListKurir.TabIndex = 40;
+            // 
+            // id_kurir
+            // 
+            id_kurir.HeaderText = "ID";
+            id_kurir.MinimumWidth = 6;
+            id_kurir.Name = "id_kurir";
+            id_kurir.Width = 40;
+            // 
+            // nama_kurir
+            // 
+            nama_kurir.HeaderText = "Nama";
+            nama_kurir.MinimumWidth = 6;
+            nama_kurir.Name = "nama_kurir";
+            nama_kurir.Width = 125;
+            // 
+            // username_kurir
+            // 
+            username_kurir.HeaderText = "Username";
+            username_kurir.MinimumWidth = 6;
+            username_kurir.Name = "username_kurir";
+            username_kurir.Width = 125;
+            // 
+            // password
+            // 
+            password.HeaderText = "Password";
+            password.MinimumWidth = 6;
+            password.Name = "password";
+            password.Width = 125;
+            // 
+            // noHP
+            // 
+            noHP.HeaderText = "Nomor HP";
+            noHP.MinimumWidth = 6;
+            noHP.Name = "noHP";
+            noHP.Width = 125;
+            // 
+            // tempatpengepul
+            // 
+            tempatpengepul.HeaderText = "Tempat Pengepul";
+            tempatpengepul.MinimumWidth = 6;
+            tempatpengepul.Name = "tempatpengepul";
+            tempatpengepul.Width = 150;
             // 
             // btnHapusAkun
             // 
@@ -93,6 +135,23 @@
             btnHapusAkun.TabIndex = 45;
             btnHapusAkun.Text = "Hapus Akun";
             btnHapusAkun.UseVisualStyleBackColor = false;
+            btnHapusAkun.Click += btnHapusAkun_Click;
+            // 
+            // cbEdit
+            // 
+            cbEdit.FormattingEnabled = true;
+            cbEdit.Location = new Point(434, 258);
+            cbEdit.Name = "cbEdit";
+            cbEdit.Size = new Size(63, 28);
+            cbEdit.TabIndex = 46;
+            // 
+            // cbHapus
+            // 
+            cbHapus.FormattingEnabled = true;
+            cbHapus.Location = new Point(434, 298);
+            cbHapus.Name = "cbHapus";
+            cbHapus.Size = new Size(63, 28);
+            cbHapus.TabIndex = 47;
             // 
             // Atur_Akun_Kurir
             // 
@@ -101,24 +160,32 @@
             BackColor = Color.Teal;
             BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(637, 350);
+            Controls.Add(cbHapus);
+            Controls.Add(cbEdit);
             Controls.Add(btnHapusAkun);
             Controls.Add(btnKembali);
-            Controls.Add(tbEdit);
             Controls.Add(btnEditAkun);
             Controls.Add(dgvListKurir);
             Name = "Atur_Akun_Kurir";
             Text = "InTrash";
+            Load += Atur_Akun_Kurir_Load;
             ((System.ComponentModel.ISupportInitialize)dgvListKurir).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
         private Button btnKembali;
-        private TextBox tbEdit;
         private Button btnEditAkun;
         private DataGridView dgvListKurir;
         private Button btnHapusAkun;
+        private ComboBox cbEdit;
+        private ComboBox cbHapus;
+        private DataGridViewTextBoxColumn id_kurir;
+        private DataGridViewTextBoxColumn nama_kurir;
+        private DataGridViewTextBoxColumn username_kurir;
+        private DataGridViewTextBoxColumn password;
+        private DataGridViewTextBoxColumn noHP;
+        private DataGridViewTextBoxColumn tempatpengepul;
     }
 }

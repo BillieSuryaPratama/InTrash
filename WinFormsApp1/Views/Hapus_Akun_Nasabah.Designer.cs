@@ -31,8 +31,8 @@
             btnKembali = new Button();
             btnKonfirmasi = new Button();
             label1 = new Label();
-            btnSandi = new TextBox();
             lblInstruksi = new Label();
+            txtPassword = new TextBox();
             SuspendLayout();
             // 
             // btnKembali
@@ -45,6 +45,7 @@
             btnKembali.TabIndex = 0;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // btnKonfirmasi
             // 
@@ -57,6 +58,7 @@
             btnKonfirmasi.TabIndex = 1;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = false;
+            btnKonfirmasi.Click += btnKonfirmasi_Click;
             // 
             // label1
             // 
@@ -70,13 +72,6 @@
             label1.TabIndex = 2;
             label1.Text = "Sandi";
             // 
-            // btnSandi
-            // 
-            btnSandi.Location = new Point(286, 163);
-            btnSandi.Name = "btnSandi";
-            btnSandi.Size = new Size(125, 27);
-            btnSandi.TabIndex = 3;
-            // 
             // lblInstruksi
             // 
             lblInstruksi.AutoSize = true;
@@ -89,6 +84,13 @@
             lblInstruksi.TabIndex = 4;
             lblInstruksi.Text = "Masukkan sandi anda untuk mengkonfirmasi penghapusan akun";
             // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(308, 161);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(125, 27);
+            txtPassword.TabIndex = 5;
+            // 
             // Hapus_Akun_Nasabah
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -96,13 +98,14 @@
             BackColor = Color.Teal;
             BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(639, 360);
+            Controls.Add(txtPassword);
             Controls.Add(lblInstruksi);
-            Controls.Add(btnSandi);
             Controls.Add(label1);
             Controls.Add(btnKonfirmasi);
             Controls.Add(btnKembali);
             Name = "Hapus_Akun_Nasabah";
             Text = "InTrash";
+            Load += Hapus_Akun_Nasabah_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -112,7 +115,7 @@
         private Button btnKembali;
         private Button btnKonfirmasi;
         private Label label1;
-        private TextBox btnSandi;
         private Label lblInstruksi;
+        private TextBox txtPassword;
     }
 }

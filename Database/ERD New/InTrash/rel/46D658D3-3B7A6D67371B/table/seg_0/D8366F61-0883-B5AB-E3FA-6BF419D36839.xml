@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8366F61-0883-B5AB-E3FA-6BF419D36839" name="Status_Transaksi">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>5A1864FA-054A-D28B-2BC2-F3972DC233EB</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_StatusTransaksi" id="95311876-5093-325E-88B2-3C372B8F4CD7">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>E2749906-EEB0-A0E4-0EB3-F9E20DB431AC</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="AC55AA2D-0CFB-B1D3-AE45-68050A03CB03">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>5F0247F6-B57C-52C4-D89E-202F6F2F2771</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Keterangan" id="B9CB3984-70E0-473A-1398-63F2FE072A99">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>5741798D-E2D1-8494-6814-EB204D30A55D</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA7DE9FF-A134-9E56-19B7-2C1A3D0B87F4" name="Status_Transaksi_PK">
+<createdBy>Billie</createdBy>
+<createdTime>2024-06-11 13:18:20 UTC</createdTime>
+<generatorID>30122372-D5BB-807E-3430-B101A2F420BB</generatorID>
+<ownerDesignName>InTrash</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95311876-5093-325E-88B2-3C372B8F4CD7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
