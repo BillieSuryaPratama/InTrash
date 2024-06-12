@@ -125,8 +125,6 @@ namespace WinFormsApp1.Views
             string Password = Form_Login_Admin.PasswordLogin;
             int idAdmin = GetIdAdmin(Username, Password);
 
-            Form_Login_Admin.UpdateUsername(tbUsername.Text);
-
             if (string.IsNullOrWhiteSpace(tbNama.Text) ||
                 string.IsNullOrWhiteSpace(tbUsername.Text) ||
                 string.IsNullOrWhiteSpace(tbalamat.Text) ||
@@ -197,6 +195,7 @@ namespace WinFormsApp1.Views
             }
             finally
             {
+                Form_Login_Admin.UpdateUsername(tbUsername.Text);
                 DBConnection.closeConn();
                 this.Hide();
                 Beranda_Admin nextpage = new Beranda_Admin();
