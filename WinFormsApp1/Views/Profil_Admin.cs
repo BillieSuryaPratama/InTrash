@@ -48,6 +48,18 @@ namespace WinFormsApp1.Views
             return idAdmin;
         }
 
+        private bool IsNumeric(string text)
+        {
+            foreach (char c in text)
+            {
+                if (!char.IsDigit(c))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
         public Profil_Admin()
         {
             InitializeComponent();
@@ -113,14 +125,18 @@ namespace WinFormsApp1.Views
             string Password = Form_Login_Admin.PasswordLogin;
             int idAdmin = GetIdAdmin(Username, Password);
 
-            Form_Login_Admin.UpdateUsername(tbUsername.Text);
-
             if (string.IsNullOrWhiteSpace(tbNama.Text) ||
                 string.IsNullOrWhiteSpace(tbUsername.Text) ||
                 string.IsNullOrWhiteSpace(tbalamat.Text) ||
                 string.IsNullOrWhiteSpace(tbnoHP.Text))
             {
                 MessageBox.Show("Terdapat data kosong!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!IsNumeric(tbnoHP.Text))
+            {
+                MessageBox.Show("Nomor telepon hanya boleh mengandung angka!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -179,6 +195,7 @@ namespace WinFormsApp1.Views
             }
             finally
             {
+                Form_Login_Admin.UpdateUsername(tbUsername.Text);
                 DBConnection.closeConn();
                 this.Hide();
                 Beranda_Admin nextpage = new Beranda_Admin();
