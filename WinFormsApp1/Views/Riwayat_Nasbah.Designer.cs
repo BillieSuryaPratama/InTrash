@@ -29,11 +29,16 @@
         private void InitializeComponent()
         {
             dgvRiwayatTransaksi = new DataGridView();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             btnKembali = new Button();
             btnBulan = new Button();
             btnTahun = new Button();
-            tbBulan = new TextBox();
-            tbTahun = new TextBox();
+            cbPerBulan = new ComboBox();
+            cbPerTahun = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvRiwayatTransaksi).BeginInit();
             SuspendLayout();
             // 
@@ -41,12 +46,48 @@
             // 
             dgvRiwayatTransaksi.BackgroundColor = Color.Gainsboro;
             dgvRiwayatTransaksi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvRiwayatTransaksi.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
             dgvRiwayatTransaksi.Location = new Point(25, 23);
             dgvRiwayatTransaksi.Margin = new Padding(2);
             dgvRiwayatTransaksi.Name = "dgvRiwayatTransaksi";
             dgvRiwayatTransaksi.RowHeadersWidth = 62;
             dgvRiwayatTransaksi.Size = new Size(583, 228);
             dgvRiwayatTransaksi.TabIndex = 0;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "ID Transaksi";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Tanggal Transaksi";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            Column3.HeaderText = "Jumlah Imbalan";
+            Column3.MinimumWidth = 6;
+            Column3.Name = "Column3";
+            Column3.Width = 125;
+            // 
+            // Column4
+            // 
+            Column4.HeaderText = "Nama Tempat Pengepul";
+            Column4.MinimumWidth = 6;
+            Column4.Name = "Column4";
+            Column4.Width = 125;
+            // 
+            // Column5
+            // 
+            Column5.HeaderText = "Status Transaksi";
+            Column5.MinimumWidth = 6;
+            Column5.Name = "Column5";
+            Column5.Width = 125;
             // 
             // btnKembali
             // 
@@ -59,6 +100,7 @@
             btnKembali.TabIndex = 25;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // btnBulan
             // 
@@ -70,6 +112,7 @@
             btnBulan.TabIndex = 26;
             btnBulan.Text = "Riwayat per bulan";
             btnBulan.UseVisualStyleBackColor = true;
+            btnBulan.Click += btnBulan_Click;
             // 
             // btnTahun
             // 
@@ -81,20 +124,23 @@
             btnTahun.TabIndex = 27;
             btnTahun.Text = "Riwayat per tahun";
             btnTahun.UseVisualStyleBackColor = true;
+            btnTahun.Click += btnTahun_Click;
             // 
-            // tbBulan
+            // cbPerBulan
             // 
-            tbBulan.Location = new Point(262, 266);
-            tbBulan.Name = "tbBulan";
-            tbBulan.Size = new Size(166, 27);
-            tbBulan.TabIndex = 28;
+            cbPerBulan.FormattingEnabled = true;
+            cbPerBulan.Location = new Point(276, 266);
+            cbPerBulan.Name = "cbPerBulan";
+            cbPerBulan.Size = new Size(151, 28);
+            cbPerBulan.TabIndex = 28;
             // 
-            // tbTahun
+            // cbPerTahun
             // 
-            tbTahun.Location = new Point(262, 310);
-            tbTahun.Name = "tbTahun";
-            tbTahun.Size = new Size(166, 27);
-            tbTahun.TabIndex = 29;
+            cbPerTahun.FormattingEnabled = true;
+            cbPerTahun.Location = new Point(276, 309);
+            cbPerTahun.Name = "cbPerTahun";
+            cbPerTahun.Size = new Size(151, 28);
+            cbPerTahun.TabIndex = 29;
             // 
             // Riwayat_Nasbah
             // 
@@ -102,8 +148,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
             ClientSize = new Size(640, 360);
-            Controls.Add(tbTahun);
-            Controls.Add(tbBulan);
+            Controls.Add(cbPerTahun);
+            Controls.Add(cbPerBulan);
             Controls.Add(btnTahun);
             Controls.Add(btnBulan);
             Controls.Add(btnKembali);
@@ -111,9 +157,9 @@
             Margin = new Padding(2);
             Name = "Riwayat_Nasbah";
             Text = "InTrash";
+            Load += Riwayat_Nasbah_Load;
             ((System.ComponentModel.ISupportInitialize)dgvRiwayatTransaksi).EndInit();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -122,7 +168,12 @@
         private Button btnKembali;
         private Button btnBulan;
         private Button btnTahun;
-        private TextBox tbBulan;
-        private TextBox tbTahun;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
+        private ComboBox cbPerBulan;
+        private ComboBox cbPerTahun;
     }
 }
