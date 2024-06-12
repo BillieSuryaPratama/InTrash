@@ -134,7 +134,7 @@ namespace WinFormsApp1.Views
                 return; // Keluar dari fungsi jika tidak ada data sampah
             }
 
-            DialogResult dialogResult = MessageBox.Show("Apakah Anda yakin ingin menyimpan data transaksi?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult dialogResult = MessageBox.Show("Apakah Anda yakin ingin menyetorkan sampah ini?", "Konfirmasi", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             
             if (dialogResult == DialogResult.Yes)
             {
@@ -177,7 +177,7 @@ namespace WinFormsApp1.Views
                     // 6. Tambahkan data ke tabel detail_transaksi
                     InsertDetailTransaksi(idTransaksi);
 
-                    MessageBox.Show("Data transaksi berhasil disimpan!");
+                    MessageBox.Show("Terimakasih, proses penjemputan sampah selanjutnya akan dikonfirmasi oleh admin :)");
 
                     this.Hide();
                     Riwayat_Nasbah nextpage = new Riwayat_Nasbah();
