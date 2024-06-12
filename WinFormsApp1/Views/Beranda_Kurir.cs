@@ -16,5 +16,21 @@ namespace WinFormsApp1.Views
         {
             InitializeComponent();
         }
+
+        private void btnDaftarPenjemputan_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Alamat_Penjemputan nextpage = new Alamat_Penjemputan();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Opsi_Login nextpage = new Opsi_Login();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
     }
 }
