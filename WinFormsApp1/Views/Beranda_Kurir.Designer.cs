@@ -43,6 +43,7 @@
             btnLogOut.TabIndex = 17;
             btnLogOut.Text = "Log out";
             btnLogOut.UseVisualStyleBackColor = false;
+            btnLogOut.Click += btnLogOut_Click;
             // 
             // btnDaftarPenjemputan
             // 
@@ -55,6 +56,7 @@
             btnDaftarPenjemputan.TabIndex = 15;
             btnDaftarPenjemputan.Text = "Daftar Penjemputan";
             btnDaftarPenjemputan.UseVisualStyleBackColor = false;
+            btnDaftarPenjemputan.Click += btnDaftarPenjemputan_Click;
             // 
             // label1
             // 

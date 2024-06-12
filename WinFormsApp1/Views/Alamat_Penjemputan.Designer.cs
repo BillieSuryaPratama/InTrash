@@ -54,6 +54,7 @@
             btnKembali.TabIndex = 11;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // Alamat_Penjemputan
             // 
@@ -66,6 +67,7 @@
             Controls.Add(dgvListAlamat);
             Name = "Alamat_Penjemputan";
             Text = "Alamat_Penjemputan";
+            Load += Alamat_Penjemputan_Load;
             ((System.ComponentModel.ISupportInitialize)dgvListAlamat).EndInit();
             ResumeLayout(false);
         }
