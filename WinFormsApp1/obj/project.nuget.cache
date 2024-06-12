@@ -1,18 +1,12 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "U6+R9uXNO8Fp0IHZX5cCXqaNFAkTr6JHElPfZworH1OPj0vA539ehQcC90s62tU57vbhMQVgEbOcp7Wx7uy9xw==",
+  "dgSpecHash": "3k4oQhxo/3vntkT+sV+zPxzg8L7xiOo+K7nAnYe43Z8VNxGClptOdX87RBGW4kdW4js7jh0XSjWWfnbfKmyuZA==",
   "success": true,
-  "projectFilePath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
-=======
-  "dgSpecHash": "nssC4ihRcM/Svxg2fIhBKQ3ZBfE8LqiTEJig+OUr8uG1ZLNfWfxOdfBmLS4lGgqoeXWZ1ySNE8rx+7Homf8jYg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
->>>>>>> d1f2ccc5016afd7a765a0fddb695a8d768ff0a07
+  "projectFilePath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512"
   ],
   "logs": []
 }
