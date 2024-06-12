@@ -128,5 +128,10 @@ namespace WinFormsApp1.Views
         }
 
         private void tb_sandibaru_TextChanged(object sender, EventArgs e) { }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

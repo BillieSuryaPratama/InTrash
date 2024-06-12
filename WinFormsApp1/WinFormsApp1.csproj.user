@@ -46,9 +46,6 @@
     <Compile Update="Views\Hapus_Akun_Nasabah.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Views\Konfirmasi_Reward.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Views\Register_Kurir.cs">
       <SubType>Form</SubType>
     </Compile>

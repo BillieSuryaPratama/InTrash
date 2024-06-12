@@ -147,7 +147,6 @@ C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinForms
 C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Informasi_Sampah.resources
 C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Jemput_Sampah.resources
 C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Jemput_Sampah.resources
-C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Reward.resources
 C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Admin.resources
 C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Kurir.resources
 C:\Users\realr\Downloads\ProjectPBO_InTrash-main (1)\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Nasabah.resources

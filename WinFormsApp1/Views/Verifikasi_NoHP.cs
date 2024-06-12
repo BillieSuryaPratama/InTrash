@@ -92,9 +92,9 @@ namespace WinFormsApp1.Views
                                 MessageBoxIcon.Information
                             );
                             this.Hide();
-                            Lupa_Password_Admin admin = new Lupa_Password_Admin(id_akun);
-                            admin.FormClosed += (s, args) => this.Close();
-                            admin.ShowDialog();
+                            Lupa_Password_Kurir kurir = new Lupa_Password_Kurir(id_akun);
+                            kurir.FormClosed += (s, args) => this.Close();
+                            kurir.ShowDialog();
                         }
                         else
                         {
@@ -116,9 +116,9 @@ namespace WinFormsApp1.Views
                                 MessageBoxIcon.Information
                             );
                             this.Hide();
-                            Lupa_Password_Admin admin = new Lupa_Password_Admin(id_akun);
-                            admin.FormClosed += (s, args) => this.Close();
-                            admin.ShowDialog();
+                            Lupa_Password_Nasabah nasabah = new Lupa_Password_Nasabah(id_akun);
+                            nasabah.FormClosed += (s, args) => this.Close();
+                            nasabah.ShowDialog();
                         }
                         else
                         {
