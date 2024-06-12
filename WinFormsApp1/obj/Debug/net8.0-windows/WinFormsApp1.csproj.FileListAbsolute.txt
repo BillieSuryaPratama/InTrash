@@ -99,7 +99,6 @@ C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-wind
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Jemput_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Jemput_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Reward.resources
-C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Setor_Sampah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Admin.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Profil_Nasabah.resources
 C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Register_Admin.resources
