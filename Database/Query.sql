@@ -52,8 +52,8 @@ CREATE TABLE Transaksi (
 	Tanggal_Transaksi date not null,
 	Jumlah_Imbalan int,
 	Id_tempatpengepul int,
-	Id_Admin int,
-	Id_Customer int,
+	Id_Admin int REFERENCES admin_tempat_pengepul(Id_Admin) ON DELETE CASCADE,
+	Id_Customer int REFERENCES Customer(Id_Customer) ON DELETE CASCADE,
 	Id_StatusTransaksi int);
 alter table transaksi
 add constraint fk_admin_tempat_pengepul
@@ -79,7 +79,7 @@ CREATE TABLE Jenis_Sampah (
 	Deskripsi text);
 	
 CREATE TABLE Detail_Transaksi (
-	Id_Transaksi int,
+	Id_Transaksi int REFERENCES Transaksi(Id_Transaksi) ON DELETE CASCADE,
 	Id_Jenis_Sampah int,
 	Kuantitas numeric not null,
 	constraint fk_Transaksi
@@ -101,7 +101,7 @@ CREATE TABLE Pencairan (
 	Nominal_Pencairan int,
 	Id_StatusPencairan int,
 	Id_Metode int,
-	Id_Customer int,
+	Id_Customer int REFERENCES Customer(Id_Customer) ON DELETE CASCADE,
 	constraint fk_Customer
 	foreign key (Id_Customer)
 	references Customer(Id_Customer),
@@ -182,6 +182,5 @@ VALUES('1234567890', 3000, 1, 1, 1),
 
 
 
-
-
+	
 
