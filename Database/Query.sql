@@ -145,8 +145,11 @@ VALUES ('Jefri Nichol','JefriFriendly','Jefri123','085258909788',1),
        ('Dewi Sartika', 'Deewi', 'Dewi789', '082145678901', 3);
 
 INSERT INTO MetodePencairan (Nama_Metode)
-VALUES ('Cash'),
-	   ('Debit');
+VALUES ('Bank BCA'),
+	   ('Bank Mandiri'),
+	   ('OVO'),
+	   ('Dana'),
+	   ('GoPay');
 
 INSERT INTO transaksi (tanggal_transaksi, id_tempatpengepul, id_customer, id_admin, jumlah_imbalan, Id_StatusTransaksi)
 VALUES ('2024-02-18', 1, 2, 1, 6000, 3),
