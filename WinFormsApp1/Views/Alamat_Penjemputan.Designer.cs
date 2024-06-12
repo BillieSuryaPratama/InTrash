@@ -30,6 +30,8 @@
         {
             dgvListAlamat = new DataGridView();
             btnKembali = new Button();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvListAlamat).BeginInit();
             SuspendLayout();
             // 
@@ -37,6 +39,7 @@
             // 
             dgvListAlamat.BackgroundColor = Color.Gainsboro;
             dgvListAlamat.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvListAlamat.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2 });
             dgvListAlamat.Location = new Point(26, 23);
             dgvListAlamat.Name = "dgvListAlamat";
             dgvListAlamat.RowHeadersWidth = 51;
@@ -55,6 +58,20 @@
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
             btnKembali.Click += btnKembali_Click;
+            // 
+            // Column1
+            // 
+            Column1.HeaderText = "ID Transaksi";
+            Column1.MinimumWidth = 6;
+            Column1.Name = "Column1";
+            Column1.Width = 250;
+            // 
+            // Column2
+            // 
+            Column2.HeaderText = "Alamat Penjemputan";
+            Column2.MinimumWidth = 6;
+            Column2.Name = "Column2";
+            Column2.Width = 330;
             // 
             // Alamat_Penjemputan
             // 
@@ -76,5 +93,7 @@
 
         private DataGridView dgvListAlamat;
         private Button btnKembali;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
     }
 }
