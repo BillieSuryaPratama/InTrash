@@ -52,7 +52,7 @@ namespace WinFormsApp1.Views
                     PasswordLogin = tbPassword.Text;
 
                     this.Hide();
-                    Beranda_Admin nextpage = new Beranda_Admin();
+                    Beranda_Kurir nextpage = new Beranda_Kurir();
                     nextpage.FormClosed += (s, args) => this.Close();
                     nextpage.ShowDialog();
                 }

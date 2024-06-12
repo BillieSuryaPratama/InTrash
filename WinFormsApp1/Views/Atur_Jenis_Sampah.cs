@@ -78,14 +78,14 @@ namespace WinFormsApp1.Views
                                    FROM jenis_sampah
                                    ORDER BY id_jenis_sampah";
 
-                using (var cmdTahun = new NpgsqlCommand(queryID, DBConnection.connection))
-                using (var readerTahun = cmdTahun.ExecuteReader())
+                using (var cmd = new NpgsqlCommand(queryID, DBConnection.connection))
+                using (var reader = cmd.ExecuteReader())
                 {
                     var ListID = new List<int>();
-                    while (readerTahun.Read())
+                    while (reader.Read())
                     {
-                        int tahun = readerTahun.GetInt32(0);
-                        ListID.Add(tahun);
+                        int id = reader.GetInt32(0);
+                        ListID.Add(id);
                     }
 
                     cbEdit.DataSource = ListID;
