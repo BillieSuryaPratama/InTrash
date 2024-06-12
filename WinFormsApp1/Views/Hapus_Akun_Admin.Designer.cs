@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             lblInstruksi = new Label();
-            btnSandi = new TextBox();
+            tbSandi = new TextBox();
             label1 = new Label();
             btnKonfirmasi = new Button();
             btnKembali = new Button();
@@ -47,12 +47,12 @@
             lblInstruksi.TabIndex = 9;
             lblInstruksi.Text = "Masukkan sandi anda untuk mengkonfirmasi penghapusan akun";
             // 
-            // btnSandi
+            // tbSandi
             // 
-            btnSandi.Location = new Point(320, 168);
-            btnSandi.Name = "btnSandi";
-            btnSandi.Size = new Size(125, 27);
-            btnSandi.TabIndex = 8;
+            tbSandi.Location = new Point(320, 168);
+            tbSandi.Name = "tbSandi";
+            tbSandi.Size = new Size(125, 27);
+            tbSandi.TabIndex = 8;
             // 
             // label1
             // 
@@ -74,6 +74,7 @@
             btnKonfirmasi.TabIndex = 6;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = true;
+            btnKonfirmasi.Click += btnKonfirmasi_Click;
             // 
             // btnKembali
             // 
@@ -94,7 +95,7 @@
             BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(638, 359);
             Controls.Add(lblInstruksi);
-            Controls.Add(btnSandi);
+            Controls.Add(tbSandi);
             Controls.Add(label1);
             Controls.Add(btnKonfirmasi);
             Controls.Add(btnKembali);
@@ -107,7 +108,7 @@
         #endregion
 
         private Label lblInstruksi;
-        private TextBox btnSandi;
+        private TextBox tbSandi;
         private Label label1;
         private Button btnKonfirmasi;
         private Button btnKembali;
