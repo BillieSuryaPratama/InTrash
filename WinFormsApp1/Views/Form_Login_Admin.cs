@@ -8,6 +8,7 @@ namespace WinFormsApp1.Views
     {
         public static string UsernameLogin { get; private set; }
         public static string PasswordLogin { get; private set; }
+        public static int IdTempatPengepul { get; private set; }
 
         public Form_Login_Admin()
         {
@@ -24,19 +25,20 @@ namespace WinFormsApp1.Views
 
         private void btnLogIn_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
             DBConnection.openConn();
-            string query = @"SELECT COUNT (*)
-                            FROM Admin_Tempat_Pengepul
-                            WHERE Username_Admin = @Username and Password_Admin = @Password";
+            string query = @"SELECT id_tempatpengepul
+                             FROM Admin_Tempat_Pengepul
+                             WHERE Username_Admin = @Username AND Password_Admin = @Password";
             using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
             {
-                cmd.Parameters.AddWithValue("username", tbUsername.Text);
-                cmd.Parameters.AddWithValue("password", tbPassword.Text);
-                int userCount = Convert.ToInt32(cmd.ExecuteScalar());
+                cmd.Parameters.AddWithValue("Username", tbUsername.Text);
+                cmd.Parameters.AddWithValue("Password", tbPassword.Text);
 
-                if (userCount == 1)
+                object result = cmd.ExecuteScalar();
+
+                if (result != null)
                 {
+                    IdTempatPengepul = Convert.ToInt32(result);
                     UsernameLogin = tbUsername.Text;
                     PasswordLogin = tbPassword.Text;
 
@@ -49,8 +51,8 @@ namespace WinFormsApp1.Views
                 {
                     MessageBox.Show("Mohon isi Username dan Password anda dengan Benar!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            DBConnection.closeConn();
             }
+            DBConnection.closeConn();
         }
 
         private void btnLupaPassword_Click(object sender, EventArgs e)
