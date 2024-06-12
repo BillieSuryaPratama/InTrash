@@ -210,7 +210,6 @@
             Margin = new Padding(2);
             Name = "Register_Nasabah";
             Text = "InTrash";
-            Load += Form3_Load;
             ResumeLayout(false);
             PerformLayout();
         }

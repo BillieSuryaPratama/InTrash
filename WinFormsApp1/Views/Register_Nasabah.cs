@@ -21,11 +21,6 @@ namespace WinFormsApp1.Views
             InitializeComponent();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnKembali_Click(object sender, EventArgs e)
         {
             this.Hide();
