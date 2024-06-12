@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Kuliah\\Semester2\\Project Akhir\\Pemrograman Berbasis Objek\\BillieSuryaPratama\\ProjectPBO_InTrash\\WinFormsApp1\\obj\\",
+        "projectPath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\WinFormsApp1.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

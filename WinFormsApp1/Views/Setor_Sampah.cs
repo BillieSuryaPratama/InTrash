@@ -183,11 +183,6 @@ namespace WinFormsApp1.Views
                     nextpage.FormClosed += (s, args) => this.Close();
                     nextpage.ShowDialog();
                 }
-                catch (Exception ex)
-                {
-                    MessageBox.Show($"Error: {ex.Message}\n\nDetail: {ex.StackTrace}",
-                        "Error Database", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
                 finally
                 {
                     DBConnection.closeConn();
