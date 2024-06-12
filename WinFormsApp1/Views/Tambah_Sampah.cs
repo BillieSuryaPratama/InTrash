@@ -126,7 +126,7 @@ namespace WinFormsApp1.Views
 
         private void comboBoxJenisSampah_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // ... (kode untuk menangani perubahan pilihan jenis sampah) ...
+
         }
 
         private void tbKuantitas_TextChanged(object sender, EventArgs e)
