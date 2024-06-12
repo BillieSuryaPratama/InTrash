@@ -78,6 +78,7 @@
             btnSimpan.TabIndex = 9;
             btnSimpan.Text = "Simpan";
             btnSimpan.UseVisualStyleBackColor = false;
+            btnSimpan.Click += btnSimpan_Click;
             // 
             // label4
             // 
@@ -174,6 +175,7 @@
             Controls.Add(btnSimpan);
             Name = "Edit_Kurir";
             Text = "InTrash";
+            Load += Edit_Kurir_Load;
             ResumeLayout(false);
             PerformLayout();
         }
