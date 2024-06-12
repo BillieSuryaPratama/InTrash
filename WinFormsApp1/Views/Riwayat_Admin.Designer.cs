@@ -37,7 +37,7 @@
             tempat_pengepul = new DataGridViewTextBoxColumn();
             admin = new DataGridViewTextBoxColumn();
             customer = new DataGridViewTextBoxColumn();
-            metode_pencairan = new DataGridViewTextBoxColumn();
+            Status_Transaksi = new DataGridViewTextBoxColumn();
             cbPerBulan = new ComboBox();
             cbPerTahun = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dgvRiwayatTransaksi).BeginInit();
@@ -83,7 +83,7 @@
             // 
             dgvRiwayatTransaksi.BackgroundColor = Color.Gainsboro;
             dgvRiwayatTransaksi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvRiwayatTransaksi.Columns.AddRange(new DataGridViewColumn[] { id_transaksi, tanggal_transaksi, tempat_pengepul, admin, customer, metode_pencairan });
+            dgvRiwayatTransaksi.Columns.AddRange(new DataGridViewColumn[] { id_transaksi, tanggal_transaksi, tempat_pengepul, admin, customer, Status_Transaksi });
             dgvRiwayatTransaksi.Location = new Point(28, 21);
             dgvRiwayatTransaksi.Margin = new Padding(2);
             dgvRiwayatTransaksi.Name = "dgvRiwayatTransaksi";
@@ -126,12 +126,12 @@
             customer.Name = "customer";
             customer.Width = 125;
             // 
-            // metode_pencairan
+            // Status_Transaksi
             // 
-            metode_pencairan.HeaderText = "Metode Pencairan";
-            metode_pencairan.MinimumWidth = 6;
-            metode_pencairan.Name = "metode_pencairan";
-            metode_pencairan.Width = 125;
+            Status_Transaksi.HeaderText = "Status";
+            Status_Transaksi.MinimumWidth = 6;
+            Status_Transaksi.Name = "Status_Transaksi";
+            Status_Transaksi.Width = 125;
             // 
             // cbPerBulan
             // 
@@ -173,13 +173,13 @@
         private Button btnBulan;
         private Button btnKembali;
         private DataGridView dgvRiwayatTransaksi;
+        private ComboBox cbPerBulan;
+        private ComboBox cbPerTahun;
         private DataGridViewTextBoxColumn id_transaksi;
         private DataGridViewTextBoxColumn tanggal_transaksi;
         private DataGridViewTextBoxColumn tempat_pengepul;
         private DataGridViewTextBoxColumn admin;
         private DataGridViewTextBoxColumn customer;
-        private DataGridViewTextBoxColumn metode_pencairan;
-        private ComboBox cbPerBulan;
-        private ComboBox cbPerTahun;
+        private DataGridViewTextBoxColumn Status_Transaksi;
     }
 }

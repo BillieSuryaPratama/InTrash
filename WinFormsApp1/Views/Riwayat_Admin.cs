@@ -31,6 +31,7 @@ namespace WinFormsApp1.Views
 
         private void Riwayat_Admin_Load(object sender, EventArgs e)
         {
+            int IDTempatPengepul = Form_Login_Admin.IdTempatPengepul;
             dgvRiwayatTransaksi.AutoGenerateColumns = false;
 
             DataTable dataTable = new DataTable();
@@ -39,23 +40,29 @@ namespace WinFormsApp1.Views
             dataTable.Columns.Add("Tempat Pengepul", typeof(string));
             dataTable.Columns.Add("Admin", typeof(string));
             dataTable.Columns.Add("Customer", typeof(string));
-            dataTable.Columns.Add("Metode Pencairan", typeof(string));
+            dataTable.Columns.Add("Status Transaksi", typeof(string));
 
             try
             {
                 DBConnection.openConn();
-                string query = @"SELECT t.id_transaksi, t.tanggal_transaksi, tp.nama_tempat, atp.nama_admin, c.nama_customer, mp.nama_metode
+                string query = @"SELECT t.id_transaksi, t.tanggal_transaksi, tp.nama_tempat, atp.nama_admin, c.nama_customer, st.Status
                                  FROM transaksi t
                                  JOIN tempatpengepul tp on t.id_tempatpengepul = tp.id_tempatpengepul
                                  JOIN admin_tempat_pengepul atp on t.id_admin = atp.id_admin
                                  JOIN customer c on t.id_customer = c.id_customer
-                                 JOIN metodepencairan mp on t.id_metode = mp.id_metode";
+                                 JOIN Status_Transaksi st on t.id_StatusTransaksi = st.id_StatusTransaksi
+                                 WHERE t.id_tempatpengepul = @id_tempatpengepul
+                                 ORDER BY t.id_transaksi";
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
-                using (var reader = cmd.ExecuteReader())
                 {
-                    while (reader.Read())
+                    cmd.Parameters.AddWithValue("@id_tempatpengepul", IDTempatPengepul);
+
+                    using (var reader = cmd.ExecuteReader())
                     {
-                        dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["nama_tempat"], reader["nama_admin"], reader["nama_customer"], reader["nama_metode"]);
+                        while (reader.Read())
+                        {
+                            dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["nama_tempat"], reader["nama_admin"], reader["nama_customer"], reader["Status"]);
+                        }
                     }
                 }
             }
@@ -75,7 +82,7 @@ namespace WinFormsApp1.Views
             dgvRiwayatTransaksi.Columns[2].DataPropertyName = "Tempat Pengepul";
             dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Admin";
             dgvRiwayatTransaksi.Columns[4].DataPropertyName = "Customer";
-            dgvRiwayatTransaksi.Columns[5].DataPropertyName = "Metode Pencairan";
+            dgvRiwayatTransaksi.Columns[5].DataPropertyName = "Status Transaksi";
 
 
             try
@@ -128,6 +135,7 @@ namespace WinFormsApp1.Views
 
         private void btnBulan_Click(object sender, EventArgs e)
         {
+            int IDTempatPengepul = Form_Login_Admin.IdTempatPengepul;
             dgvRiwayatTransaksi.AutoGenerateColumns = false;
 
             DataTable dataTable = new DataTable();
@@ -136,7 +144,7 @@ namespace WinFormsApp1.Views
             dataTable.Columns.Add("Tempat Pengepul", typeof(string));
             dataTable.Columns.Add("Admin", typeof(string));
             dataTable.Columns.Add("Customer", typeof(string));
-            dataTable.Columns.Add("Metode Pencairan", typeof(string));
+            dataTable.Columns.Add("Status Transaksi", typeof(string));
 
             try
             {
@@ -146,25 +154,26 @@ namespace WinFormsApp1.Views
                 var SplitBulanTahun = BulanTahun.Split('/');
                 int Bulan = int.Parse(SplitBulanTahun[0]);
                 int Tahun = int.Parse(SplitBulanTahun[1]);
-                string query = @"SELECT t.id_transaksi, t.tanggal_transaksi, tp.nama_tempat, atp.nama_admin, c.nama_customer, mp.nama_metode
+                string query = @"SELECT t.id_transaksi, t.tanggal_transaksi, tp.nama_tempat, atp.nama_admin, c.nama_customer, st.Status
                                  FROM transaksi t
                                  JOIN tempatpengepul tp on t.id_tempatpengepul = tp.id_tempatpengepul
                                  JOIN admin_tempat_pengepul atp on t.id_admin = atp.id_admin
                                  JOIN customer c on t.id_customer = c.id_customer
-                                 JOIN metodepencairan mp on t.id_metode = mp.id_metode
-                                 WHERE EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun 
-                                 AND EXTRACT(MONTH FROM t.tanggal_transaksi) = @bulan";
+                                 JOIN Status_Transaksi st on t.id_StatusTransaksi = st.id_StatusTransaksi
+                                 WHERE EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun AND EXTRACT(MONTH FROM t.tanggal_transaksi) = @bulan AND t.id_tempatpengepul = @id_tempatpengepul
+                                 ORDER BY t.id_transaksi";
 
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
                 {
                     cmd.Parameters.AddWithValue("@tahun", Tahun);
                     cmd.Parameters.AddWithValue("@bulan", Bulan);
+                    cmd.Parameters.AddWithValue("@id_tempatpengepul", IDTempatPengepul);
 
                     using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["nama_tempat"], reader["nama_admin"], reader["nama_customer"], reader["nama_metode"]);
+                            dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["nama_tempat"], reader["nama_admin"], reader["nama_customer"], reader["Status"]);
                         }
                     }
                 }
@@ -185,11 +194,12 @@ namespace WinFormsApp1.Views
             dgvRiwayatTransaksi.Columns[2].DataPropertyName = "Tempat Pengepul";
             dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Admin";
             dgvRiwayatTransaksi.Columns[4].DataPropertyName = "Customer";
-            dgvRiwayatTransaksi.Columns[5].DataPropertyName = "Metode Pencairan";
+            dgvRiwayatTransaksi.Columns[5].DataPropertyName = "Status Transaksi";
         }
 
         private void btnTahun_Click(object sender, EventArgs e)
         {
+            int IDTempatPengepul = Form_Login_Admin.IdTempatPengepul;
             dgvRiwayatTransaksi.AutoGenerateColumns = false;
 
             DataTable dataTable = new DataTable();
@@ -198,30 +208,32 @@ namespace WinFormsApp1.Views
             dataTable.Columns.Add("Tempat Pengepul", typeof(string));
             dataTable.Columns.Add("Admin", typeof(string));
             dataTable.Columns.Add("Customer", typeof(string));
-            dataTable.Columns.Add("Metode Pencairan", typeof(string));
+            dataTable.Columns.Add("Status Transaksi", typeof(string));
 
             try
             {
                 DBConnection.openConn();
 
                 int Tahun = (int)cbPerTahun.SelectedItem;
-                string query = @"SELECT t.id_transaksi, t.tanggal_transaksi, tp.nama_tempat, atp.nama_admin, c.nama_customer, mp.nama_metode
+                string query = @"SELECT t.id_transaksi, t.tanggal_transaksi, tp.nama_tempat, atp.nama_admin, c.nama_customer, st.Status
                                  FROM transaksi t
                                  JOIN tempatpengepul tp on t.id_tempatpengepul = tp.id_tempatpengepul
                                  JOIN admin_tempat_pengepul atp on t.id_admin = atp.id_admin
                                  JOIN customer c on t.id_customer = c.id_customer
-                                 JOIN metodepencairan mp on t.id_metode = mp.id_metode
-                                 WHERE EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun";
+                                 JOIN Status_Transaksi st on t.id_StatusTransaksi = st.id_StatusTransaksi
+                                 WHERE EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun AND t.id_tempatpengepul = @id_tempatpengepul
+                                 ORDER BY t.id_transaksi";
 
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
                 {
                     cmd.Parameters.AddWithValue("@tahun", Tahun);
+                    cmd.Parameters.AddWithValue("@id_tempatpengepul", IDTempatPengepul);
 
                     using (var reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["nama_tempat"], reader["nama_admin"], reader["nama_customer"], reader["nama_metode"]);
+                            dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["nama_tempat"], reader["nama_admin"], reader["nama_customer"], reader["Status"]);
                         }
                     }
                 }
@@ -242,7 +254,7 @@ namespace WinFormsApp1.Views
             dgvRiwayatTransaksi.Columns[2].DataPropertyName = "Tempat Pengepul";
             dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Admin";
             dgvRiwayatTransaksi.Columns[4].DataPropertyName = "Customer";
-            dgvRiwayatTransaksi.Columns[5].DataPropertyName = "Metode Pencairan";
+            dgvRiwayatTransaksi.Columns[5].DataPropertyName = "Status Transaksi";
         }
     }
 }

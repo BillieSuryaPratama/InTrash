@@ -36,11 +36,11 @@
             label2 = new Label();
             label1 = new Label();
             tbNama = new TextBox();
-            tbNomorHP = new TextBox();
-            tbAlamat = new TextBox();
+            tbUserName = new TextBox();
+            tbPassword = new TextBox();
             btnSimpan = new Button();
-            tbEmail = new TextBox();
-            tbSandi = new TextBox();
+            tbAlamat = new TextBox();
+            tbNoHP = new TextBox();
             SuspendLayout();
             // 
             // lblInstruksi
@@ -49,7 +49,7 @@
             lblInstruksi.BackColor = Color.Transparent;
             lblInstruksi.Font = new Font("Segoe UI", 13F);
             lblInstruksi.ForeColor = Color.White;
-            lblInstruksi.Location = new Point(188, 58);
+            lblInstruksi.Location = new Point(166, 22);
             lblInstruksi.Name = "lblInstruksi";
             lblInstruksi.Size = new Size(308, 30);
             lblInstruksi.TabIndex = 39;
@@ -74,11 +74,11 @@
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 10F);
             label5.ForeColor = Color.White;
-            label5.Location = new Point(203, 241);
+            label5.Location = new Point(200, 223);
             label5.Name = "label5";
-            label5.Size = new Size(51, 23);
+            label5.Size = new Size(64, 23);
             label5.TabIndex = 37;
-            label5.Text = "Email";
+            label5.Text = "Alamat";
             // 
             // label4
             // 
@@ -86,11 +86,11 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Segoe UI", 10F);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(203, 211);
+            label4.Location = new Point(200, 193);
             label4.Name = "label4";
-            label4.Size = new Size(52, 23);
+            label4.Size = new Size(60, 23);
             label4.TabIndex = 36;
-            label4.Text = "Sandi";
+            label4.Text = "No HP";
             // 
             // label3
             // 
@@ -98,11 +98,11 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Segoe UI", 10F);
             label3.ForeColor = Color.White;
-            label3.Location = new Point(203, 182);
+            label3.Location = new Point(200, 164);
             label3.Name = "label3";
-            label3.Size = new Size(64, 23);
+            label3.Size = new Size(80, 23);
             label3.TabIndex = 35;
-            label3.Text = "Alamat";
+            label3.Text = "Password";
             // 
             // label2
             // 
@@ -110,11 +110,11 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Segoe UI", 10F);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(203, 152);
+            label2.Location = new Point(200, 134);
             label2.Name = "label2";
-            label2.Size = new Size(91, 23);
+            label2.Size = new Size(87, 23);
             label2.TabIndex = 34;
-            label2.Text = "Nomor HP";
+            label2.Text = "Username";
             // 
             // label1
             // 
@@ -122,7 +122,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 10F);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(203, 121);
+            label1.Location = new Point(200, 103);
             label1.Name = "label1";
             label1.Size = new Size(56, 23);
             label1.TabIndex = 33;
@@ -131,29 +131,29 @@
             // tbNama
             // 
             tbNama.Font = new Font("Segoe UI", 10F);
-            tbNama.Location = new Point(315, 117);
+            tbNama.Location = new Point(312, 99);
             tbNama.Margin = new Padding(2);
             tbNama.Name = "tbNama";
             tbNama.Size = new Size(121, 30);
             tbNama.TabIndex = 32;
             // 
-            // tbNomorHP
+            // tbUserName
             // 
-            tbNomorHP.Font = new Font("Segoe UI", 10F);
-            tbNomorHP.Location = new Point(315, 147);
-            tbNomorHP.Margin = new Padding(2);
-            tbNomorHP.Name = "tbNomorHP";
-            tbNomorHP.Size = new Size(121, 30);
-            tbNomorHP.TabIndex = 31;
+            tbUserName.Font = new Font("Segoe UI", 10F);
+            tbUserName.Location = new Point(312, 129);
+            tbUserName.Margin = new Padding(2);
+            tbUserName.Name = "tbUserName";
+            tbUserName.Size = new Size(121, 30);
+            tbUserName.TabIndex = 31;
             // 
-            // tbAlamat
+            // tbPassword
             // 
-            tbAlamat.Font = new Font("Segoe UI", 10F);
-            tbAlamat.Location = new Point(315, 177);
-            tbAlamat.Margin = new Padding(2);
-            tbAlamat.Name = "tbAlamat";
-            tbAlamat.Size = new Size(121, 30);
-            tbAlamat.TabIndex = 30;
+            tbPassword.Font = new Font("Segoe UI", 10F);
+            tbPassword.Location = new Point(312, 159);
+            tbPassword.Margin = new Padding(2);
+            tbPassword.Name = "tbPassword";
+            tbPassword.Size = new Size(121, 30);
+            tbPassword.TabIndex = 30;
             // 
             // btnSimpan
             // 
@@ -168,23 +168,23 @@
             btnSimpan.Text = "Simpan";
             btnSimpan.UseVisualStyleBackColor = false;
             // 
-            // tbEmail
+            // tbAlamat
             // 
-            tbEmail.Font = new Font("Segoe UI", 10F);
-            tbEmail.Location = new Point(315, 236);
-            tbEmail.Margin = new Padding(2);
-            tbEmail.Name = "tbEmail";
-            tbEmail.Size = new Size(121, 30);
-            tbEmail.TabIndex = 28;
+            tbAlamat.Font = new Font("Segoe UI", 10F);
+            tbAlamat.Location = new Point(312, 218);
+            tbAlamat.Margin = new Padding(2);
+            tbAlamat.Name = "tbAlamat";
+            tbAlamat.Size = new Size(121, 30);
+            tbAlamat.TabIndex = 28;
             // 
-            // tbSandi
+            // tbNoHP
             // 
-            tbSandi.Font = new Font("Segoe UI", 10F);
-            tbSandi.Location = new Point(315, 206);
-            tbSandi.Margin = new Padding(2);
-            tbSandi.Name = "tbSandi";
-            tbSandi.Size = new Size(121, 30);
-            tbSandi.TabIndex = 27;
+            tbNoHP.Font = new Font("Segoe UI", 10F);
+            tbNoHP.Location = new Point(312, 188);
+            tbNoHP.Margin = new Padding(2);
+            tbNoHP.Name = "tbNoHP";
+            tbNoHP.Size = new Size(121, 30);
+            tbNoHP.TabIndex = 27;
             // 
             // Register_Nasabah
             // 
@@ -201,11 +201,11 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(tbNama);
-            Controls.Add(tbNomorHP);
-            Controls.Add(tbAlamat);
+            Controls.Add(tbUserName);
+            Controls.Add(tbPassword);
             Controls.Add(btnSimpan);
-            Controls.Add(tbEmail);
-            Controls.Add(tbSandi);
+            Controls.Add(tbAlamat);
+            Controls.Add(tbNoHP);
             Margin = new Padding(2);
             Name = "Register_Nasabah";
             Text = "InTrash";
@@ -224,10 +224,10 @@
         private Label label2;
         private Label label1;
         private TextBox tbNama;
-        private TextBox tbNomorHP;
-        private TextBox tbAlamat;
+        private TextBox tbUserName;
+        private TextBox tbPassword;
         private Button btnSimpan;
-        private TextBox tbEmail;
-        private TextBox tbSandi;
+        private TextBox tbAlamat;
+        private TextBox tbNoHP;
     }
 }
