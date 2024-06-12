@@ -90,7 +90,7 @@ namespace WinFormsApp1.Views
 
                 if (!IsNumeric(tbHarga.Text))
                 {
-                    MessageBox.Show("Nomor telepon hanya boleh mengandung angka!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Harga hanya boleh mengandung angka!", "Kesalahan", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
                 }
 

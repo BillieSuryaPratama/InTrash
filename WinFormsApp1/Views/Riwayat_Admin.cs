@@ -51,11 +51,12 @@ namespace WinFormsApp1.Views
                                  JOIN admin_tempat_pengepul atp on t.id_admin = atp.id_admin
                                  JOIN customer c on t.id_customer = c.id_customer
                                  JOIN Status_Transaksi st on t.id_StatusTransaksi = st.id_StatusTransaksi
-                                 WHERE t.id_tempatpengepul = @id_tempatpengepul
+                                 WHERE t.id_tempatpengepul = @id_tempatpengepul AND t.id_StatusTransaksi = @Status
                                  ORDER BY t.id_transaksi";
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
                 {
                     cmd.Parameters.AddWithValue("@id_tempatpengepul", IDTempatPengepul);
+                    cmd.Parameters.AddWithValue("@Status", 3);
 
                     using (var reader = cmd.ExecuteReader())
                     {

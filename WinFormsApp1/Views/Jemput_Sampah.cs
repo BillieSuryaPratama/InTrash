@@ -287,11 +287,16 @@ namespace WinFormsApp1.Views
             finally
             {
                 DBConnection.closeConn();
+                this.Hide();
+                Jemput_Sampah nextpage = new Jemput_Sampah();
+                nextpage.FormClosed += (s, args) => this.Close();
+                nextpage.ShowDialog();
             }
         }
 
         private void btnSelesai_Click(object sender, EventArgs e)
         {
+            ID_Transaksi = Convert.ToInt32(cbSelesai.SelectedItem);
             this.Hide();
             Konfirmasi_Jemput_Sampah nextpage = new Konfirmasi_Jemput_Sampah();
             nextpage.FormClosed += (s, args) => this.Close();

@@ -30,18 +30,20 @@
         {
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             lblNama = new Label();
-            lblAlamat = new Label();
-            lblDeskripsi = new Label();
-            lblMetodePencairan = new Label();
             label2 = new Label();
             btnKembali = new Button();
             btnKonfirmasi = new Button();
-            label10 = new Label();
-            dgvListSampah = new DataGridView();
-            label8 = new Label();
-            label6 = new Label();
             label4 = new Label();
             label1 = new Label();
+            lblAlamatBankSampah = new Label();
+            label6 = new Label();
+            label10 = new Label();
+            tbImbalan = new TextBox();
+            lblBankSampah = new Label();
+            label5 = new Label();
+            dgvListSampah = new DataGridView();
+            JenisSampah = new DataGridViewTextBoxColumn();
+            Bobot = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvListSampah).BeginInit();
             SuspendLayout();
             // 
@@ -55,39 +57,6 @@
             lblNama.Size = new Size(59, 20);
             lblNama.TabIndex = 64;
             lblNama.Text = "dummy";
-            // 
-            // lblAlamat
-            // 
-            lblAlamat.AutoSize = true;
-            lblAlamat.BackColor = Color.Transparent;
-            lblAlamat.ForeColor = Color.White;
-            lblAlamat.Location = new Point(219, 43);
-            lblAlamat.Name = "lblAlamat";
-            lblAlamat.Size = new Size(59, 20);
-            lblAlamat.TabIndex = 63;
-            lblAlamat.Text = "dummy";
-            // 
-            // lblDeskripsi
-            // 
-            lblDeskripsi.AutoSize = true;
-            lblDeskripsi.BackColor = Color.Transparent;
-            lblDeskripsi.ForeColor = Color.White;
-            lblDeskripsi.Location = new Point(219, 75);
-            lblDeskripsi.Name = "lblDeskripsi";
-            lblDeskripsi.Size = new Size(59, 20);
-            lblDeskripsi.TabIndex = 62;
-            lblDeskripsi.Text = "dummy";
-            // 
-            // lblMetodePencairan
-            // 
-            lblMetodePencairan.AutoSize = true;
-            lblMetodePencairan.BackColor = Color.Transparent;
-            lblMetodePencairan.ForeColor = Color.White;
-            lblMetodePencairan.Location = new Point(219, 107);
-            lblMetodePencairan.Name = "lblMetodePencairan";
-            lblMetodePencairan.Size = new Size(59, 20);
-            lblMetodePencairan.TabIndex = 61;
-            lblMetodePencairan.Text = "dummy";
             // 
             // label2
             // 
@@ -112,6 +81,7 @@
             btnKembali.TabIndex = 53;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // btnKonfirmasi
             // 
@@ -123,58 +93,12 @@
             btnKonfirmasi.TabIndex = 59;
             btnKonfirmasi.Text = "Konfirmasi";
             btnKonfirmasi.UseVisualStyleBackColor = true;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.BackColor = Color.Transparent;
-            label10.ForeColor = Color.White;
-            label10.Location = new Point(59, 75);
-            label10.Margin = new Padding(2, 0, 2, 0);
-            label10.Name = "label10";
-            label10.Size = new Size(69, 20);
-            label10.TabIndex = 58;
-            label10.Text = "Deskripsi";
-            // 
-            // dgvListSampah
-            // 
-            dgvListSampah.BackgroundColor = Color.Gainsboro;
-            dgvListSampah.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvListSampah.Location = new Point(59, 175);
-            dgvListSampah.Margin = new Padding(2, 3, 2, 3);
-            dgvListSampah.Name = "dgvListSampah";
-            dgvListSampah.RowHeadersWidth = 62;
-            dgvListSampah.Size = new Size(530, 120);
-            dgvListSampah.TabIndex = 57;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.Transparent;
-            label8.ForeColor = Color.White;
-            label8.Location = new Point(59, 107);
-            label8.Margin = new Padding(2, 0, 2, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(128, 20);
-            label8.TabIndex = 56;
-            label8.Text = "Metode Pencairan";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.BackColor = Color.Transparent;
-            label6.ForeColor = Color.White;
-            label6.Location = new Point(59, 43);
-            label6.Margin = new Padding(2, 0, 2, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(151, 20);
-            label6.TabIndex = 55;
-            label6.Text = "Alamat Bank Sampah";
+            btnKonfirmasi.Click += btnKonfirmasi_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(219, 43);
+            label4.Location = new Point(219, 83);
             label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
             label4.Size = new Size(0, 20);
@@ -192,28 +116,124 @@
             label1.TabIndex = 52;
             label1.Text = "Nama";
             // 
+            // lblAlamatBankSampah
+            // 
+            lblAlamatBankSampah.AutoSize = true;
+            lblAlamatBankSampah.BackColor = Color.Transparent;
+            lblAlamatBankSampah.ForeColor = Color.White;
+            lblAlamatBankSampah.Location = new Point(219, 83);
+            lblAlamatBankSampah.Name = "lblAlamatBankSampah";
+            lblAlamatBankSampah.Size = new Size(59, 20);
+            lblAlamatBankSampah.TabIndex = 63;
+            lblAlamatBankSampah.Text = "dummy";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(59, 83);
+            label6.Margin = new Padding(2, 0, 2, 0);
+            label6.Name = "label6";
+            label6.Size = new Size(151, 20);
+            label6.TabIndex = 55;
+            label6.Text = "Alamat Bank Sampah";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.BackColor = Color.Transparent;
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(59, 115);
+            label10.Margin = new Padding(2, 0, 2, 0);
+            label10.Name = "label10";
+            label10.Size = new Size(113, 20);
+            label10.TabIndex = 58;
+            label10.Text = "Jumlah Imbalan";
+            // 
+            // tbImbalan
+            // 
+            tbImbalan.Location = new Point(219, 112);
+            tbImbalan.Name = "tbImbalan";
+            tbImbalan.Size = new Size(125, 27);
+            tbImbalan.TabIndex = 65;
+            // 
+            // lblBankSampah
+            // 
+            lblBankSampah.AutoSize = true;
+            lblBankSampah.BackColor = Color.Transparent;
+            lblBankSampah.ForeColor = Color.White;
+            lblBankSampah.Location = new Point(219, 49);
+            lblBankSampah.Name = "lblBankSampah";
+            lblBankSampah.Size = new Size(59, 20);
+            lblBankSampah.TabIndex = 67;
+            lblBankSampah.Text = "dummy";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(59, 49);
+            label5.Margin = new Padding(2, 0, 2, 0);
+            label5.Name = "label5";
+            label5.Size = new Size(143, 20);
+            label5.TabIndex = 66;
+            label5.Text = "Nama Bank Sampah";
+            // 
+            // dgvListSampah
+            // 
+            dgvListSampah.Anchor = AnchorStyles.None;
+            dgvListSampah.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvListSampah.BackgroundColor = Color.Gainsboro;
+            dgvListSampah.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvListSampah.Columns.AddRange(new DataGridViewColumn[] { JenisSampah, Bobot });
+            dgvListSampah.Location = new Point(59, 179);
+            dgvListSampah.Margin = new Padding(2);
+            dgvListSampah.Name = "dgvListSampah";
+            dgvListSampah.RowHeadersWidth = 62;
+            dgvListSampah.Size = new Size(500, 120);
+            dgvListSampah.TabIndex = 68;
+            // 
+            // JenisSampah
+            // 
+            JenisSampah.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            JenisSampah.HeaderText = "Jenis Sampah";
+            JenisSampah.MinimumWidth = 6;
+            JenisSampah.Name = "JenisSampah";
+            JenisSampah.ReadOnly = true;
+            // 
+            // Bobot
+            // 
+            Bobot.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            Bobot.HeaderText = "Bobot";
+            Bobot.MinimumWidth = 6;
+            Bobot.Name = "Bobot";
+            Bobot.ReadOnly = true;
+            // 
             // Konfirmasi_Jemput_Sampah
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(640, 360);
+            Controls.Add(dgvListSampah);
+            Controls.Add(lblBankSampah);
+            Controls.Add(label5);
+            Controls.Add(tbImbalan);
             Controls.Add(lblNama);
-            Controls.Add(lblAlamat);
-            Controls.Add(lblDeskripsi);
-            Controls.Add(lblMetodePencairan);
+            Controls.Add(lblAlamatBankSampah);
             Controls.Add(label2);
             Controls.Add(btnKembali);
             Controls.Add(btnKonfirmasi);
             Controls.Add(label10);
-            Controls.Add(dgvListSampah);
-            Controls.Add(label8);
             Controls.Add(label6);
             Controls.Add(label4);
             Controls.Add(label1);
             Margin = new Padding(2, 3, 2, 3);
             Name = "Konfirmasi_Jemput_Sampah";
             Text = "InTrash";
+            Load += Konfirmasi_Jemput_Sampah_Load;
             ((System.ComponentModel.ISupportInitialize)dgvListSampah).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -222,17 +242,19 @@
         #endregion
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private Label lblNama;
-        private Label lblAlamat;
-        private Label lblDeskripsi;
-        private Label lblMetodePencairan;
         private Label label2;
         private Button btnKembali;
         private Button btnKonfirmasi;
-        private Label label10;
-        private DataGridView dgvListSampah;
-        private Label label8;
-        private Label label6;
         private Label label4;
         private Label label1;
+        private Label lblAlamatBankSampah;
+        private Label label6;
+        private Label label10;
+        private TextBox tbImbalan;
+        private Label lblBankSampah;
+        private Label label5;
+        private DataGridView dgvListSampah;
+        private DataGridViewTextBoxColumn JenisSampah;
+        private DataGridViewTextBoxColumn Bobot;
     }
 }
