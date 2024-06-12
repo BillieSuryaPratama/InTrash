@@ -94,7 +94,7 @@ namespace WinFormsApp1.Views
 
                                 // Hide current form and open Lupa_Password_Admin form
                                 this.Hide();
-                                Lupa_Password_Admin nextpage = new Lupa_Password_Admin(id_admin);
+                                Verifikasi_NoHP nextpage = new Verifikasi_NoHP("admin", id_admin, reader["no_hp"].ToString());
                                 nextpage.FormClosed += (s, args) => this.Close();
                                 nextpage.ShowDialog();
                             }
