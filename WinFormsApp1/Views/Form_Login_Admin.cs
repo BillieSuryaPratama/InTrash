@@ -67,10 +67,50 @@ namespace WinFormsApp1.Views
 
         private void btnLupaPassword_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Lupa_Password_Admin nextpage = new Lupa_Password_Admin();
-            nextpage.FormClosed += (s, args) => this.Close();
-            nextpage.ShowDialog();
+            DBConnection.openConn();
+            string query = @"SELECT COUNT (*)
+            FROM Admin_Tempat_Pengepul
+            WHERE Username_Admin = @Username";
+            using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
+            {
+                cmd.Parameters.AddWithValue("username", tbUsername.Text);
+                int userCount = Convert.ToInt32(cmd.ExecuteScalar());
+
+                if (userCount == 1)
+                {
+                    // Mengubah query untuk mengambil kolom lain selain COUNT(*)
+                    string dataQuery = @"SELECT * FROM Admin_Tempat_Pengepul WHERE Username_Admin = @Username";
+                    using (var dataCmd = new NpgsqlCommand(dataQuery, DBConnection.connection))
+                    {
+                        dataCmd.Parameters.AddWithValue("username", tbUsername.Text);
+                        using (var reader = dataCmd.ExecuteReader())
+                        {
+                            if (reader.Read()) // Jika ada baris yang terbaca
+                            {
+                                // Ambil nilai dari kolom yang diinginkan
+                                string id_admin = reader["id_admin"].ToString();
+                                // Lakukan sesuatu dengan nilai yang diambil
+                                Console.WriteLine($"Nama Admin: {id_admin}");
+
+                                // Hide current form and open Lupa_Password_Admin form
+                                this.Hide();
+                                Lupa_Password_Admin nextpage = new Lupa_Password_Admin(id_admin);
+                                nextpage.FormClosed += (s, args) => this.Close();
+                                nextpage.ShowDialog();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Username tidak ditemukan!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Mohon isi Username untuk melanjutkan Lupa password!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                DBConnection.closeConn();
+            }
         }
     }
 }

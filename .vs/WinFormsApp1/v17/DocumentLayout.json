@@ -1,9 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\",
+  "WorkspaceRootPath": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\user\\source\\repos\\projectpbo_intrash\\winformsapp1\\controllers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\realr\\downloads\\projectpbo_intrash-main (1)\\projectpbo_intrash\\winformsapp1\\views\\lupa_password_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\lupa_password_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\realr\\downloads\\projectpbo_intrash-main (1)\\projectpbo_intrash\\winformsapp1\\views\\lupa_password_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\lupa_password_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\realr\\downloads\\projectpbo_intrash-main (1)\\projectpbo_intrash\\winformsapp1\\views\\form_login_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\form_login_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\realr\\downloads\\projectpbo_intrash-main (1)\\projectpbo_intrash\\winformsapp1\\views\\form_login_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\form_login_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\realr\\downloads\\projectpbo_intrash-main (1)\\projectpbo_intrash\\winformsapp1\\controllers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\controllers\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,40 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Controllers\\DBConnection.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Controllers\\DBConnection.cs",
+              "ToolTip": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Controllers\\DBConnection.cs",
+              "RelativeToolTip": "WinFormsApp1\\Controllers\\DBConnection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T08:57:39.673Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DBConnection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Controllers\\DBConnection.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Controllers\\DBConnection.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\WinFormsApp1\\Controllers\\DBConnection.cs",
-              "RelativeToolTip": "WinFormsApp1\\Controllers\\DBConnection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "Title": "Lupa_Password_Admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Lupa_Password_Admin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Lupa_Password_Admin.cs",
+              "ToolTip": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Lupa_Password_Admin.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Lupa_Password_Admin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T08:57:39.673Z",
+              "WhenOpened": "2024-06-12T13:05:21.009Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lupa_Password_Admin.cs",
+              "DocumentMoniker": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Lupa_Password_Admin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Lupa_Password_Admin.cs",
+              "ToolTip": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Lupa_Password_Admin.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Lupa_Password_Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwIQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:04:46.419Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form_Login_Admin.cs",
+              "DocumentMoniker": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Form_Login_Admin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Form_Login_Admin.cs",
+              "ToolTip": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Form_Login_Admin.cs",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Form_Login_Admin.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAYwHEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:04:23.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form_Login_Admin.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Form_Login_Admin.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Form_Login_Admin.cs",
+              "ToolTip": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Form_Login_Admin.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Form_Login_Admin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T13:02:38.055Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
