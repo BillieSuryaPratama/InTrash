@@ -167,6 +167,7 @@
             btnSimpan.TabIndex = 29;
             btnSimpan.Text = "Simpan";
             btnSimpan.UseVisualStyleBackColor = false;
+            btnSimpan.Click += btnSimpan_Click;
             // 
             // tbAlamat
             // 

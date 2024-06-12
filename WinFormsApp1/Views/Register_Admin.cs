@@ -64,7 +64,7 @@ namespace WinFormsApp1.Views
                 using (var cmdCheck = new NpgsqlCommand(checkIdTempatPengepulQuery, DBConnection.connection))
                 {
                     cmdCheck.Parameters.AddWithValue("id_tempatpengepul", (int)cbTempatPengepul.SelectedValue);
-                    long idTempatPengepulCount = (long)cmdCheck.ExecuteScalar(); // Correctly handle the 64-bit integer
+                    long idTempatPengepulCount = (long)cmdCheck.ExecuteScalar();
 
                     if (idTempatPengepulCount > 0)
                     {
