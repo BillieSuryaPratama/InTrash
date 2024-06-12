@@ -17,7 +17,6 @@ namespace WinFormsApp1.Views
         public Setor_Sampah()
         {
             InitializeComponent();
-            textBoxNamaBank.ReadOnly = true;
         }
 
         private void SetorSampah_Load(object sender, EventArgs e)
@@ -96,7 +95,7 @@ namespace WinFormsApp1.Views
                 foreach (DataRow row in dataSampahBaru.Rows)
                 {
                     string jenisSampah = row["Jenis Sampah"].ToString();
-                    int kuantitas = Convert.ToInt32(row["Kuantitas"]);
+                    double kuantitas = Convert.ToDouble(row["Kuantitas"]);
 
                     bool ditemukan = false;
                     foreach (DataGridViewRow dgvRow in dataGridViewSetorSampah.Rows)
@@ -105,7 +104,7 @@ namespace WinFormsApp1.Views
                             dgvRow.Cells["JenisSampah"].Value.ToString() == jenisSampah &&
                             dgvRow.Cells["Bobot"].Value != null)
                         {
-                            int kuantitasLama = Convert.ToInt32(dgvRow.Cells["Bobot"].Value);
+                            double kuantitasLama = Convert.ToDouble(dgvRow.Cells["Bobot"].Value);
                             dgvRow.Cells["Bobot"].Value = kuantitasLama + kuantitas;
                             ditemukan = true;
                             break;
@@ -306,9 +305,9 @@ namespace WinFormsApp1.Views
                 if (row.Cells["JenisSampah"].Value != null && row.Cells["Bobot"].Value != null)
                 {
                     string jenisSampah = row.Cells["JenisSampah"].Value.ToString();
-                    int kuantitas = Convert.ToInt32(row.Cells["Bobot"].Value);
+                    double kuantitas = Convert.ToDouble(row.Cells["Bobot"].Value);
                     int hargaSampah = GetHargaSampah(jenisSampah);
-                    totalImbalan += hargaSampah * kuantitas;
+                    totalImbalan += (int)(hargaSampah * kuantitas);
                 }
             }
             return totalImbalan;
@@ -343,7 +342,7 @@ namespace WinFormsApp1.Views
                 if (row.Cells["JenisSampah"].Value != null && row.Cells["Bobot"].Value != null)
                 {
                     string jenisSampah = row.Cells["JenisSampah"].Value.ToString();
-                    int kuantitas = Convert.ToInt32(row.Cells["Bobot"].Value);
+                    double kuantitas = Convert.ToDouble(row.Cells["Bobot"].Value);
                     int idJenisSampah = GetIdJenisSampah(jenisSampah);
 
                     string query = "INSERT INTO detail_transaksi (id_transaksi, id_jenis_sampah, kuantitas) VALUES (@idTransaksi, @idJenisSampah, @kuantitas)";

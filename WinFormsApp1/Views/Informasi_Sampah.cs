@@ -69,10 +69,6 @@ namespace WinFormsApp1.Views
                     }
                 }
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error: {ex.Message}\n\nDetail: {ex.StackTrace}", "Error Database", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
             finally
             {
                 DBConnection.closeConn();

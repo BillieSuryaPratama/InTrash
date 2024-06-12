@@ -16,30 +16,31 @@ namespace WinFormsApp1.Views
             this.Resize += Beranda_Nasabah_Resize;
 
             formOriginalSize = this.Size;
-            controlOriginalRects.Add(btnProfil, new Rectangle(btnProfil.Location, btnProfil.Size));
-            controlOriginalRects.Add(btnSetorSampah, new Rectangle(btnSetorSampah.Location, btnSetorSampah.Size));
-            controlOriginalRects.Add(btnRiwayatTransaksi, new Rectangle(btnRiwayatTransaksi.Location, btnRiwayatTransaksi.Size));
-            controlOriginalRects.Add(btnInformasiSampah, new Rectangle(btnInformasiSampah.Location, btnInformasiSampah.Size));
-            controlOriginalRects.Add(btnHapusAkun, new Rectangle(btnHapusAkun.Location, btnHapusAkun.Size));
-            controlOriginalRects.Add(btnLogOut, new Rectangle(btnLogOut.Location, btnLogOut.Size));
+
+            // Simpan ukuran dan posisi awal semua kontrol
+            foreach (Control control in this.Controls)
+            {
+                if (control is Button || control is Label) // Hanya tombol dan label yang akan di-resize
+                {
+                    controlOriginalRects.Add(control, new Rectangle(control.Location, control.Size));
+                }
+            }
         }
 
         private void Beranda_Nasabah_Resize(object sender, EventArgs e)
         {
-            ResizeControl(btnProfil);
-            ResizeControl(btnSetorSampah);
-            ResizeControl(btnRiwayatTransaksi);
-            ResizeControl(btnInformasiSampah);
-            ResizeControl(btnHapusAkun);
-            ResizeControl(btnLogOut);
+            // Iterasi melalui semua kontrol dan resize yang diperlukan
+            foreach (var entry in controlOriginalRects)
+            {
+                ResizeControl(entry.Key, entry.Value);
+            }
         }
 
-        private void ResizeControl(Control control)
+        private void ResizeControl(Control control, Rectangle originalRect)
         {
-            float xRatio = (float)Width / formOriginalSize.Width;
-            float yRatio = (float)Height / formOriginalSize.Height;
+            float xRatio = (float)this.Width / (float)formOriginalSize.Width;
+            float yRatio = (float)this.Height / (float)formOriginalSize.Height;
 
-            Rectangle originalRect = controlOriginalRects[control];
             int newX = (int)(originalRect.X * xRatio);
             int newY = (int)(originalRect.Y * yRatio);
             int newWidth = (int)(originalRect.Width * xRatio);
@@ -100,6 +101,14 @@ namespace WinFormsApp1.Views
         private void Beranda_Nasabah_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void buttonPencairanSaldo_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 nextpage = new Form1();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
         }
     }
 }

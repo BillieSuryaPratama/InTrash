@@ -123,6 +123,7 @@
             // comboBoxJenisSampah
             // 
             comboBoxJenisSampah.Anchor = AnchorStyles.None;
+            comboBoxJenisSampah.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxJenisSampah.FormattingEnabled = true;
             comboBoxJenisSampah.Location = new Point(294, 150);
             comboBoxJenisSampah.Margin = new Padding(4);

@@ -172,6 +172,7 @@
             // comboBoxLokasiBank
             // 
             comboBoxLokasiBank.Anchor = AnchorStyles.None;
+            comboBoxLokasiBank.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBoxLokasiBank.FormattingEnabled = true;
             comboBoxLokasiBank.Location = new Point(255, 63);
             comboBoxLokasiBank.Margin = new Padding(2);
