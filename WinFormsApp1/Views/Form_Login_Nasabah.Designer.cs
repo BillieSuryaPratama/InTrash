@@ -144,6 +144,7 @@
             Controls.Add(label1);
             Name = "Form_Login_Nasabah";
             Text = "InTrash";
+            Load += Form_Login_Nasabah_Load;
             ResumeLayout(false);
             PerformLayout();
         }

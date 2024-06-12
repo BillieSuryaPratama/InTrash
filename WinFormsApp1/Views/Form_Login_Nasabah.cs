@@ -68,5 +68,10 @@ namespace WinFormsApp1.Views
             nextpage.FormClosed += (s, args) => this.Close();
             nextpage.ShowDialog();
         }
+
+        private void Form_Login_Nasabah_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

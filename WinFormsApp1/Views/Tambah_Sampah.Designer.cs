@@ -45,7 +45,7 @@
             btnSimpan.BackColor = Color.Transparent;
             btnSimpan.BackgroundImage = Properties.Resources.Wireframe___56;
             btnSimpan.Font = new Font("Palatino Linotype", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSimpan.Location = new Point(677, 388);
+            btnSimpan.Location = new Point(517, 315);
             btnSimpan.Margin = new Padding(2);
             btnSimpan.Name = "btnSimpan";
             btnSimpan.Size = new Size(112, 34);
@@ -60,7 +60,7 @@
             btnKembali.BackColor = Color.Red;
             btnKembali.Font = new Font("Palatino Linotype", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             btnKembali.ForeColor = Color.Transparent;
-            btnKembali.Location = new Point(37, 388);
+            btnKembali.Location = new Point(11, 315);
             btnKembali.Margin = new Padding(2);
             btnKembali.Name = "btnKembali";
             btnKembali.Size = new Size(112, 34);
@@ -72,7 +72,7 @@
             // tbKuantitas
             // 
             tbKuantitas.Anchor = AnchorStyles.None;
-            tbKuantitas.Location = new Point(374, 237);
+            tbKuantitas.Location = new Point(294, 192);
             tbKuantitas.Name = "tbKuantitas";
             tbKuantitas.Size = new Size(150, 34);
             tbKuantitas.TabIndex = 10;
@@ -85,7 +85,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Palatino Linotype", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Transparent;
-            label1.Location = new Point(230, 197);
+            label1.Location = new Point(150, 152);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(114, 23);
@@ -99,7 +99,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Palatino Linotype", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.Transparent;
-            label2.Location = new Point(239, 241);
+            label2.Location = new Point(159, 196);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(80, 21);
@@ -108,12 +108,12 @@
             // 
             // lblInstruksi
             // 
-            lblInstruksi.Anchor = AnchorStyles.None;
+            lblInstruksi.Anchor = AnchorStyles.Top;
             lblInstruksi.AutoSize = true;
             lblInstruksi.BackColor = Color.Transparent;
             lblInstruksi.Font = new Font("Palatino Linotype", 11F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblInstruksi.ForeColor = Color.Transparent;
-            lblInstruksi.Location = new Point(100, 129);
+            lblInstruksi.Location = new Point(20, 84);
             lblInstruksi.Margin = new Padding(4, 0, 4, 0);
             lblInstruksi.Name = "lblInstruksi";
             lblInstruksi.Size = new Size(550, 26);
@@ -124,7 +124,7 @@
             // 
             comboBoxJenisSampah.Anchor = AnchorStyles.None;
             comboBoxJenisSampah.FormattingEnabled = true;
-            comboBoxJenisSampah.Location = new Point(374, 195);
+            comboBoxJenisSampah.Location = new Point(294, 150);
             comboBoxJenisSampah.Margin = new Padding(4);
             comboBoxJenisSampah.Name = "comboBoxJenisSampah";
             comboBoxJenisSampah.Size = new Size(150, 35);
@@ -138,7 +138,7 @@
             label3.BackColor = Color.Transparent;
             label3.Font = new Font("Palatino Linotype", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.ForeColor = Color.Transparent;
-            label3.Location = new Point(524, 240);
+            label3.Location = new Point(444, 195);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(44, 27);
@@ -152,7 +152,7 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("Palatino Linotype", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.Transparent;
-            label4.Location = new Point(372, 274);
+            label4.Location = new Point(292, 229);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(155, 21);
@@ -164,7 +164,7 @@
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.Teal;
             BackgroundImage = Properties.Resources.Wireframe___55;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(640, 360);
             Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(comboBoxJenisSampah);
@@ -176,6 +176,7 @@
             Controls.Add(btnSimpan);
             Font = new Font("Palatino Linotype", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             Margin = new Padding(2);
+            MinimumSize = new Size(658, 407);
             Name = "Tambah_Sampah";
             Text = "InTrash";
             Load += Tambah_Sampah_Load_1;

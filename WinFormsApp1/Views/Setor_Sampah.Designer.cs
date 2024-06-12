@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             textBoxNamaBank = new TextBox();
-            dateTimePickerSetorSampah = new DateTimePicker();
             btnKonfirmasi = new Button();
             button4 = new Button();
             dataGridViewSetorSampah = new DataGridView();
@@ -40,6 +39,7 @@
             label3 = new Label();
             label4 = new Label();
             comboBoxLokasiBank = new ComboBox();
+            textBoxTanggal = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridViewSetorSampah).BeginInit();
             SuspendLayout();
             // 
@@ -53,15 +53,6 @@
             textBoxNamaBank.Size = new Size(261, 27);
             textBoxNamaBank.TabIndex = 19;
             textBoxNamaBank.TextChanged += textBoxNamaBank_TextChanged;
-            // 
-            // dateTimePickerSetorSampah
-            // 
-            dateTimePickerSetorSampah.Anchor = AnchorStyles.None;
-            dateTimePickerSetorSampah.Location = new Point(255, 24);
-            dateTimePickerSetorSampah.Margin = new Padding(2);
-            dateTimePickerSetorSampah.Name = "dateTimePickerSetorSampah";
-            dateTimePickerSetorSampah.Size = new Size(261, 27);
-            dateTimePickerSetorSampah.TabIndex = 37;
             // 
             // btnKonfirmasi
             // 
@@ -189,6 +180,16 @@
             comboBoxLokasiBank.TabIndex = 49;
             comboBoxLokasiBank.SelectedIndexChanged += comboBoxLokasiBank_SelectedIndexChanged;
             // 
+            // textBoxTanggal
+            // 
+            textBoxTanggal.Anchor = AnchorStyles.None;
+            textBoxTanggal.Location = new Point(255, 23);
+            textBoxTanggal.Margin = new Padding(2);
+            textBoxTanggal.Name = "textBoxTanggal";
+            textBoxTanggal.ReadOnly = true;
+            textBoxTanggal.Size = new Size(261, 27);
+            textBoxTanggal.TabIndex = 50;
+            // 
             // Setor_Sampah
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -196,6 +197,7 @@
             BackColor = Color.Teal;
             BackgroundImage = Properties.Resources.Wireframe___55;
             ClientSize = new Size(640, 360);
+            Controls.Add(textBoxTanggal);
             Controls.Add(comboBoxLokasiBank);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -204,7 +206,6 @@
             Controls.Add(dataGridViewSetorSampah);
             Controls.Add(button4);
             Controls.Add(btnKonfirmasi);
-            Controls.Add(dateTimePickerSetorSampah);
             Controls.Add(textBoxNamaBank);
             Margin = new Padding(2);
             MinimumSize = new Size(658, 407);
@@ -218,7 +219,6 @@
 
         #endregion
         private TextBox textBoxNamaBank;
-        private DateTimePicker dateTimePickerSetorSampah;
         private Button btnKonfirmasi;
         private Button button4;
         private DataGridView dataGridViewSetorSampah;
@@ -229,5 +229,6 @@
         private ComboBox comboBoxLokasiBank;
         private DataGridViewTextBoxColumn JenisSampah;
         private DataGridViewTextBoxColumn Bobot;
+        private TextBox textBoxTanggal;
     }
 }
