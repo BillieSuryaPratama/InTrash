@@ -34,8 +34,8 @@ namespace WinFormsApp1.Views
         {
             DBConnection.openConn();
             string query = @"SELECT COUNT (*)
-                        FROM Admin_Tempat_Pengepul
-                        WHERE Username_Admin = @Username and Password_Admin = @Password";
+                             FROM Customer
+                             WHERE Username_Customer = @Username and Password_Customer = @Password";
             using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
             {
                 cmd.Parameters.AddWithValue("username", tbUsername.Text);
