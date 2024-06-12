@@ -31,6 +31,18 @@ namespace WinFormsApp1.Views
 
         private void Riwayat_Nasbah_Load(object sender, EventArgs e)
         {
+            int idCustomer = GetCurrentCustomerId();
+
+            LoadTransactionHistory(idCustomer);
+        }
+
+        private int GetCurrentCustomerId()
+        {
+            return 1;
+        }
+
+        private void LoadTransactionHistory(int idCustomer)
+        {
             dgvRiwayatTransaksi.AutoGenerateColumns = false;
 
             DataTable dataTable = new DataTable();
@@ -43,26 +55,31 @@ namespace WinFormsApp1.Views
             try
             {
                 DBConnection.openConn();
+
                 string query = @"SELECT 
-                                    t.id_transaksi, 
-                                    t.tanggal_transaksi, 
-                                    t.jumlah_imbalan, 
-                                    tp.nama_tempat AS tempat_pengepul, 
-                                    st.status AS status_transaksi
-                                 FROM transaksi t
-                                 JOIN tempatpengepul tp ON t.id_tempatpengepul = tp.id_tempatpengepul
-                                 JOIN status_transaksi st ON t.id_statustransaksi = st.id_statustransaksi";
+                            t.id_transaksi, 
+                            t.tanggal_transaksi, 
+                            t.jumlah_imbalan, 
+                            tp.nama_tempat AS tempat_pengepul, 
+                            st.status AS status_transaksi
+                         FROM transaksi t
+                         JOIN tempatpengepul tp ON t.id_tempatpengepul = tp.id_tempatpengepul
+                         JOIN status_transaksi st ON t.id_statustransaksi = st.id_statustransaksi
+                         WHERE t.id_customer = @idCustomer";
 
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
-                using (var reader = cmd.ExecuteReader())
                 {
-                    while (reader.Read())
+                    cmd.Parameters.AddWithValue("@idCustomer", idCustomer);
+
+                    using (var reader = cmd.ExecuteReader())
                     {
-                        dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["jumlah_imbalan"], reader["tempat_pengepul"], reader["status_transaksi"].ToString());
+                        while (reader.Read())
+                        {
+                            dataTable.Rows.Add(reader["id_transaksi"], reader["tanggal_transaksi"], reader["jumlah_imbalan"], reader["tempat_pengepul"], reader["status_transaksi"].ToString());
+                        }
                     }
                 }
             }
-
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}\n\nDetail: {ex.StackTrace}", "Error Database", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -128,15 +145,19 @@ namespace WinFormsApp1.Views
             }
         }
 
+
+
         private void btnBulan_Click(object sender, EventArgs e)
         {
+            int idCustomer = GetCurrentCustomerId();
+
             dgvRiwayatTransaksi.AutoGenerateColumns = false;
 
             DataTable dataTable = new DataTable();
             dataTable.Columns.Add("ID Transaksi", typeof(int));
             dataTable.Columns.Add("Tanggal Transaksi", typeof(DateTime));
             dataTable.Columns.Add("Jumlah Imbalan", typeof(int));
-            dataTable.Columns.Add("Nama Tempat Pengepul", typeof(string)); // Ubah kolom di sini
+            dataTable.Columns.Add("Nama Tempat Pengepul", typeof(string));
             dataTable.Columns.Add("Status Transaksi", typeof(string));
 
             try
@@ -148,19 +169,21 @@ namespace WinFormsApp1.Views
                 int Bulan = int.Parse(SplitBulanTahun[0]);
                 int Tahun = int.Parse(SplitBulanTahun[1]);
                 string query = @"SELECT 
-                 t.id_transaksi, 
-                 t.tanggal_transaksi, 
-                 t.jumlah_imbalan, 
-                 tp.nama_tempat AS tempat_pengepul, 
-                 st.status AS status_transaksi
-              FROM transaksi t
-              JOIN tempatpengepul tp ON t.id_tempatpengepul = tp.id_tempatpengepul
-              JOIN status_transaksi st ON t.id_statustransaksi = st.id_statustransaksi
-              WHERE EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun 
-              AND EXTRACT(MONTH FROM t.tanggal_transaksi) = @bulan";
+             t.id_transaksi, 
+             t.tanggal_transaksi, 
+             t.jumlah_imbalan, 
+             tp.nama_tempat AS tempat_pengepul, 
+             st.status AS status_transaksi
+          FROM transaksi t
+          JOIN tempatpengepul tp ON t.id_tempatpengepul = tp.id_tempatpengepul
+          JOIN status_transaksi st ON t.id_statustransaksi = st.id_statustransaksi
+          WHERE t.id_customer = @idCustomer
+          AND EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun 
+          AND EXTRACT(MONTH FROM t.tanggal_transaksi) = @bulan";
 
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
                 {
+                    cmd.Parameters.AddWithValue("@idCustomer", idCustomer);
                     cmd.Parameters.AddWithValue("@tahun", Tahun);
                     cmd.Parameters.AddWithValue("@bulan", Bulan);
 
@@ -187,12 +210,14 @@ namespace WinFormsApp1.Views
             dgvRiwayatTransaksi.Columns[0].DataPropertyName = "ID Transaksi";
             dgvRiwayatTransaksi.Columns[1].DataPropertyName = "Tanggal Transaksi";
             dgvRiwayatTransaksi.Columns[2].DataPropertyName = "Jumlah Imbalan";
-            dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Nama Tempat Pengepul"; // Sesuaikan dengan kolom di DataTable
+            dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Nama Tempat Pengepul";
             dgvRiwayatTransaksi.Columns[4].DataPropertyName = "Status Transaksi";
         }
 
         private void btnTahun_Click(object sender, EventArgs e)
         {
+            int idCustomer = GetCurrentCustomerId();
+
             dgvRiwayatTransaksi.AutoGenerateColumns = false;
 
             DataTable dataTable = new DataTable();
@@ -216,10 +241,12 @@ namespace WinFormsApp1.Views
                      FROM transaksi t
                      JOIN tempatpengepul tp ON t.id_tempatpengepul = tp.id_tempatpengepul
                      JOIN status_transaksi st ON t.id_statustransaksi = st.id_statustransaksi
-                     WHERE EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun";
+                     WHERE t.id_customer = @idCustomer
+                     AND EXTRACT(YEAR FROM t.tanggal_transaksi) = @tahun";
 
                 using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
                 {
+                    cmd.Parameters.AddWithValue("@idCustomer", idCustomer);
                     cmd.Parameters.AddWithValue("@tahun", Tahun);
 
                     using (var reader = cmd.ExecuteReader())
@@ -231,6 +258,7 @@ namespace WinFormsApp1.Views
                     }
                 }
             }
+
             catch (Exception ex)
             {
                 MessageBox.Show($"Error: {ex.Message}\n\nDetail: {ex.StackTrace}", "Error Database", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -245,11 +273,13 @@ namespace WinFormsApp1.Views
             dgvRiwayatTransaksi.Columns[0].DataPropertyName = "ID Transaksi";
             dgvRiwayatTransaksi.Columns[1].DataPropertyName = "Tanggal Transaksi";
             dgvRiwayatTransaksi.Columns[2].DataPropertyName = "Jumlah Imbalan";
-            dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Tempat Pengepul";
+            dgvRiwayatTransaksi.Columns[3].DataPropertyName = "Nama Tempat Pengepul";
             dgvRiwayatTransaksi.Columns[4].DataPropertyName = "Status Transaksi";
         }
+
     }
 
 }
 
-       
+
+
