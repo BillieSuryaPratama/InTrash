@@ -26,5 +26,21 @@ namespace WinFormsApp1.Views
         {
 
         }
+
+        private void btnKembali_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Beranda_Nasabah nextpage = new Beranda_Nasabah();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
+
+        private void btnUbahSandi_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Ganti_Sandi nextpage = new Ganti_Sandi();
+            nextpage.FormClosed += (s, args) => this.Close();
+            nextpage.ShowDialog();
+        }
     }
 }
