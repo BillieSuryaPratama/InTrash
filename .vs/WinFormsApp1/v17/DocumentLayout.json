@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\ProjectPBO_InTrash\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\realr\\downloads\\projectpbo_intrash-main (1)\\projectpbo_intrash\\winformsapp1\\views\\form_login_nasabah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DC29AAC0-2E4E-4EF2-BFF8-3D03E145A6CF}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\views\\form_login_nasabah.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,27 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form_Login_Nasabah.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Form_Login_Nasabah.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Views\\Form_Login_Nasabah.cs",
+              "ToolTip": "C:\\Users\\realr\\Downloads\\ProjectPBO_InTrash-main (1)\\ProjectPBO_InTrash\\WinFormsApp1\\Views\\Form_Login_Nasabah.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Views\\Form_Login_Nasabah.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T19:33:51.094Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

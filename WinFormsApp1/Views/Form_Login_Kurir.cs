@@ -1,15 +1,6 @@
 ﻿using Npgsql;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using WinFormsApp1.Controllers;
-using WinFormsApp1.Models;
 
 namespace WinFormsApp1.Views
 {
@@ -17,7 +8,17 @@ namespace WinFormsApp1.Views
     {
         public static string UsernameLogin { get; private set; }
         public static string PasswordLogin { get; private set; }
-        public static int IdTempatPengepul {  get; private set; }
+        public static int IdTempatPengepul { get; private set; }
+
+        public static void UpdateUsername(string UsernameBaru)
+        {
+            UsernameLogin = UsernameBaru;
+        }
+
+        public static void UpdatePassword(string PasswordBaru)
+        {
+            PasswordLogin = PasswordBaru;
+        }
 
         public Form_Login_Kurir()
         {
@@ -35,8 +36,8 @@ namespace WinFormsApp1.Views
         private void btnLogIn_Click(object sender, EventArgs e)
         {
             DBConnection.openConn();
-            string query = @"SELECT id_tempatpengepul
-                             FROM Kurir
+            string query = @"SELECT id_kurir
+                             FROM kurir
                              WHERE Username_Kurir = @Username AND Password_Kurir = @Password";
             using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
             {
@@ -66,10 +67,50 @@ namespace WinFormsApp1.Views
 
         private void btnLupaPassword_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Lupa_Password_Kurir nextpage = new Lupa_Password_Kurir();
-            nextpage.FormClosed += (s, args) => this.Close();
-            nextpage.ShowDialog();
+            DBConnection.openConn();
+            string query = @"SELECT COUNT (*)
+            FROM kurir
+            WHERE Username_kurir = @Username";
+            using (var cmd = new NpgsqlCommand(query, DBConnection.connection))
+            {
+                cmd.Parameters.AddWithValue("username", tbUsername.Text);
+                int userCount = Convert.ToInt32(cmd.ExecuteScalar());
+
+                if (userCount == 1)
+                {
+                    // Mengubah query untuk mengambil kolom lain selain COUNT(*)
+                    string dataQuery = @"SELECT * FROM kurir WHERE Username_Kurir = @Username";
+                    using (var dataCmd = new NpgsqlCommand(dataQuery, DBConnection.connection))
+                    {
+                        dataCmd.Parameters.AddWithValue("username", tbUsername.Text);
+                        using (var reader = dataCmd.ExecuteReader())
+                        {
+                            if (reader.Read()) // Jika ada baris yang terbaca
+                            {
+                                // Ambil nilai dari kolom yang diinginkan
+                                string id_kurir = reader["id_kurir"].ToString();
+                                // Lakukan sesuatu dengan nilai yang diambil
+                                Console.WriteLine($"Nama kurir: {id_kurir}");
+
+                                // Hide current form and open Lupa_Password_Kurir form
+                                this.Hide();
+                                Verifikasi_NoHP nextpage = new Verifikasi_NoHP("kurir", id_kurir, reader["no_hp"].ToString());
+                                nextpage.FormClosed += (s, args) => this.Close();
+                                nextpage.ShowDialog();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Username tidak ditemukan!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Mohon isi Username untuk melanjutkan Lupa password!", "Perhatian", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                DBConnection.closeConn();
+            }
         }
     }
 }
