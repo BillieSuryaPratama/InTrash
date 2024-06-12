@@ -87,7 +87,7 @@ namespace WinFormsApp1.Views
             {
                 DBConnection.openConn();
 
-                string queryStatus1 = @"SELECT DISTINCT id_transaksi AS tahun
+                string queryStatus1 = @"SELECT DISTINCT id_transaksi AS id
                                       FROM transaksi
                                       WHERE id_StatusTransaksi = @Status1
                                       ORDER BY id_transaksi";
@@ -109,7 +109,7 @@ namespace WinFormsApp1.Views
                     }
                 }
 
-                string queryStatus2 = @"SELECT DISTINCT id_transaksi AS tahun
+                string queryStatus2 = @"SELECT DISTINCT id_transaksi AS id
                                       FROM transaksi
                                       WHERE id_StatusTransaksi = @Status2
                                       ORDER BY id_transaksi";
