@@ -10,6 +10,16 @@ namespace WinFormsApp1.Views
         public static string PasswordLogin { get; private set; }
         public static int IdTempatPengepul { get; private set; }
 
+        public static void UpdateUsername(string UsernameBaru)
+        {
+            UsernameLogin = UsernameBaru;
+        }
+
+        public static void UpdatePassword(string PasswordBaru)
+        {
+            PasswordLogin = PasswordBaru;
+        }
+
         public Form_Login_Admin()
         {
             InitializeComponent();
