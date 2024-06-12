@@ -35,6 +35,7 @@
             btnRiwayatTransaksi = new Button();
             btnProfil = new Button();
             btnLogOut = new Button();
+            buttonPencairanSaldo = new Button();
             SuspendLayout();
             // 
             // label1
@@ -83,7 +84,7 @@
             btnHapusAkun.Anchor = AnchorStyles.None;
             btnHapusAkun.AutoSize = true;
             btnHapusAkun.BackColor = Color.MediumTurquoise;
-            btnHapusAkun.Location = new Point(248, 251);
+            btnHapusAkun.Location = new Point(160, 247);
             btnHapusAkun.Margin = new Padding(2);
             btnHapusAkun.Name = "btnHapusAkun";
             btnHapusAkun.Size = new Size(142, 40);
@@ -134,12 +135,27 @@
             btnLogOut.UseVisualStyleBackColor = false;
             btnLogOut.Click += btnLogOut_Click;
             // 
+            // buttonPencairanSaldo
+            // 
+            buttonPencairanSaldo.Anchor = AnchorStyles.None;
+            buttonPencairanSaldo.AutoSize = true;
+            buttonPencairanSaldo.BackColor = Color.MediumTurquoise;
+            buttonPencairanSaldo.Location = new Point(337, 247);
+            buttonPencairanSaldo.Margin = new Padding(2);
+            buttonPencairanSaldo.Name = "buttonPencairanSaldo";
+            buttonPencairanSaldo.Size = new Size(142, 40);
+            buttonPencairanSaldo.TabIndex = 11;
+            buttonPencairanSaldo.Text = "Pencairan Saldo";
+            buttonPencairanSaldo.UseVisualStyleBackColor = false;
+            buttonPencairanSaldo.Click += buttonPencairanSaldo_Click;
+            // 
             // Beranda_Nasabah
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Teal;
             ClientSize = new Size(640, 360);
+            Controls.Add(buttonPencairanSaldo);
             Controls.Add(btnLogOut);
             Controls.Add(btnProfil);
             Controls.Add(btnRiwayatTransaksi);
@@ -165,5 +181,6 @@
         private Button btnRiwayatTransaksi;
         private Button btnProfil;
         private Button btnLogOut;
+        private Button buttonPencairanSaldo;
     }
 }

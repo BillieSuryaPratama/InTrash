@@ -195,3 +195,5 @@ D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.pdb
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.genruntimeconfig.cache
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\ref\WinFormsApp1.dll
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form1.resources
+C:\Users\user\source\repos\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Form2.resources

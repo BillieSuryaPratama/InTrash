@@ -17,7 +17,6 @@ namespace WinFormsApp1.Views
         public Setor_Sampah()
         {
             InitializeComponent();
-            textBoxNamaBank.ReadOnly = true;
         }
 
         private void SetorSampah_Load(object sender, EventArgs e)
