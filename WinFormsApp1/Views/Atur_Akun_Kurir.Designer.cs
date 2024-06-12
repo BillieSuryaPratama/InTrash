@@ -33,6 +33,12 @@
             btnEditAkun = new Button();
             dgvListKurir = new DataGridView();
             btnHapusAkun = new Button();
+            id_kurir = new DataGridViewTextBoxColumn();
+            nama_kurir = new DataGridViewTextBoxColumn();
+            username_kurir = new DataGridViewTextBoxColumn();
+            password = new DataGridViewTextBoxColumn();
+            noHP = new DataGridViewTextBoxColumn();
+            tempatpengepul = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvListKurir).BeginInit();
             SuspendLayout();
             // 
@@ -75,6 +81,7 @@
             // 
             dgvListKurir.BackgroundColor = Color.Gainsboro;
             dgvListKurir.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvListKurir.Columns.AddRange(new DataGridViewColumn[] { id_kurir, nama_kurir, username_kurir, password, noHP, tempatpengepul });
             dgvListKurir.Location = new Point(33, 11);
             dgvListKurir.Margin = new Padding(2);
             dgvListKurir.Name = "dgvListKurir";
@@ -94,6 +101,48 @@
             btnHapusAkun.Text = "Hapus Akun";
             btnHapusAkun.UseVisualStyleBackColor = false;
             // 
+            // id_kurir
+            // 
+            id_kurir.HeaderText = "ID";
+            id_kurir.MinimumWidth = 6;
+            id_kurir.Name = "id_kurir";
+            id_kurir.Width = 40;
+            // 
+            // nama_kurir
+            // 
+            nama_kurir.HeaderText = "Nama";
+            nama_kurir.MinimumWidth = 6;
+            nama_kurir.Name = "nama_kurir";
+            nama_kurir.Width = 125;
+            // 
+            // username_kurir
+            // 
+            username_kurir.HeaderText = "Username";
+            username_kurir.MinimumWidth = 6;
+            username_kurir.Name = "username_kurir";
+            username_kurir.Width = 125;
+            // 
+            // password
+            // 
+            password.HeaderText = "Password";
+            password.MinimumWidth = 6;
+            password.Name = "password";
+            password.Width = 125;
+            // 
+            // noHP
+            // 
+            noHP.HeaderText = "Nomor HP";
+            noHP.MinimumWidth = 6;
+            noHP.Name = "noHP";
+            noHP.Width = 125;
+            // 
+            // tempatpengepul
+            // 
+            tempatpengepul.HeaderText = "Tempat Pengepul";
+            tempatpengepul.MinimumWidth = 6;
+            tempatpengepul.Name = "tempatpengepul";
+            tempatpengepul.Width = 125;
+            // 
             // Atur_Akun_Kurir
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -108,6 +157,7 @@
             Controls.Add(dgvListKurir);
             Name = "Atur_Akun_Kurir";
             Text = "InTrash";
+            Load += Atur_Akun_Kurir_Load;
             ((System.ComponentModel.ISupportInitialize)dgvListKurir).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -120,5 +170,11 @@
         private Button btnEditAkun;
         private DataGridView dgvListKurir;
         private Button btnHapusAkun;
+        private DataGridViewTextBoxColumn id_kurir;
+        private DataGridViewTextBoxColumn nama_kurir;
+        private DataGridViewTextBoxColumn username_kurir;
+        private DataGridViewTextBoxColumn password;
+        private DataGridViewTextBoxColumn noHP;
+        private DataGridViewTextBoxColumn tempatpengepul;
     }
 }
