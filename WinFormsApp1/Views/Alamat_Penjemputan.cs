@@ -63,23 +63,23 @@ namespace WinFormsApp1.Views
 
             dgvListAlamat.DataSource = dataTable;
 
-            if (!dgvListAlamat.AutoGenerateColumns)
-            {
-                dgvListAlamat.Columns.Clear();
-                dgvListAlamat.Columns.Add(new DataGridViewTextBoxColumn()
-                {
-                    Name = "ID Transaksi",
-                    DataPropertyName = "ID Transaksi",
-                    HeaderText = "ID Transaksi"
-                });
-                dgvListAlamat.Columns.Add(new DataGridViewTextBoxColumn()
-                {
-                    Name = "Alamat",
-                    DataPropertyName = "Alamat",
-                    HeaderText = "Alamat"
-                });
+            //if (!dgvListAlamat.AutoGenerateColumns)
+            //{
+            //    dgvListAlamat.Columns.Clear();
+            //    dgvListAlamat.Columns.Add(new DataGridViewTextBoxColumn()
+            //    {
+            //        Name = "ID Transaksi",
+            //        DataPropertyName = "ID Transaksi",
+            //        HeaderText = "ID Transaksi"
+            //    });
+            //    dgvListAlamat.Columns.Add(new DataGridViewTextBoxColumn()
+            //    {
+            //        Name = "Alamat",
+            //        DataPropertyName = "Alamat",
+            //        HeaderText = "Alamat"
+            //    });
 
-            }
+            //}
         }
     }
 }

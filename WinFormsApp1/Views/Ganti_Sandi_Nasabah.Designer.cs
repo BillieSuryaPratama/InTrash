@@ -74,6 +74,7 @@
             btnKembali.TabIndex = 7;
             btnKembali.Text = "Kembali";
             btnKembali.UseVisualStyleBackColor = false;
+            btnKembali.Click += btnKembali_Click;
             // 
             // label1
             // 

@@ -73,7 +73,7 @@
             btnReward.Name = "btnReward";
             btnReward.Size = new Size(142, 39);
             btnReward.TabIndex = 7;
-            btnReward.Text = "Reward";
+            btnReward.Text = "Pencairan Saldo";
             btnReward.UseVisualStyleBackColor = false;
             btnReward.Click += btnReward_Click;
             // 

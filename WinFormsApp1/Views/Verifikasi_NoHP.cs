@@ -83,8 +83,52 @@ namespace WinFormsApp1.Views
                         }
                         break;
                     case "kurir":
+                        if (no_hp == tbNomorHP.Text)
+                        {
+                            MessageBox.Show(
+                                "Verifikasi Nomor Handphone berhasil!",
+                                "Informasi",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Information
+                            );
+                            this.Hide();
+                            Lupa_Password_Kurir kurir = new Lupa_Password_Kurir(id_akun);
+                            kurir.FormClosed += (s, args) => this.Close();
+                            kurir.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show(
+                                "Nomor Handphone salah!",
+                                "Perhatian",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error
+                            );
+                        }
                         break;
                     case "nasabah":
+                        if (no_hp == tbNomorHP.Text)
+                        {
+                            MessageBox.Show(
+                                "Verifikasi Nomor Handphone berhasil!",
+                                "Informasi",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Information
+                            );
+                            this.Hide();
+                            Lupa_Password_Nasabah nasabah = new Lupa_Password_Nasabah(id_akun);
+                            nasabah.FormClosed += (s, args) => this.Close();
+                            nasabah.ShowDialog();
+                        }
+                        else
+                        {
+                            MessageBox.Show(
+                                "Nomor Handphone salah!",
+                                "Perhatian",
+                                MessageBoxButtons.OK,
+                                MessageBoxIcon.Error
+                            );
+                        }
                         break;
                     default:
                         MessageBox.Show(
