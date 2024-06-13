@@ -92,7 +92,7 @@ namespace WinFormsApp1.Views
                                 // Lakukan sesuatu dengan nilai yang diambil
                                 Console.WriteLine($"Nama kurir: {id_kurir}");
 
-                                // Hide current form and open Lupa_Password_Kurir form
+                                // Hide current form and open Verifikasi_NoHP form
                                 this.Hide();
                                 Verifikasi_NoHP nextpage = new Verifikasi_NoHP("kurir", id_kurir, reader["no_hp"].ToString());
                                 nextpage.FormClosed += (s, args) => this.Close();

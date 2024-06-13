@@ -11,7 +11,7 @@ namespace WinFormsApp1.Controllers
     {
         private static string Host = "localhost";
         private static string Username = "postgres";
-        private static string Password = "1";
+        private static string Password = "Bebas123";
         private static string Database = "InTrash";
         private static string Port = "5432";
         public static NpgsqlConnection connection;
