@@ -29,7 +29,6 @@ D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Informasi_Sampah.resources
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Jemput_Sampah.resources
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Jemput_Sampah.resources
-D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Konfirmasi_Reward.resources
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Admin.resources
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Kurir.resources
 D:\Kuliah\Semester2\Project Akhir\Pemrograman Berbasis Objek\BillieSuryaPratama\ProjectPBO_InTrash\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Views.Lupa_Password_Nasabah.resources

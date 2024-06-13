@@ -130,9 +130,9 @@ VALUES('Bank Sampah Sahabat Ibu', 'Jl. Perumahan Taman Gading, Kaliwates, Jember
 	  ('Bank Sampah Hijau Lestari', 'Jl. Riau No.5, Sumbersari, Jember', '');
 
 INSERT INTO customer(Nama_Customer, Username_Customer, Password_Customer, No_HP, Alamat, Saldo)
-VALUES ('Fajar Danuarta','FajarUye','Fajar123','082229336987','Jl. Kalimantan V, Sumbersari, Jember', 0),
-       ('Siti Aminah', 'Siti', 'Siti123', '081234567890', 'Jl. Merak No.10, Patrang, Jember', 0),
-       ('Budi Santoso', 'BudSan', 'Budi123', '085678901234', 'Jl. Jawa No.20, Kaliwates, Jember', 0);
+VALUES ('Fajar Danuarta','FajarUye','Fajar123','082229336987','Jl. Kalimantan V, Sumbersari, Jember', 20000),
+       ('Siti Aminah', 'Siti', 'Siti123', '081234567890', 'Jl. Merak No.10, Patrang, Jember', 20000),
+       ('Budi Santoso', 'BudSan', 'Budi123', '085678901234', 'Jl. Jawa No.20, Kaliwates, Jember', 20000);
 
 INSERT INTO admin_tempat_pengepul(Nama_admin, Username_Admin, Password_Admin, Alamat, No_HP, Id_tempatpengepul)
 VALUES ('Adrianno','Adrianno12','Adrianno157','Jl. Kalimantan XVI, Sumbersari, Jember', '081332456777', 1),
@@ -180,10 +180,7 @@ VALUES (1, 3, 2),
 	   
 INSERT INTO Pencairan (Rekening_Tujuan, Nominal_Pencairan, Id_StatusPencairan, Id_Metode, Id_Customer)
 VALUES('1234567890', 3000, 1, 1, 1),
-      ('9876543210', 2000, 2, 2, 2),
-      ('5678901234', 5000, 3, 1, 3);
-
-
-
+      ('9876543210', 2000, 2, 2, 1),
+      ('5678901234', 5000, 3, 1, 1);
 	
 
