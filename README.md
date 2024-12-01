@@ -4,7 +4,7 @@
 
 Kelompok D3
 <br>
-Anggota Kelompok
+Anggota Kelompok:
 |NAMA|NIM|ROLE|
 | --- | --- | --- |
 |Intan Purnama Putri Hidayah|232410103003|Front-End|
