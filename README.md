@@ -1,5 +1,5 @@
 # Project PBO (Pemrograman Berorientasi Objek)
-# InTrash - Aplikasi Penghubung antara tim pengelola bank sampah dan masyarakat setempat
+# InTrash - Aplikasi Penghubung Antara Tim Pengelola Bank Sampah dan Masyarakat Setempat
 <br>
 
 Kelompok D3
